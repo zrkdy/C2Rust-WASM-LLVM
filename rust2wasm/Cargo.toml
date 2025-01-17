@@ -1,0 +1,10 @@
+[package]
+name = "rust2wasm"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+time = "0.3.35"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
