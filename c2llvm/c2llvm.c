@@ -12,9 +12,9 @@ typedef struct {
 } Person;
 
 // 函数声明
-void print_person(Person *p);
-Person* create_person(int id, const char* name);
-void free_person(Person *p);
+// void print_person(Person *p);
+// Person* create_person(int id, const char* name);
+// void free_person(Person *p);
 
 // 主函数
 int main() {
