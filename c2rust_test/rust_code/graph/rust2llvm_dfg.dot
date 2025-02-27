@@ -1,0 +1,5 @@
+digraph "CFG for 'main' function" {
+	label="CFG for 'main' function";
+
+	Node0x55e02c305e30 [shape=record,color="#b70d28ff", style=filled, fillcolor="#b70d2870" fontname="Courier",label="{top:\l|  %2 = load volatile i8, ptr @__rustc_debug_gdb_scripts_section__, align 1\l  %3 = sext i32 %0 to i64\l  %4 = call i64 @_ZN3std2rt10lang_start17h59d13dcc3be5a64bE(ptr\l... @_ZN9rust_code4main17h6edb572be59cba9eE, i64 %3, ptr %1, i8 0)\l  %5 = trunc i64 %4 to i32\l  ret i32 %5\l}"];
+}
