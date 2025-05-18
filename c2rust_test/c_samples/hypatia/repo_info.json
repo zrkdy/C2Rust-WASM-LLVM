@@ -1,0 +1,10 @@
+{
+  "name": "hypatia",
+  "full_name": "dagostinelli/hypatia",
+  "description": "A header-only, pure-C math library for 2D/3D graphics (matrix, vector, quaternion) Seeks to be close to C89/C90 compliant for portability. It's like a BLAS, but easier to use.",
+  "url": "https://github.com/dagostinelli/hypatia",
+  "stars": 87,
+  "forks": 10,
+  "created_at": "2015-06-19T20:07:37Z",
+  "updated_at": "2025-02-24T09:45:06Z"
+}

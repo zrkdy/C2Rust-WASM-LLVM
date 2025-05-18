@@ -1,0 +1,4 @@
+digraph "C Code Call Graph: ./c_code/program_055/program_055.ll" {
+	label="C Code Call Graph: ./c_code/program_055/program_055.ll";
+
+}

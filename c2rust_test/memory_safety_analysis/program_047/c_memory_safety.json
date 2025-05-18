@@ -1,0 +1,19 @@
+{
+  "null_dereference": [],
+  "buffer_overflow": [],
+  "double_free": [],
+  "use_after_free": [],
+  "total_issues": 0,
+  "analyzed_functions": [
+    "main ========",
+    "insert_at_head ========",
+    "insert_at_tail ========",
+    "insert_at_middle ========",
+    "delete_middle ========",
+    "delete_head ========",
+    "delete_tail ========",
+    "print_list ========",
+    "getListLength ========"
+  ],
+  "instruction_count": 417
+}

@@ -1,0 +1,47 @@
+{
+  "null_dereference": [],
+  "buffer_overflow": [
+    {
+      "function": "ins ========",
+      "instruction": "%31 = getelementptr i8, ptr %30, i64 -4"
+    }
+  ],
+  "double_free": [],
+  "use_after_free": [
+    {
+      "function": "del ========",
+      "instruction": "%142 = getelementptr inbounds nuw i8, ptr %_251, i64 4"
+    },
+    {
+      "function": "del ========",
+      "instruction": "%144 = getelementptr inbounds nuw i8, ptr %_251, i64 24"
+    },
+    {
+      "function": "del ========",
+      "instruction": "%_272 = load i32, ptr %_251, align 8, !noundef !3"
+    }
+  ],
+  "total_issues": 4,
+  "analyzed_functions": [
+    "_ZN11program_0016main_017ha48bbb94691b9857E ========",
+    "insert ========",
+    "ins ========",
+    "display ========",
+    "search ========",
+    "searchPos ========",
+    "DelNode ========",
+    "del ========",
+    "eatline ========",
+    "inorder ========",
+    "totalKeys ========",
+    "printTotal ========",
+    "getMin ========",
+    "getMax ========",
+    "getMinMax ========",
+    "max ========",
+    "maxLevel ========",
+    "printMaxLevel ========",
+    "_ZN11program_0014main17hdc3fd6c5023dada7E ========"
+  ],
+  "instruction_count": 1287
+}

@@ -1,0 +1,17 @@
+{
+  "null_dereference": [],
+  "buffer_overflow": [],
+  "double_free": [],
+  "use_after_free": [],
+  "total_issues": 0,
+  "analyzed_functions": [
+    "createCircularNode ========",
+    "createLinkList ========",
+    "calculateLength ========",
+    "PrintList ========",
+    "insertValue ========",
+    "removeNode ========",
+    "main ========"
+  ],
+  "instruction_count": 290
+}

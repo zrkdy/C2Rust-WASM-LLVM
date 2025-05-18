@@ -1,0 +1,23 @@
+digraph "C Code Call Graph: ./c_code/program_020/program_020.ll" {
+	label="C Code Call Graph: ./c_code/program_020/program_020.ll";
+
+	Node0x55c2ac5b6bf0 [shape=record,label="{CreateGraph}"];
+	Node0x55c2ac5b6bf0 -> Node0x55c2ac5b6c70;
+	Node0x55c2ac5b6c70 [shape=record,label="{malloc}"];
+	Node0x55c2ac5b6d20 [shape=record,label="{InsertEdge}"];
+	Node0x55c2ac5b6e50 [shape=record,label="{BuildGraph}"];
+	Node0x55c2ac5b6e50 -> Node0x55c2ac5b6bf0;
+	Node0x55c2ac5b6e50 -> Node0x55c2ac5b6c70;
+	Node0x55c2ac5b6e50 -> Node0x55c2ac5b6f00;
+	Node0x55c2ac5b6e50 -> Node0x55c2ac5b6d20;
+	Node0x55c2ac5b6f00 [shape=record,label="{__isoc99_scanf}"];
+	Node0x55c2ac5bc010 [shape=record,label="{FindMinDist}"];
+	Node0x55c2ac5bc090 [shape=record,label="{Dijkstra}"];
+	Node0x55c2ac5bc090 -> Node0x55c2ac5bc010;
+	Node0x55c2ac5bc140 [shape=record,label="{main}"];
+	Node0x55c2ac5bc140 -> Node0x55c2ac5b6f00;
+	Node0x55c2ac5bc140 -> Node0x55c2ac5b6e50;
+	Node0x55c2ac5bc140 -> Node0x55c2ac5bc090;
+	Node0x55c2ac5bc140 -> Node0x55c2ac5bc1f0;
+	Node0x55c2ac5bc1f0 [shape=record,label="{printf}"];
+}

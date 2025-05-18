@@ -1,0 +1,20 @@
+digraph "C Code Call Graph: ./c_code/program_097/program_097.ll" {
+	label="C Code Call Graph: ./c_code/program_097/program_097.ll";
+
+	Node0x55dadfd77650 [shape=record,label="{strtow}"];
+	Node0x55dadfd77650 -> Node0x55dadfd7c150;
+	Node0x55dadfd77650 -> Node0x55dadfd7c610;
+	Node0x55dadfd77650 -> Node0x55dadfd7c690;
+	Node0x55dadfd77650 -> Node0x55dadfd7c7c0;
+	Node0x55dadfd77650 -> Node0x55dadfd7c840;
+	Node0x55dadfd77650 -> Node0x55dadfd7ca10;
+	Node0x55dadfd7c150 [shape=record,label="{get_word_count}"];
+	Node0x55dadfd7c150 -> Node0x55dadfd7c7c0;
+	Node0x55dadfd7c610 [shape=record,label="{malloc}"];
+	Node0x55dadfd7c690 [shape=record,label="{get_word_length}"];
+	Node0x55dadfd7c690 -> Node0x55dadfd7c7c0;
+	Node0x55dadfd7c7c0 [shape=record,label="{is_delim}"];
+	Node0x55dadfd7c840 [shape=record,label="{get_next_word}"];
+	Node0x55dadfd7c840 -> Node0x55dadfd7c7c0;
+	Node0x55dadfd7ca10 [shape=record,label="{free}"];
+}

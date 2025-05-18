@@ -1,0 +1,10 @@
+{
+  "name": "kmeans",
+  "full_name": "serban/kmeans",
+  "description": "A CUDA implementation of the k-means clustering algorithm",
+  "url": "https://github.com/serban/kmeans",
+  "stars": 252,
+  "forks": 120,
+  "created_at": "2011-01-08T09:00:02Z",
+  "updated_at": "2025-04-08T17:13:09Z"
+}

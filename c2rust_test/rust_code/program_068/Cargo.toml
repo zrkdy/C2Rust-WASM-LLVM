@@ -1,0 +1,9 @@
+[package]
+name = "program_068"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libc = "0.2"
+c2rust-bitfields = "0.3"  # 支持C位域
+once_cell = "1.8"         # 用于静态初始化

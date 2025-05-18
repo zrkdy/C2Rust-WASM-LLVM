@@ -1,0 +1,32 @@
+digraph "C Code Call Graph: ./c_code/program_096/program_096.ll" {
+	label="C Code Call Graph: ./c_code/program_096/program_096.ll";
+
+	Node0x55de2020aaa0 [shape=record,label="{bst_create}"];
+	Node0x55de2020aaa0 -> Node0x55de2021a4d0;
+	Node0x55de2021a4d0 [shape=record,label="{malloc}"];
+	Node0x55de20211a40 [shape=record,label="{bst_create_node}"];
+	Node0x55de20211a40 -> Node0x55de2021a4d0;
+	Node0x55de202168a0 [shape=record,label="{bst_search_node}"];
+	Node0x55de2021f3e0 [shape=record,label="{bst_find_max_node}"];
+	Node0x55de2021f5b0 [shape=record,label="{bst_insert_node}"];
+	Node0x55de2021f5b0 -> Node0x55de20211a40;
+	Node0x55de2021f5b0 -> Node0x55de202168a0;
+	Node0x55de2021f660 [shape=record,label="{bst_delete_node}"];
+	Node0x55de2021f660 -> Node0x55de202168a0;
+	Node0x55de2021f660 -> Node0x55de2021f790;
+	Node0x55de2021f660 -> Node0x55de2021f3e0;
+	Node0x55de2021f790 [shape=record,label="{free}"];
+	Node0x55de2021f810 [shape=record,label="{bst_inorder_traversal}"];
+	Node0x55de2021f810 -> Node0x55de2021f810;
+	Node0x55de2021f810 -> Node0x55de2021fb50;
+	Node0x55de2021fb50 [shape=record,label="{printf}"];
+	Node0x55de2021fc80 [shape=record,label="{main}"];
+	Node0x55de2021fc80 -> Node0x55de2020aaa0;
+	Node0x55de2021fc80 -> Node0x55de2021fd30;
+	Node0x55de2021fc80 -> Node0x55de2021f5b0;
+	Node0x55de2021fc80 -> Node0x55de2021fb50;
+	Node0x55de2021fc80 -> Node0x55de2021f790;
+	Node0x55de2021fc80 -> Node0x55de2021f810;
+	Node0x55de2021fc80 -> Node0x55de2021f660;
+	Node0x55de2021fd30 [shape=record,label="{llvm.memcpy.p0.p0.i64}"];
+}

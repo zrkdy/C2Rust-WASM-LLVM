@@ -1,0 +1,26 @@
+digraph "C Code Call Graph: ./c_code/program_012/program_012.ll" {
+	label="C Code Call Graph: ./c_code/program_012/program_012.ll";
+
+	Node0x5652cac23400 [shape=record,label="{BucketSort}"];
+	Node0x5652cac23400 -> Node0x5652cac33e10;
+	Node0x5652cac23400 -> Node0x5652cac33e90;
+	Node0x5652cac23400 -> Node0x5652cac39230;
+	Node0x5652cac23400 -> Node0x5652cac2fc10;
+	Node0x5652cac23400 -> Node0x5652cac33ed0;
+	Node0x5652cac23400 -> Node0x5652cac38f20;
+	Node0x5652cac33e10 [shape=record,label="{malloc}"];
+	Node0x5652cac33e90 [shape=record,label="{getBucketIndex}"];
+	Node0x5652cac2fc10 [shape=record,label="{printf}"];
+	Node0x5652cac33ed0 [shape=record,label="{printBuckets}"];
+	Node0x5652cac33ed0 -> Node0x5652cac2fc10;
+	Node0x5652cac38f20 [shape=record,label="{InsertionSort}"];
+	Node0x5652cac39230 [shape=record,label="{free}"];
+	Node0x5652cac39310 [shape=record,label="{print}"];
+	Node0x5652cac39310 -> Node0x5652cac2fc10;
+	Node0x5652cac393c0 [shape=record,label="{main}"];
+	Node0x5652cac393c0 -> Node0x5652cac396d0;
+	Node0x5652cac393c0 -> Node0x5652cac2fc10;
+	Node0x5652cac393c0 -> Node0x5652cac39310;
+	Node0x5652cac393c0 -> Node0x5652cac23400;
+	Node0x5652cac396d0 [shape=record,label="{llvm.memcpy.p0.p0.i64}"];
+}

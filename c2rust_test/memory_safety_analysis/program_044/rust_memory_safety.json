@@ -1,0 +1,19 @@
+{
+  "null_dereference": [],
+  "buffer_overflow": [],
+  "double_free": [],
+  "use_after_free": [],
+  "total_issues": 0,
+  "analyzed_functions": [
+    "_ZN11program_0446main_017h80b887f8a955bf60E ========",
+    "findMinRecursive ========",
+    "findMaxRecursive ========",
+    "findMinIterative ========",
+    "findMaxIterative ========",
+    "insertNodeRecursive ========",
+    "insertNodeIterative ========",
+    "preOrderPrint ========",
+    "_ZN11program_0444main17h9d2191dbe755ef7aE ========"
+  ],
+  "instruction_count": 298
+}

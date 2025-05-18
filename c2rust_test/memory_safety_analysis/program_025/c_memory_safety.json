@@ -1,0 +1,16 @@
+{
+  "null_dereference": [],
+  "buffer_overflow": [],
+  "double_free": [],
+  "use_after_free": [],
+  "total_issues": 0,
+  "analyzed_functions": [
+    "find ========",
+    "Union ========",
+    "scompare ========",
+    "creategraph ========",
+    "MST_kruskal ========",
+    "main ========"
+  ],
+  "instruction_count": 404
+}

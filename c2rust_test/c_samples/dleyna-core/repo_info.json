@@ -1,0 +1,10 @@
+{
+  "name": "dleyna-core",
+  "full_name": "intel/dleyna-core",
+  "description": "dleyna-core is a library of utility functions that are used by the higher level dLeyna libraries that communicate with DLNA devices, e.g., dleyna-server.  In brief, it provides APIs for logging, error, settings and task management and an IPC abstraction API.",
+  "url": "https://github.com/intel/dleyna-core",
+  "stars": 10,
+  "forks": 21,
+  "created_at": "2013-02-19T18:58:03Z",
+  "updated_at": "2023-01-28T06:31:36Z"
+}

@@ -1,0 +1,9 @@
+{
+  "program_count": 91,
+  "averages": {
+    "instruction_ratio": 2.0890091739697176,
+    "function_ratio": 1.4088697904636456,
+    "memory_ops_ratio": 0.7081321040210079,
+    "branch_ratio": 2.7655303034886405
+  }
+}

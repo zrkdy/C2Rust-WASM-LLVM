@@ -1,0 +1,10 @@
+{
+  "name": "PokerHandEvaluator",
+  "full_name": "HenryRLee/PokerHandEvaluator",
+  "description": "Poker-Hand-Evaluator: An efficient poker hand evaluation algorithm and its implementation, supporting 7-card poker and Omaha poker evaluation",
+  "url": "https://github.com/HenryRLee/PokerHandEvaluator",
+  "stars": 401,
+  "forks": 90,
+  "created_at": "2016-03-05T05:05:24Z",
+  "updated_at": "2025-04-27T18:41:31Z"
+}

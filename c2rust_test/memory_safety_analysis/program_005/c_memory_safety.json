@@ -1,0 +1,16 @@
+{
+  "null_dereference": [],
+  "buffer_overflow": [],
+  "double_free": [],
+  "use_after_free": [],
+  "total_issues": 0,
+  "analyzed_functions": [
+    "extended_euclidean_algorithm ========",
+    "calculate_next_xy ========",
+    "main ========",
+    "xy_push ========",
+    "test ========",
+    "single_test ========"
+  ],
+  "instruction_count": 152
+}

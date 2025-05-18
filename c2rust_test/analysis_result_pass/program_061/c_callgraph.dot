@@ -1,0 +1,46 @@
+digraph "C Code Call Graph: ./c_code/program_061/program_061.ll" {
+	label="C Code Call Graph: ./c_code/program_061/program_061.ll";
+
+	Node0x55ce6bd237c0 [shape=record,label="{createStack}"];
+	Node0x55ce6bd237c0 -> Node0x55ce6bd23b40;
+	Node0x55ce6bd23b40 [shape=record,label="{malloc}"];
+	Node0x55ce6bd24030 [shape=record,label="{isEmpty}"];
+	Node0x55ce6bd2e580 [shape=record,label="{size}"];
+	Node0x55ce6bd2e600 [shape=record,label="{isFull}"];
+	Node0x55ce6bd242b0 [shape=record,label="{doubleStack}"];
+	Node0x55ce6bd242b0 -> Node0x55ce6bd24530;
+	Node0x55ce6bd24530 [shape=record,label="{realloc}"];
+	Node0x55ce6bd248c0 [shape=record,label="{push}"];
+	Node0x55ce6bd248c0 -> Node0x55ce6bd2e600;
+	Node0x55ce6bd248c0 -> Node0x55ce6bd242b0;
+	Node0x55ce6bd1b910 [shape=record,label="{pop}"];
+	Node0x55ce6bd1b910 -> Node0x55ce6bd24030;
+	Node0x55ce6bd1b910 -> Node0x55ce6bd1d630;
+	Node0x55ce6bd1d630 [shape=record,label="{printf}"];
+	Node0x55ce6bd1da10 [shape=record,label="{peek}"];
+	Node0x55ce6bd1da10 -> Node0x55ce6bd24030;
+	Node0x55ce6bd1da10 -> Node0x55ce6bd1d630;
+	Node0x55ce6bd1f580 [shape=record,label="{deleteStack}"];
+	Node0x55ce6bd1f580 -> Node0x55ce6bd19470;
+	Node0x55ce6bd19470 [shape=record,label="{free}"];
+	Node0x55ce6bd25500 [shape=record,label="{queueSize}"];
+	Node0x55ce6bd25500 -> Node0x55ce6bd2e580;
+	Node0x55ce6bd191b0 [shape=record,label="{createQueue}"];
+	Node0x55ce6bd191b0 -> Node0x55ce6bd237c0;
+	Node0x55ce6bd191b0 -> Node0x55ce6bd23b40;
+	Node0x55ce6bd2e6e0 [shape=record,label="{enQueue}"];
+	Node0x55ce6bd2e6e0 -> Node0x55ce6bd248c0;
+	Node0x55ce6bd339c0 [shape=record,label="{deQueue}"];
+	Node0x55ce6bd339c0 -> Node0x55ce6bd24030;
+	Node0x55ce6bd339c0 -> Node0x55ce6bd1b910;
+	Node0x55ce6bd339c0 -> Node0x55ce6bd248c0;
+	Node0x55ce6bd34000 [shape=record,label="{deleteQueue}"];
+	Node0x55ce6bd34000 -> Node0x55ce6bd19470;
+	Node0x55ce6bd34080 [shape=record,label="{main}"];
+	Node0x55ce6bd34080 -> Node0x55ce6bd191b0;
+	Node0x55ce6bd34080 -> Node0x55ce6bd2e6e0;
+	Node0x55ce6bd34080 -> Node0x55ce6bd34000;
+	Node0x55ce6bd34080 -> Node0x55ce6bd1d630;
+	Node0x55ce6bd34080 -> Node0x55ce6bd339c0;
+	Node0x55ce6bd34080 -> Node0x55ce6bd25500;
+}

@@ -1,0 +1,10 @@
+/home/xiaoan/c2rust_project/c2rust_test/test/const_samples/const_translation/build/CMakeFiles/intrinsics_gen.dir
+/home/xiaoan/c2rust_project/c2rust_test/test/const_samples/const_translation/build/CMakeFiles/omp_gen.dir
+/home/xiaoan/c2rust_project/c2rust_test/test/const_samples/const_translation/build/CMakeFiles/acc_gen.dir
+/home/xiaoan/c2rust_project/c2rust_test/test/const_samples/const_translation/build/CMakeFiles/ConstTranslation.dir
+/home/xiaoan/c2rust_project/c2rust_test/test/const_samples/const_translation/build/CMakeFiles/edit_cache.dir
+/home/xiaoan/c2rust_project/c2rust_test/test/const_samples/const_translation/build/CMakeFiles/rebuild_cache.dir
+/home/xiaoan/c2rust_project/c2rust_test/test/const_samples/const_translation/build/CMakeFiles/list_install_components.dir
+/home/xiaoan/c2rust_project/c2rust_test/test/const_samples/const_translation/build/CMakeFiles/install.dir
+/home/xiaoan/c2rust_project/c2rust_test/test/const_samples/const_translation/build/CMakeFiles/install/local.dir
+/home/xiaoan/c2rust_project/c2rust_test/test/const_samples/const_translation/build/CMakeFiles/install/strip.dir

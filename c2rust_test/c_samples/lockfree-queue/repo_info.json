@@ -1,0 +1,10 @@
+{
+  "name": "lockfree-queue",
+  "full_name": "supermartian/lockfree-queue",
+  "description": "A simple lock-free queue implementation.",
+  "url": "https://github.com/supermartian/lockfree-queue",
+  "stars": 79,
+  "forks": 16,
+  "created_at": "2014-03-27T23:46:42Z",
+  "updated_at": "2025-01-10T23:51:25Z"
+}

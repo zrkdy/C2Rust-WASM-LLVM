@@ -1,0 +1,44 @@
+digraph "Rust Code Call Graph: ./rust_code/program_017/program_017.ll" {
+	label="Rust Code Call Graph: ./rust_code/program_017/program_017.ll";
+
+	Node0x556269d1e3c0 [shape=record,label="{_ZN4core3ptr7mut_ptr31_$LT$impl$u20$$BP$mut$u20$T$GT$7is_null17hd0788f443ab8c6f0E}"];
+	Node0x556269d1e300 [shape=record,label="{MakeTree}"];
+	Node0x556269d1e300 -> Node0x556269d1a160;
+	Node0x556269d1e300 -> Node0x556269c8e9e0;
+	Node0x556269d1e300 -> Node0x556269cfc6b0;
+	Node0x556269c8e9e0 [shape=record,label="{NewNode}"];
+	Node0x556269c8e9e0 -> Node0x556269cfa1f0;
+	Node0x556269c8e9e0 -> Node0x556269cf4870;
+	Node0x556269c8e9e0 -> Node0x556269cf5870;
+	Node0x556269d22f10 [shape=record,label="{check}"];
+	Node0x556269d22f10 -> Node0x556269cf4870;
+	Node0x556269d22f10 -> Node0x556269cf5870;
+	Node0x556269d22f10 -> Node0x556269d22f10;
+	Node0x556269cfc6b0 [shape=record,label="{Insert}"];
+	Node0x556269cfc6b0 -> Node0x556269d1e3c0;
+	Node0x556269cfc6b0 -> Node0x556269c8e9e0;
+	Node0x556269cfc6b0 -> Node0x556269cf4870;
+	Node0x556269cfc6b0 -> Node0x556269cf5870;
+	Node0x556269cfc6b0 -> Node0x556269cfc6b0;
+	Node0x556269d1fef0 [shape=record,label="{Judge}"];
+	Node0x556269d1fef0 -> Node0x556269d1a160;
+	Node0x556269d1fef0 -> Node0x556269cf4870;
+	Node0x556269d1fef0 -> Node0x556269cf5870;
+	Node0x556269d1fef0 -> Node0x556269d22f10;
+	Node0x556269cf6c90 [shape=record,label="{ResetT}"];
+	Node0x556269cf6c90 -> Node0x556269cf4870;
+	Node0x556269cf6c90 -> Node0x556269d1e3c0;
+	Node0x556269cf6c90 -> Node0x556269cf5870;
+	Node0x556269cf6c90 -> Node0x556269cf6c90;
+	Node0x556269cf7340 [shape=record,label="{FreeTree}"];
+	Node0x556269cf7340 -> Node0x556269cf4870;
+	Node0x556269cf7340 -> Node0x556269d1e3c0;
+	Node0x556269cf7340 -> Node0x556269cf5870;
+	Node0x556269cf7340 -> Node0x556269cf7340;
+	Node0x556269cf7340 -> Node0x556269cf8dd0;
+	Node0x556269d1a160 [shape=record,label="{scanf}"];
+	Node0x556269cfa1f0 [shape=record,label="{malloc}"];
+	Node0x556269cf4870 [shape=record,label="{_ZN4core9panicking36panic_misaligned_pointer_dereference17hcc3cbded9382b6e5E}"];
+	Node0x556269cf5870 [shape=record,label="{_ZN4core9panicking30panic_null_pointer_dereference17hf718fcc86a223baaE}"];
+	Node0x556269cf8dd0 [shape=record,label="{free}"];
+}

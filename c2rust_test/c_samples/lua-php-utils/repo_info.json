@@ -1,0 +1,10 @@
+{
+  "name": "lua-php-utils",
+  "full_name": "qiye/lua-php-utils",
+  "description": "PHP-style utility functions for LuaJIT applications",
+  "url": "https://github.com/qiye/lua-php-utils",
+  "stars": 10,
+  "forks": 8,
+  "created_at": "2013-10-14T07:31:43Z",
+  "updated_at": "2020-05-22T02:41:31Z"
+}

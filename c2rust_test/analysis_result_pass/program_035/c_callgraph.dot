@@ -1,0 +1,38 @@
+digraph "C Code Call Graph: ./c_code/program_035/program_035.ll" {
+	label="C Code Call Graph: ./c_code/program_035/program_035.ll";
+
+	Node0x561037ab1820 [shape=record,label="{push_ch}"];
+	Node0x561037ab2f60 [shape=record,label="{pop_ch}"];
+	Node0x561037ab3bd0 [shape=record,label="{top_ch}"];
+	Node0x561037ab3fa0 [shape=record,label="{empty}"];
+	Node0x561037ab4960 [shape=record,label="{push_node}"];
+	Node0x561037abe190 [shape=record,label="{pop_node}"];
+	Node0x561037abe210 [shape=record,label="{display_infix}"];
+	Node0x561037abe210 -> Node0x561037abe290;
+	Node0x561037abe210 -> Node0x561037abe210;
+	Node0x561037abe290 [shape=record,label="{printf}"];
+	Node0x561037abb140 [shape=record,label="{display_suffix}"];
+	Node0x561037abb140 -> Node0x561037abb140;
+	Node0x561037abb140 -> Node0x561037abe290;
+	Node0x561037a3f580 [shape=record,label="{create_expresstree}"];
+	Node0x561037a3f580 -> Node0x561037a3f9e0;
+	Node0x561037a3f580 -> Node0x561037abe190;
+	Node0x561037a3f580 -> Node0x561037ab3fa0;
+	Node0x561037a3f580 -> Node0x561037ab4960;
+	Node0x561037a3f9e0 [shape=record,label="{malloc}"];
+	Node0x561037abe3c0 [shape=record,label="{infix2suffix}"];
+	Node0x561037abe3c0 -> Node0x561037ab3fa0;
+	Node0x561037abe3c0 -> Node0x561037ab1820;
+	Node0x561037abe3c0 -> Node0x561037ab2f60;
+	Node0x561037abe3c0 -> Node0x561037ab3bd0;
+	Node0x561037ab48e0 [shape=record,label="{main}"];
+	Node0x561037ab48e0 -> Node0x561037ac3f90;
+	Node0x561037ab48e0 -> Node0x561037ac4010;
+	Node0x561037ab48e0 -> Node0x561037abe3c0;
+	Node0x561037ab48e0 -> Node0x561037abe290;
+	Node0x561037ab48e0 -> Node0x561037a3f580;
+	Node0x561037ab48e0 -> Node0x561037abe210;
+	Node0x561037ab48e0 -> Node0x561037abb140;
+	Node0x561037ac3f90 [shape=record,label="{strlen}"];
+	Node0x561037ac4010 [shape=record,label="{calloc}"];
+}

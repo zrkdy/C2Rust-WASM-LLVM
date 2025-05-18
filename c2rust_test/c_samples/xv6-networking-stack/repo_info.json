@@ -1,0 +1,10 @@
+{
+  "name": "xv6-networking-stack",
+  "full_name": "vibhorvatsa/xv6-networking-stack",
+  "description": "A network stack implementation for xv6 OS",
+  "url": "https://github.com/vibhorvatsa/xv6-networking-stack",
+  "stars": 32,
+  "forks": 5,
+  "created_at": "2017-11-14T08:43:06Z",
+  "updated_at": "2025-04-24T06:16:58Z"
+}

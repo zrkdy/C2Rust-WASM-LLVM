@@ -1,0 +1,10 @@
+{
+  "name": "STM32F4XX_RNDIS_DEMO",
+  "full_name": "nicokorn/STM32F4XX_RNDIS_DEMO",
+  "description": "To have platform independent network interfaces over usb which is working with Linux, Windows, Mac OS ect. called RNDIS. This project is a RNDIS demo, which addtionally implements a http server. It runs out of the box on a stm32f411 BlackPill board. My RNDIS library with an empty template for the second interface (which can ba UART, CAN, ETH or like in this demo a tcp/ip stack) can be found under following link: https://github.com/RDMsmartnetworks/STM32_HAL_RNDIS",
+  "url": "https://github.com/nicokorn/STM32F4XX_RNDIS_DEMO",
+  "stars": 33,
+  "forks": 7,
+  "created_at": "2021-11-07T14:52:35Z",
+  "updated_at": "2025-03-28T21:32:55Z"
+}

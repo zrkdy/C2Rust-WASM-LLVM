@@ -1,0 +1,52 @@
+{
+  "null_dereference": [],
+  "buffer_overflow": [
+    {
+      "function": "ins ========",
+      "instruction": "%31 = getelementptr i8, ptr %30, i64 -4"
+    }
+  ],
+  "double_free": [],
+  "use_after_free": [
+    {
+      "function": "del ========",
+      "instruction": "%142 = getelementptr inbounds nuw i8, ptr %_251, i64 4"
+    },
+    {
+      "function": "del ========",
+      "instruction": "%144 = getelementptr inbounds nuw i8, ptr %_251, i64 24"
+    },
+    {
+      "function": "del ========",
+      "instruction": "%_272 = load i32, ptr %_251, align 8, !noundef !4"
+    }
+  ],
+  "total_issues": 4,
+  "analyzed_functions": [
+    "_ZN3std2rt10lang_start17h1ea26244cd783014E ========",
+    "_ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h0abb766a6bdea635E ========",
+    "_ZN3std3sys9backtrace28__rust_begin_short_backtrace17h127839aa45d7f8b1E ========",
+    "_ZN4core3ops8function6FnOnce40call_once$u7b$$u7b$vtable.shim$u7d$$u7d$17h056653820d674961E ========",
+    "_ZN11program_0016main_017h9670666fd4d70dd4E ========",
+    "insert ========",
+    "ins ========",
+    "display ========",
+    "search ========",
+    "searchPos ========",
+    "DelNode ========",
+    "del ========",
+    "eatline ========",
+    "inorder ========",
+    "totalKeys ========",
+    "printTotal ========",
+    "getMin ========",
+    "getMax ========",
+    "getMinMax ========",
+    "max ========",
+    "maxLevel ========",
+    "printMaxLevel ========",
+    "_ZN11program_0014main17h3a66ec62d895b4b5E ========",
+    "main ========"
+  ],
+  "instruction_count": 1310
+}

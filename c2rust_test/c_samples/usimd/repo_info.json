@@ -1,0 +1,10 @@
+{
+  "name": "usimd",
+  "full_name": "mathlibrary/usimd",
+  "description": "Cross platform portable accelerate math library using universal intrinsics.",
+  "url": "https://github.com/mathlibrary/usimd",
+  "stars": 80,
+  "forks": 6,
+  "created_at": "2020-09-08T06:19:44Z",
+  "updated_at": "2025-03-25T16:44:27Z"
+}

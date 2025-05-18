@@ -1,0 +1,10 @@
+{
+  "name": "clibs",
+  "full_name": "BurntSushi/clibs",
+  "description": "A smattering of miscellaneous C libraries. Includes sane argument parsing, a thread-safe multi-producer/multi-consumer queue, and implementation of common data structures (hashmaps, vectors and linked lists).",
+  "url": "https://github.com/BurntSushi/clibs",
+  "stars": 103,
+  "forks": 27,
+  "created_at": "2012-07-30T03:25:56Z",
+  "updated_at": "2025-03-12T21:39:58Z"
+}

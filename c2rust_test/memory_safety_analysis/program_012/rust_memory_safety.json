@@ -1,0 +1,21 @@
+{
+  "null_dereference": [],
+  "buffer_overflow": [],
+  "double_free": [],
+  "use_after_free": [],
+  "total_issues": 0,
+  "analyzed_functions": [
+    "_ZN42_$LT$$RF$T$u20$as$u20$core..fmt..Debug$GT$3fmt17h57bba843231ee741E ========",
+    "_ZN42_$LT$$RF$T$u20$as$u20$core..fmt..Debug$GT$3fmt17hb3fbc1c3013eb0fbE ========",
+    "_ZN4core3fmt3num52_$LT$impl$u20$core..fmt..Debug$u20$for$u20$usize$GT$3fmt17hf3f56632bd08ab57E ========",
+    "_ZN4core3ptr48drop_in_place$LT$alloc..ffi..c_str..NulError$GT$17h9fd831c21f85f4f2E ========",
+    "_ZN5alloc7raw_vec11finish_grow17h2ccca9391ba5f1cdE ========",
+    "_ZN5alloc7raw_vec19RawVec$LT$T$C$A$GT$8grow_one17h412014a3d4e29ebaE ========",
+    "_ZN64_$LT$alloc..ffi..c_str..NulError$u20$as$u20$core..fmt..Debug$GT$3fmt17h64e56ed8b2127542E ========",
+    "add_numbers ========",
+    "print_number ========",
+    "get_digits ========",
+    "_ZN11program_0124main17h7ffc1981dfbe3b43E ========"
+  ],
+  "instruction_count": 588
+}

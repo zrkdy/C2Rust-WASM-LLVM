@@ -1,0 +1,47 @@
+digraph "Rust Code Call Graph: ./rust_code/program_024/program_024.ll" {
+	label="Rust Code Call Graph: ./rust_code/program_024/program_024.ll";
+
+	Node0x56343fbdf9d0 [shape=record,label="{_ZN4core10intrinsics9cold_path17h7b411a860214cd89E}"];
+	Node0x56343fbe0360 [shape=record,label="{_ZN4core3ptr7mut_ptr31_$LT$impl$u20$$BP$mut$u20$T$GT$6offset18precondition_check17h75bdc97a901c23f2E}"];
+	Node0x56343fbe0360 -> Node0x56343fb559e0;
+	Node0x56343fbe0360 -> Node0x56343fbc86d0;
+	Node0x56343fbe0360 -> Node0x56343fbbaff0;
+	Node0x56343fbbd0a0 [shape=record,label="{GetPrime}"];
+	Node0x56343fbbd0a0 -> Node0x56343fbbdf40;
+	Node0x56343fbbd0a0 -> Node0x56343fbc52b0;
+	Node0x56343fbbd0a0 -> Node0x56343fbc0760;
+	Node0x56343fbbd0a0 -> Node0x56343fbc1f30;
+	Node0x56343fbc4190 [shape=record,label="{CreateTable}"];
+	Node0x56343fbc4190 -> Node0x56343fbc3560;
+	Node0x56343fbc4190 -> Node0x56343fbbd0a0;
+	Node0x56343fbc4190 -> Node0x56343fbc5670;
+	Node0x56343fbc4190 -> Node0x56343fbe62a0;
+	Node0x56343fbc4190 -> Node0x56343fbe0360;
+	Node0x56343fbca7f0 [shape=record,label="{Insert}"];
+	Node0x56343fbca7f0 -> Node0x56343fbe6520;
+	Node0x56343fbca7f0 -> Node0x56343fbc5670;
+	Node0x56343fbca7f0 -> Node0x56343fbe0360;
+	Node0x56343fbca7f0 -> Node0x56343fbe62a0;
+	Node0x56343fbc62a0 [shape=record,label="{Hash}"];
+	Node0x56343fbc62a0 -> Node0x56343fbc5670;
+	Node0x56343fbc62a0 -> Node0x56343fbe62a0;
+	Node0x56343fbc62a0 -> Node0x56343fbc1f30;
+	Node0x56343fbc62a0 -> Node0x56343fbbdf40;
+	Node0x56343fbe6520 [shape=record,label="{Find}"];
+	Node0x56343fbe6520 -> Node0x56343fbc62a0;
+	Node0x56343fbe6520 -> Node0x56343fbc5670;
+	Node0x56343fbe6520 -> Node0x56343fbe0360;
+	Node0x56343fbe6520 -> Node0x56343fbe62a0;
+	Node0x56343fbe6520 -> Node0x56343fbbdf40;
+	Node0x56343fbe6520 -> Node0x56343fbc1f30;
+	Node0x56343fb559e0 [shape=record,label="{llvm.smul.with.overflow.i64}"];
+	Node0x56343fbc86d0 [shape=record,label="{llvm.uadd.with.overflow.i64}"];
+	Node0x56343fbbaff0 [shape=record,label="{_ZN4core9panicking14panic_nounwind17h211d9ce8d63f12e7E}"];
+	Node0x56343fbbdf40 [shape=record,label="{_ZN4core9panicking11panic_const24panic_const_rem_overflow17h799fde26ff2294a6E}"];
+	Node0x56343fbc52b0 [shape=record,label="{sqrt}"];
+	Node0x56343fbc0760 [shape=record,label="{llvm.fptosi.sat.i32.f64}"];
+	Node0x56343fbc1f30 [shape=record,label="{_ZN4core9panicking11panic_const23panic_const_rem_by_zero17h8cc4f221597e73ceE}"];
+	Node0x56343fbc3560 [shape=record,label="{malloc}"];
+	Node0x56343fbc5670 [shape=record,label="{_ZN4core9panicking36panic_misaligned_pointer_dereference17hcc3cbded9382b6e5E}"];
+	Node0x56343fbe62a0 [shape=record,label="{_ZN4core9panicking30panic_null_pointer_dereference17hf718fcc86a223baaE}"];
+}

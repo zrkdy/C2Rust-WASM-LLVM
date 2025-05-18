@@ -1,0 +1,23 @@
+digraph "C Code Call Graph: ./c_code/program_024/program_024.ll" {
+	label="C Code Call Graph: ./c_code/program_024/program_024.ll";
+
+	Node0x56542adab060 [shape=record,label="{GetPrime}"];
+	Node0x56542adab060 -> Node0x56542adab0e0;
+	Node0x56542adab0e0 [shape=record,label="{sqrt}"];
+	Node0x56542adab5a0 [shape=record,label="{CreateTable}"];
+	Node0x56542adab5a0 -> Node0x56542adab6d0;
+	Node0x56542adab5a0 -> Node0x56542adab060;
+	Node0x56542adab6d0 [shape=record,label="{malloc}"];
+	Node0x56542adab830 [shape=record,label="{Hash}"];
+	Node0x56542adaba00 [shape=record,label="{Find}"];
+	Node0x56542adaba00 -> Node0x56542adab830;
+	Node0x56542adabab0 [shape=record,label="{Insert}"];
+	Node0x56542adabab0 -> Node0x56542adaba00;
+	Node0x56542adabb60 [shape=record,label="{main}"];
+	Node0x56542adabb60 -> Node0x56542adabbe0;
+	Node0x56542adabb60 -> Node0x56542adab5a0;
+	Node0x56542adabb60 -> Node0x56542adabc90;
+	Node0x56542adabb60 -> Node0x56542adabab0;
+	Node0x56542adabbe0 [shape=record,label="{__isoc99_scanf}"];
+	Node0x56542adabc90 [shape=record,label="{printf}"];
+}

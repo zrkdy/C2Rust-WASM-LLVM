@@ -1,0 +1,23 @@
+digraph "C Code Call Graph: ./c_code/program_069/program_069.ll" {
+	label="C Code Call Graph: ./c_code/program_069/program_069.ll";
+
+	Node0x557545a322b0 [shape=record,label="{main}"];
+	Node0x557545a322b0 -> Node0x557545a89710;
+	Node0x557545a322b0 -> Node0x557545a8c270;
+	Node0x557545a322b0 -> Node0x557545a8ad70;
+	Node0x557545a322b0 -> Node0x557545a8acf0;
+	Node0x557545a322b0 -> Node0x557545a8c2f0;
+	Node0x557545a89710 [shape=record,label="{insertNode}"];
+	Node0x557545a89710 -> Node0x557545a8c370;
+	Node0x557545a8acf0 [shape=record,label="{printf}"];
+	Node0x557545a8ad70 [shape=record,label="{preOrderPrint}"];
+	Node0x557545a8ad70 -> Node0x557545a8acf0;
+	Node0x557545a8ad70 -> Node0x557545a8ad70;
+	Node0x557545a8c270 [shape=record,label="{puts}"];
+	Node0x557545a8c2f0 [shape=record,label="{deleteNode}"];
+	Node0x557545a8c2f0 -> Node0x557545a8c2f0;
+	Node0x557545a8c2f0 -> Node0x557545aa5790;
+	Node0x557545aa5790 [shape=record,label="{findMinimum}"];
+	Node0x557545aa5790 -> Node0x557545aa5790;
+	Node0x557545a8c370 [shape=record,label="{malloc}"];
+}

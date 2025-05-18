@@ -1,0 +1,24 @@
+{
+  "null_dereference": [],
+  "buffer_overflow": [],
+  "double_free": [],
+  "use_after_free": [],
+  "total_issues": 0,
+  "analyzed_functions": [
+    "isEmpty ========",
+    "Pop ========",
+    "Pfront ========",
+    "Enqeue ========",
+    "NewNode ========",
+    "PostOrder ========",
+    "FindMin ========",
+    "LevelOrder ========",
+    "Delete ========",
+    "InOrder ========",
+    "PreOrder ========",
+    "insert ========",
+    "traverse ========",
+    "main ========"
+  ],
+  "instruction_count": 417
+}

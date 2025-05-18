@@ -1,0 +1,37 @@
+digraph "Rust Code Call Graph: ./rust_code/program_071/program_071.ll" {
+	label="Rust Code Call Graph: ./rust_code/program_071/program_071.ll";
+
+	Node0x558bde343ab0 [shape=record,label="{_ZN4core3ptr7mut_ptr31_$LT$impl$u20$$BP$mut$u20$T$GT$7is_null17hb3d698b2d920b320E}"];
+	Node0x558bde343980 [shape=record,label="{insertNode}"];
+	Node0x558bde343980 -> Node0x558bde3591d0;
+	Node0x558bde343980 -> Node0x558bde33c970;
+	Node0x558bde343980 -> Node0x558bde3387c0;
+	Node0x558bde343980 -> Node0x558bde343ab0;
+	Node0x558bde334410 [shape=record,label="{searchOnTree}"];
+	Node0x558bde334410 -> Node0x558bde3387c0;
+	Node0x558bde334410 -> Node0x558bde33c970;
+	Node0x558bde334410 -> Node0x558bde336250;
+	Node0x558bde334410 -> Node0x558bde343ab0;
+	Node0x558bde33a5f0 [shape=record,label="{preOrderPrint}"];
+	Node0x558bde33a5f0 -> Node0x558bde343ab0;
+	Node0x558bde33a5f0 -> Node0x558bde33c970;
+	Node0x558bde33a5f0 -> Node0x558bde336250;
+	Node0x558bde33a5f0 -> Node0x558bde3387c0;
+	Node0x558bde33a5f0 -> Node0x558bde33a5f0;
+	Node0x558bde33f570 [shape=record,label="{inOrderPrint}"];
+	Node0x558bde33f570 -> Node0x558bde343ab0;
+	Node0x558bde33f570 -> Node0x558bde33c970;
+	Node0x558bde33f570 -> Node0x558bde33f570;
+	Node0x558bde33f570 -> Node0x558bde3387c0;
+	Node0x558bde33f570 -> Node0x558bde336250;
+	Node0x558bde340400 [shape=record,label="{postOrderPrint}"];
+	Node0x558bde340400 -> Node0x558bde343ab0;
+	Node0x558bde340400 -> Node0x558bde33c970;
+	Node0x558bde340400 -> Node0x558bde340400;
+	Node0x558bde340400 -> Node0x558bde3387c0;
+	Node0x558bde340400 -> Node0x558bde336250;
+	Node0x558bde3591d0 [shape=record,label="{malloc}"];
+	Node0x558bde33c970 [shape=record,label="{_ZN4core9panicking36panic_misaligned_pointer_dereference17hcc3cbded9382b6e5E}"];
+	Node0x558bde3387c0 [shape=record,label="{_ZN4core9panicking30panic_null_pointer_dereference17hf718fcc86a223baaE}"];
+	Node0x558bde336250 [shape=record,label="{printf}"];
+}

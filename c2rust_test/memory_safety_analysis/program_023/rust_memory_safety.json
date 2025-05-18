@@ -1,0 +1,27 @@
+{
+  "null_dereference": [],
+  "buffer_overflow": [],
+  "double_free": [],
+  "use_after_free": [],
+  "total_issues": 0,
+  "analyzed_functions": [
+    "_ZN4core3ptr47drop_in_place$LT$alloc..vec..Vec$LT$i32$GT$$GT$17ha8d10daf333697a7E ========",
+    "newAdjListNode ========",
+    "createGraph ========",
+    "AddEdge ========",
+    "newMinHeapNode ========",
+    "createMinHeap ========",
+    "swapMinHeapNode ========",
+    "MinHeapify ========",
+    "isEmpty ========",
+    "decreaseKey ========",
+    "extractMin ========",
+    "isInMinHeap ========",
+    "printpath ========",
+    "printarr ========",
+    "dijkstra ========",
+    "_ZN11program_0236main_017h40c74ee3c84805f1E ========",
+    "_ZN11program_0234main17hc56e2ae46a15d197E ========"
+  ],
+  "instruction_count": 754
+}

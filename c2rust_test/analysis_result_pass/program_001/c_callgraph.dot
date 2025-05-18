@@ -1,0 +1,13 @@
+digraph "C Code Call Graph: ./c_code/program_001/program_001.ll" {
+	label="C Code Call Graph: ./c_code/program_001/program_001.ll";
+
+	Node0x5616d98dd4b0 [shape=record,label="{encode}"];
+	Node0x5616d98dd530 [shape=record,label="{decode}"];
+	Node0x5616d98dd5b0 [shape=record,label="{main}"];
+	Node0x5616d98dd5b0 -> Node0x5616d98dd6e0;
+	Node0x5616d98dd5b0 -> Node0x5616d98ddb70;
+	Node0x5616d98dd6e0 [shape=record,label="{test}"];
+	Node0x5616d98dd6e0 -> Node0x5616d98dd4b0;
+	Node0x5616d98dd6e0 -> Node0x5616d98dd530;
+	Node0x5616d98ddb70 [shape=record,label="{printf}"];
+}

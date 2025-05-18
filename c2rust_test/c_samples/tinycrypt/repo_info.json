@@ -1,0 +1,10 @@
+{
+  "name": "tinycrypt",
+  "full_name": "intel/tinycrypt",
+  "description": "tinycrypt is a library of cryptographic algorithms with a focus on small, simple implementation.",
+  "url": "https://github.com/intel/tinycrypt",
+  "stars": 479,
+  "forks": 164,
+  "created_at": "2015-06-08T14:15:49Z",
+  "updated_at": "2025-04-16T12:03:27Z"
+}

@@ -1,0 +1,30 @@
+{
+  "null_dereference": [],
+  "buffer_overflow": [],
+  "double_free": [],
+  "use_after_free": [
+    {
+      "function": "Delete ========",
+      "instruction": "%_22 = load ptr, ptr %0, align 8, !noundef !3"
+    }
+  ],
+  "total_issues": 1,
+  "analyzed_functions": [
+    "isEmpty ========",
+    "Pop ========",
+    "Pfront ========",
+    "Enqeue ========",
+    "NewNode ========",
+    "PostOrder ========",
+    "FindMin ========",
+    "LevelOrder ========",
+    "Delete ========",
+    "InOrder ========",
+    "PreOrder ========",
+    "insert ========",
+    "traverse ========",
+    "_ZN11program_0266main_017h15d6be560dcd19a2E ========",
+    "_ZN11program_0264main17h7e17a5d614634036E ========"
+  ],
+  "instruction_count": 275
+}

@@ -1,0 +1,24 @@
+digraph "C Code Call Graph: ./c_code/program_008/program_008.ll" {
+	label="C Code Call Graph: ./c_code/program_008/program_008.ll";
+
+	Node0x55f73bb2da00 [shape=record,label="{main}"];
+	Node0x55f73bb2da00 -> Node0x55f73bb2da80;
+	Node0x55f73bb2da00 -> Node0x55f73bb47fc0;
+	Node0x55f73bb2da00 -> Node0x55f73bb2db30;
+	Node0x55f73bb2da00 -> Node0x55f73bb2dc60;
+	Node0x55f73bb2da00 -> Node0x55f73bb2dce0;
+	Node0x55f73bb2da80 [shape=record,label="{printf}"];
+	Node0x55f73bb2db30 [shape=record,label="{__isoc99_scanf}"];
+	Node0x55f73bb2dc60 [shape=record,label="{int_fact}"];
+	Node0x55f73bb2dc60 -> Node0x55f73bb48040;
+	Node0x55f73bb2dc60 -> Node0x55f73bb480f0;
+	Node0x55f73bb2dce0 [shape=record,label="{print_arr}"];
+	Node0x55f73bb2dce0 -> Node0x55f73bb2da80;
+	Node0x55f73bb47fc0 [shape=record,label="{destroy}"];
+	Node0x55f73bb47fc0 -> Node0x55f73bb484c0;
+	Node0x55f73bb48040 [shape=record,label="{malloc}"];
+	Node0x55f73bb480f0 [shape=record,label="{increase}"];
+	Node0x55f73bb480f0 -> Node0x55f73bb48540;
+	Node0x55f73bb48540 [shape=record,label="{realloc}"];
+	Node0x55f73bb484c0 [shape=record,label="{free}"];
+}

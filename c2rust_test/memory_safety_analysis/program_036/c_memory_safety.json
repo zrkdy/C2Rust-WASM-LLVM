@@ -1,0 +1,16 @@
+{
+  "null_dereference": [],
+  "buffer_overflow": [],
+  "double_free": [],
+  "use_after_free": [],
+  "total_issues": 0,
+  "analyzed_functions": [
+    "createNode ========",
+    "createLinkList ========",
+    "calculateSum ========",
+    "printList ========",
+    "findMax ========",
+    "main ========"
+  ],
+  "instruction_count": 140
+}

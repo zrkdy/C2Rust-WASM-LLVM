@@ -1,0 +1,10 @@
+{
+  "name": "libGIS",
+  "full_name": "vsergeev/libGIS",
+  "description": "libGIS is a collection of utility functions to create, read and write Atmel Generic, Intel HEX8, and Motorola S-Record formatted files.",
+  "url": "https://github.com/vsergeev/libGIS",
+  "stars": 51,
+  "forks": 18,
+  "created_at": "2010-12-22T22:36:02Z",
+  "updated_at": "2024-10-21T01:06:56Z"
+}

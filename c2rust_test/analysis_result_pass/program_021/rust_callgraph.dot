@@ -1,0 +1,44 @@
+digraph "Rust Code Call Graph: ./rust_code/program_021/program_021.ll" {
+	label="Rust Code Call Graph: ./rust_code/program_021/program_021.ll";
+
+	Node0x55a8412d6460 [shape=record,label="{_ZN4core10intrinsics9cold_path17hbd2ea2d22cfd9196E}"];
+	Node0x55a8412dc570 [shape=record,label="{_ZN4core3ptr7mut_ptr31_$LT$impl$u20$$BP$mut$u20$T$GT$6offset18precondition_check17h6b9b1addca998718E}"];
+	Node0x55a8412dc570 -> Node0x55a8412dd190;
+	Node0x55a8412dc570 -> Node0x55a8412dfe00;
+	Node0x55a8412dc570 -> Node0x55a8412e0fe0;
+	Node0x55a8412e4f30 [shape=record,label="{_ZN4core3ptr7mut_ptr31_$LT$impl$u20$$BP$mut$u20$T$GT$7is_null17ha2037abbb4e3b0e5E}"];
+	Node0x55a8412e7d50 [shape=record,label="{Insertion_Sort}"];
+	Node0x55a8412e7d50 -> Node0x55a8412dc570;
+	Node0x55a8412e7d50 -> Node0x55a8412ee830;
+	Node0x55a8412e7d50 -> Node0x55a8412e8110;
+	Node0x55a8412e6570 [shape=record,label="{Merge}"];
+	Node0x55a8412e6570 -> Node0x55a8412dc570;
+	Node0x55a8412e6570 -> Node0x55a8412e8110;
+	Node0x55a8412e6570 -> Node0x55a8412ee830;
+	Node0x55a8412e8240 [shape=record,label="{Merge_Pass}"];
+	Node0x55a8412e8240 -> Node0x55a8412e6570;
+	Node0x55a8412e8240 -> Node0x55a8412e8110;
+	Node0x55a8412e8240 -> Node0x55a8412dc570;
+	Node0x55a8412e8240 -> Node0x55a8412ee830;
+	Node0x55a8412f2c20 [shape=record,label="{Identical}"];
+	Node0x55a8412f2c20 -> Node0x55a8412dc570;
+	Node0x55a8412f2c20 -> Node0x55a8412ee830;
+	Node0x55a8412f2c20 -> Node0x55a8412e8110;
+	Node0x55a8412f7860 [shape=record,label="{Merge_sort}"];
+	Node0x55a8412f7860 -> Node0x55a8412f7a30;
+	Node0x55a8412f7860 -> Node0x55a8412e4f30;
+	Node0x55a8412f7860 -> Node0x55a8412f7ab0;
+	Node0x55a8412f7860 -> Node0x55a8412e8240;
+	Node0x55a8412f7860 -> Node0x55a8412f2c20;
+	Node0x55a8412c1980 [shape=record,label="{IsInsertion}"];
+	Node0x55a8412c1980 -> Node0x55a8412dc570;
+	Node0x55a8412c1980 -> Node0x55a8412ee830;
+	Node0x55a8412c1980 -> Node0x55a8412e8110;
+	Node0x55a8412dd190 [shape=record,label="{llvm.smul.with.overflow.i64}"];
+	Node0x55a8412dfe00 [shape=record,label="{llvm.uadd.with.overflow.i64}"];
+	Node0x55a8412e0fe0 [shape=record,label="{_ZN4core9panicking14panic_nounwind17h211d9ce8d63f12e7E}"];
+	Node0x55a8412ee830 [shape=record,label="{_ZN4core9panicking36panic_misaligned_pointer_dereference17hcc3cbded9382b6e5E}"];
+	Node0x55a8412e8110 [shape=record,label="{_ZN4core9panicking30panic_null_pointer_dereference17hf718fcc86a223baaE}"];
+	Node0x55a8412f7a30 [shape=record,label="{malloc}"];
+	Node0x55a8412f7ab0 [shape=record,label="{free}"];
+}

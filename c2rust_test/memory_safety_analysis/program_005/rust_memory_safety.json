@@ -1,0 +1,13 @@
+{
+  "null_dereference": [],
+  "buffer_overflow": [],
+  "double_free": [],
+  "use_after_free": [],
+  "total_issues": 0,
+  "analyzed_functions": [
+    "extended_euclidean_algorithm ========",
+    "_ZN11program_0056main_017h2f01c5eb28f25633E ========",
+    "_ZN11program_0054main17hd2e16db9caa6f158E ========"
+  ],
+  "instruction_count": 180
+}

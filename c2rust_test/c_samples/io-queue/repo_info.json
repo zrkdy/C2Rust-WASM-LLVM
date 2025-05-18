@@ -1,0 +1,10 @@
+{
+  "name": "io-queue",
+  "full_name": "esoma/io-queue",
+  "description": "A header only library that implements a C11 Unbounded Non-Intrusive Lockless Single Consumer Multiple Producer Thread-Safe FIFO Queue.",
+  "url": "https://github.com/esoma/io-queue",
+  "stars": 20,
+  "forks": 4,
+  "created_at": "2014-04-29T17:18:16Z",
+  "updated_at": "2024-10-27T23:24:14Z"
+}

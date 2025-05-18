@@ -1,0 +1,39 @@
+digraph "C Code Call Graph: ./c_code/program_023/program_023.ll" {
+	label="C Code Call Graph: ./c_code/program_023/program_023.ll";
+
+	Node0x56367fb789e0 [shape=record,label="{GetPrime}"];
+	Node0x56367fb789e0 -> Node0x56367fbdad30;
+	Node0x56367fbdad30 [shape=record,label="{sqrt}"];
+	Node0x56367fbe3990 [shape=record,label="{CreateTable}"];
+	Node0x56367fbe3990 -> Node0x56367fbf7160;
+	Node0x56367fbe3990 -> Node0x56367fb789e0;
+	Node0x56367fbf7160 [shape=record,label="{malloc}"];
+	Node0x56367fbf7290 [shape=record,label="{Hash}"];
+	Node0x56367fbf7290 -> Node0x56367fbee1b0;
+	Node0x56367fbee1b0 [shape=record,label="{atoi}"];
+	Node0x56367fbf7370 [shape=record,label="{Find}"];
+	Node0x56367fbf7370 -> Node0x56367fbf7290;
+	Node0x56367fbf7370 -> Node0x56367fbfc820;
+	Node0x56367fbfc820 [shape=record,label="{strcmp}"];
+	Node0x56367fbfc8a0 [shape=record,label="{Insert}"];
+	Node0x56367fbfc8a0 -> Node0x56367fbf7370;
+	Node0x56367fbfc8a0 -> Node0x56367fbf7290;
+	Node0x56367fbfc8a0 -> Node0x56367fbf7160;
+	Node0x56367fbfc8a0 -> Node0x56367fbfcbe0;
+	Node0x56367fbfcbe0 [shape=record,label="{strcpy}"];
+	Node0x56367fbfcc60 [shape=record,label="{DestroyTable}"];
+	Node0x56367fbfcc60 -> Node0x56367fbfcce0;
+	Node0x56367fbfcce0 [shape=record,label="{free}"];
+	Node0x56367fbfce40 [shape=record,label="{ScanAndOutput}"];
+	Node0x56367fbfce40 -> Node0x56367fbfcbe0;
+	Node0x56367fbfce40 -> Node0x56367fbfc820;
+	Node0x56367fbfce40 -> Node0x56367fbfcfa0;
+	Node0x56367fbfcfa0 [shape=record,label="{printf}"];
+	Node0x56367fbfd020 [shape=record,label="{main}"];
+	Node0x56367fbfd020 -> Node0x56367fbfd0a0;
+	Node0x56367fbfd020 -> Node0x56367fbe3990;
+	Node0x56367fbfd020 -> Node0x56367fbfcc60;
+	Node0x56367fbfd020 -> Node0x56367fbfc8a0;
+	Node0x56367fbfd020 -> Node0x56367fbfce40;
+	Node0x56367fbfd0a0 [shape=record,label="{__isoc99_scanf}"];
+}

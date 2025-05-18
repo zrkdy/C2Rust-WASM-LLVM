@@ -1,0 +1,4 @@
+digraph "Rust Code Call Graph: ./rust_code/program_055/program_055.ll" {
+	label="Rust Code Call Graph: ./rust_code/program_055/program_055.ll";
+
+}

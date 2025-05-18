@@ -1,0 +1,40 @@
+digraph "C Code Call Graph: ./c_code/program_040/program_040.ll" {
+	label="C Code Call Graph: ./c_code/program_040/program_040.ll";
+
+	Node0x55aaf72c4070 [shape=record,label="{top}"];
+	Node0x55aaf72c0da0 [shape=record,label="{pop}"];
+	Node0x55aaf72c0da0 -> Node0x55aaf72d0bb0;
+	Node0x55aaf72d0bb0 [shape=record,label="{free}"];
+	Node0x55aaf72d9830 [shape=record,label="{isEmpty}"];
+	Node0x55aaf72de740 [shape=record,label="{push}"];
+	Node0x55aaf72de740 -> Node0x55aaf72de910;
+	Node0x55aaf72de910 [shape=record,label="{malloc}"];
+	Node0x55aaf72de990 [shape=record,label="{createGraph}"];
+	Node0x55aaf72de990 -> Node0x55aaf72de910;
+	Node0x55aaf72dea40 [shape=record,label="{addEdge}"];
+	Node0x55aaf72dea40 -> Node0x55aaf72de910;
+	Node0x55aaf72deac0 [shape=record,label="{Transpose}"];
+	Node0x55aaf72deac0 -> Node0x55aaf72de990;
+	Node0x55aaf72deac0 -> Node0x55aaf72de910;
+	Node0x55aaf72dee00 [shape=record,label="{DFSutil}"];
+	Node0x55aaf72dee00 -> Node0x55aaf72dee80;
+	Node0x55aaf72dee00 -> Node0x55aaf72dee00;
+	Node0x55aaf72dee80 [shape=record,label="{printf}"];
+	Node0x55aaf72def00 [shape=record,label="{fillOrder}"];
+	Node0x55aaf72def00 -> Node0x55aaf72def00;
+	Node0x55aaf72def00 -> Node0x55aaf72de740;
+	Node0x55aaf72defb0 [shape=record,label="{printSCC}"];
+	Node0x55aaf72defb0 -> Node0x55aaf72de910;
+	Node0x55aaf72defb0 -> Node0x55aaf72def00;
+	Node0x55aaf72defb0 -> Node0x55aaf72deac0;
+	Node0x55aaf72defb0 -> Node0x55aaf72d9830;
+	Node0x55aaf72defb0 -> Node0x55aaf72c4070;
+	Node0x55aaf72defb0 -> Node0x55aaf72c0da0;
+	Node0x55aaf72defb0 -> Node0x55aaf72dee00;
+	Node0x55aaf72defb0 -> Node0x55aaf72dee80;
+	Node0x55aaf72df030 [shape=record,label="{main}"];
+	Node0x55aaf72df030 -> Node0x55aaf72de990;
+	Node0x55aaf72df030 -> Node0x55aaf72dea40;
+	Node0x55aaf72df030 -> Node0x55aaf72defb0;
+	Node0x55aaf72df030 -> Node0x55aaf72dee80;
+}

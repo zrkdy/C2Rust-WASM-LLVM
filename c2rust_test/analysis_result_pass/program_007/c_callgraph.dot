@@ -1,0 +1,22 @@
+digraph "C Code Call Graph: ./c_code/program_007/program_007.ll" {
+	label="C Code Call Graph: ./c_code/program_007/program_007.ll";
+
+	Node0x559c93d41c40 [shape=record,label="{minimum}"];
+	Node0x559c93d41cf0 [shape=record,label="{prim}"];
+	Node0x559c93d41cf0 -> Node0x559c93d41c40;
+	Node0x559c93d42180 [shape=record,label="{user_graph}"];
+	Node0x559c93d42180 -> Node0x559c93d422b0;
+	Node0x559c93d42180 -> Node0x559c93d42330;
+	Node0x559c93d42180 -> Node0x559c93d41cf0;
+	Node0x559c93d422b0 [shape=record,label="{printf}"];
+	Node0x559c93d42330 [shape=record,label="{__isoc99_scanf}"];
+	Node0x559c93d42870 [shape=record,label="{main}"];
+	Node0x559c93d42870 -> Node0x559c93d428f0;
+	Node0x559c93d42870 -> Node0x559c93d429a0;
+	Node0x559c93d42870 -> Node0x559c93d42180;
+	Node0x559c93d428f0 [shape=record,label="{strcmp}"];
+	Node0x559c93d429a0 [shape=record,label="{test}"];
+	Node0x559c93d429a0 -> Node0x559c93d42a20;
+	Node0x559c93d429a0 -> Node0x559c93d41cf0;
+	Node0x559c93d42a20 [shape=record,label="{llvm.memcpy.p0.p0.i64}"];
+}

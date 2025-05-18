@@ -1,0 +1,10 @@
+{
+  "name": "friso",
+  "full_name": "lionsoul2014/friso",
+  "description": "High performance Chinese tokenizer with both GBK and UTF-8 charset support based on MMSEG algorithm developed by ANSI C.  Completely based on modular implementation and can be easily embedded in other programs, like: MySQL, PostgreSQL, PHP, etc.",
+  "url": "https://github.com/lionsoul2014/friso",
+  "stars": 498,
+  "forks": 92,
+  "created_at": "2014-03-31T03:54:16Z",
+  "updated_at": "2025-04-14T10:26:23Z"
+}

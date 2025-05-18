@@ -1,0 +1,38 @@
+digraph "C Code Call Graph: ./c_code/program_037/program_037.ll" {
+	label="C Code Call Graph: ./c_code/program_037/program_037.ll";
+
+	Node0x56146bbd8870 [shape=record,label="{insertnode}"];
+	Node0x56146bbd8870 -> Node0x56146bbda370;
+	Node0x56146bbd8870 -> Node0x56146bbdab00;
+	Node0x56146bbda370 [shape=record,label="{malloc}"];
+	Node0x56146bbdab00 [shape=record,label="{exit}"];
+	Node0x56146bbdb470 [shape=record,label="{prefix}"];
+	Node0x56146bbdb470 -> Node0x56146bbddff0;
+	Node0x56146bbdb470 -> Node0x56146bbdb470;
+	Node0x56146bbddff0 [shape=record,label="{printf}"];
+	Node0x56146bbf3d30 [shape=record,label="{push}"];
+	Node0x56146bbf3db0 [shape=record,label="{pop}"];
+	Node0x56146bbf3e30 [shape=record,label="{empty}"];
+	Node0x56146bbf3eb0 [shape=record,label="{getdepth}"];
+	Node0x56146bbf3eb0 -> Node0x56146bbf3e30;
+	Node0x56146bbf3eb0 -> Node0x56146bbf3d30;
+	Node0x56146bbf3eb0 -> Node0x56146bbf3db0;
+	Node0x56146bbf41c0 [shape=record,label="{qempty}"];
+	Node0x56146bbf4240 [shape=record,label="{qfull}"];
+	Node0x56146bbf42c0 [shape=record,label="{enqueue}"];
+	Node0x56146bbf42c0 -> Node0x56146bbf4240;
+	Node0x56146bbf42c0 -> Node0x56146bbddff0;
+	Node0x56146bbf4340 [shape=record,label="{dequeue}"];
+	Node0x56146bbf4340 -> Node0x56146bbf41c0;
+	Node0x56146bbf43c0 [shape=record,label="{getdepth_cuo}"];
+	Node0x56146bbf43c0 -> Node0x56146bbf42c0;
+	Node0x56146bbf43c0 -> Node0x56146bbf41c0;
+	Node0x56146bbf43c0 -> Node0x56146bbf4340;
+	Node0x56146bbf44f0 [shape=record,label="{main}"];
+	Node0x56146bbf44f0 -> Node0x56146bbf4570;
+	Node0x56146bbf44f0 -> Node0x56146bbd8870;
+	Node0x56146bbf44f0 -> Node0x56146bbf3eb0;
+	Node0x56146bbf44f0 -> Node0x56146bbddff0;
+	Node0x56146bbf44f0 -> Node0x56146bbf43c0;
+	Node0x56146bbf4570 [shape=record,label="{llvm.memcpy.p0.p0.i64}"];
+}

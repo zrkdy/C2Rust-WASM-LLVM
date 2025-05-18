@@ -1,0 +1,26 @@
+digraph "C Code Call Graph: ./c_code/program_011/program_011.ll" {
+	label="C Code Call Graph: ./c_code/program_011/program_011.ll";
+
+	Node0x565179f42f40 [shape=record,label="{add_digit}"];
+	Node0x565179f42f40 -> Node0x565179f34660;
+	Node0x565179f42f40 -> Node0x565179f348d0;
+	Node0x565179f34660 [shape=record,label="{malloc}"];
+	Node0x565179f348d0 [shape=record,label="{perror}"];
+	Node0x565179f34950 [shape=record,label="{remove_digits}"];
+	Node0x565179f34950 -> Node0x565179f52ad0;
+	Node0x565179f34950 -> Node0x565179f34950;
+	Node0x565179f52ad0 [shape=record,label="{free}"];
+	Node0x565179f52d50 [shape=record,label="{main}"];
+	Node0x565179f52d50 -> Node0x565179f42f40;
+	Node0x565179f52d50 -> Node0x565179f52e00;
+	Node0x565179f52d50 -> Node0x565179f52e80;
+	Node0x565179f52d50 -> Node0x565179f52f00;
+	Node0x565179f52d50 -> Node0x565179f34950;
+	Node0x565179f52d50 -> Node0x565179f53150;
+	Node0x565179f52d50 -> Node0x565179f530d0;
+	Node0x565179f52e00 [shape=record,label="{atoi}"];
+	Node0x565179f52e80 [shape=record,label="{clock}"];
+	Node0x565179f52f00 [shape=record,label="{div}"];
+	Node0x565179f530d0 [shape=record,label="{putchar}"];
+	Node0x565179f53150 [shape=record,label="{printf}"];
+}

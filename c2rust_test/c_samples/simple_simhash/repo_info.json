@@ -1,0 +1,10 @@
+{
+  "name": "simple_simhash",
+  "full_name": "optimyze/simple_simhash",
+  "description": "A pure ANSI-C implementation of calculating a SimHash over 4-byte tuples (including multiplicities) for a given byte stream. Simple and reasonably fast, no dynamic memory allocations (outside of some stack usage). Uses a counting bloom filter to count multiplicities while keeping memory consumption constant.",
+  "url": "https://github.com/optimyze/simple_simhash",
+  "stars": 45,
+  "forks": 5,
+  "created_at": "2019-01-13T18:46:33Z",
+  "updated_at": "2024-12-31T08:54:09Z"
+}

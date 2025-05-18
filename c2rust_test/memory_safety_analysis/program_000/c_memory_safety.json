@@ -1,0 +1,28 @@
+{
+  "null_dereference": [],
+  "buffer_overflow": [],
+  "double_free": [],
+  "use_after_free": [],
+  "total_issues": 0,
+  "analyzed_functions": [
+    "main ========",
+    "eatline ========",
+    "insert ========",
+    "DelNode ========",
+    "search ========",
+    "display ========",
+    "inorder ========",
+    "printTotal ========",
+    "getMinMax ========",
+    "printMaxLevel ========",
+    "ins ========",
+    "searchPos ========",
+    "del ========",
+    "totalKeys ========",
+    "getMin ========",
+    "getMax ========",
+    "max ========",
+    "maxLevel ========"
+  ],
+  "instruction_count": 1555
+}

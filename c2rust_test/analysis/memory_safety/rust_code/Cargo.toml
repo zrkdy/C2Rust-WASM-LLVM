@@ -1,0 +1,18 @@
+[package]
+name = "main"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libc = "0.2"
+c2rust-bitfields = "0.3"  # 支持C位域
+once_cell = "1.8"         # 用于静态初始化
+
+# 添加以下配置来禁用特定的编译检查
+[profile.dev]
+panic = "abort"  # 禁用panic时的栈展开
+overflow-checks = false  # 禁用整数溢出检查
+
+# 添加rustflags来禁用特定的编译器检查
+[build]
+rustflags = ["-A", "unconditional_panic", "-C", "overflow-checks=off"]

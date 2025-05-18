@@ -1,0 +1,34 @@
+digraph "C Code Call Graph: ./c_code/program_066/program_066.ll" {
+	label="C Code Call Graph: ./c_code/program_066/program_066.ll";
+
+	Node0x562b3e75c510 [shape=record,label="{createQueue}"];
+	Node0x562b3e75c510 -> Node0x562b3e75d220;
+	Node0x562b3e75d220 [shape=record,label="{malloc}"];
+	Node0x562b3e75fc40 [shape=record,label="{size}"];
+	Node0x562b3e773b80 [shape=record,label="{frontElement}"];
+	Node0x562b3e773c00 [shape=record,label="{rearElement}"];
+	Node0x562b3e761860 [shape=record,label="{isEmpty}"];
+	Node0x562b3e763600 [shape=record,label="{enQueue}"];
+	Node0x562b3e763600 -> Node0x562b3e75d220;
+	Node0x562b3e76ae80 [shape=record,label="{deQueue}"];
+	Node0x562b3e76ae80 -> Node0x562b3e778c90;
+	Node0x562b3e778c90 [shape=record,label="{printf}"];
+	Node0x562b3e778fa0 [shape=record,label="{printQueue}"];
+	Node0x562b3e778fa0 -> Node0x562b3e778c90;
+	Node0x562b3e779020 [shape=record,label="{deleteQueue}"];
+	Node0x562b3e779020 -> Node0x562b3e778c90;
+	Node0x562b3e779020 -> Node0x562b3e7790a0;
+	Node0x562b3e7790a0 [shape=record,label="{free}"];
+	Node0x562b3e7791d0 [shape=record,label="{createNewNode}"];
+	Node0x562b3e7791d0 -> Node0x562b3e75d220;
+	Node0x562b3e779250 [shape=record,label="{findMaxUsingLevelOrder}"];
+	Node0x562b3e779250 -> Node0x562b3e75c510;
+	Node0x562b3e779250 -> Node0x562b3e763600;
+	Node0x562b3e779250 -> Node0x562b3e761860;
+	Node0x562b3e779250 -> Node0x562b3e76ae80;
+	Node0x562b3e779250 -> Node0x562b3e779020;
+	Node0x562b3e779380 [shape=record,label="{main}"];
+	Node0x562b3e779380 -> Node0x562b3e7791d0;
+	Node0x562b3e779380 -> Node0x562b3e778c90;
+	Node0x562b3e779380 -> Node0x562b3e779250;
+}

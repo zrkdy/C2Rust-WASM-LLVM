@@ -1,0 +1,17 @@
+{
+  "null_dereference": [],
+  "buffer_overflow": [],
+  "double_free": [],
+  "use_after_free": [],
+  "total_issues": 0,
+  "analyzed_functions": [
+    "_ZN11program_0456main_017h7d5b71fa0a8152e7E ========",
+    "insertNode ========",
+    "searchOnTree ========",
+    "preOrderPrint ========",
+    "inOrderPrint ========",
+    "postOrderPrint ========",
+    "_ZN11program_0454main17he961918240ea411bE ========"
+  ],
+  "instruction_count": 363
+}

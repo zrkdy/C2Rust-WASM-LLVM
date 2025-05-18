@@ -1,0 +1,34 @@
+digraph "C Code Call Graph: ./c_code/program_093/program_093.ll" {
+	label="C Code Call Graph: ./c_code/program_093/program_093.ll";
+
+	Node0x560784c789d0 [shape=record,label="{main}"];
+	Node0x560784c789d0 -> Node0x560784c78fd0;
+	Node0x560784c789d0 -> Node0x560784c7f1d0;
+	Node0x560784c789d0 -> Node0x560784c8c690;
+	Node0x560784c789d0 -> Node0x560784c8c000;
+	Node0x560784c789d0 -> Node0x560784c732b0;
+	Node0x560784c789d0 -> Node0x560784c8c610;
+	Node0x560784c789d0 -> Node0x560784c8c590;
+	Node0x560784c78fd0 [shape=record,label="{insertNode}"];
+	Node0x560784c78fd0 -> Node0x560784c8c710;
+	Node0x560784c7f1d0 [shape=record,label="{printf}"];
+	Node0x560784c732b0 [shape=record,label="{inOrderPrint}"];
+	Node0x560784c732b0 -> Node0x560784c732b0;
+	Node0x560784c732b0 -> Node0x560784c7f1d0;
+	Node0x560784c8c000 [shape=record,label="{puts}"];
+	Node0x560784c8c590 [shape=record,label="{isItBst}"];
+	Node0x560784c8c590 -> Node0x560784c8c870;
+	Node0x560784c8c590 -> Node0x560784c8c920;
+	Node0x560784c8c590 -> Node0x560784c8c590;
+	Node0x560784c8c610 [shape=record,label="{isItBst_fast}"];
+	Node0x560784c8c610 -> Node0x560784c8c9a0;
+	Node0x560784c8c690 [shape=record,label="{isBstInOrderTraversal}"];
+	Node0x560784c8c690 -> Node0x560784c8c690;
+	Node0x560784c8c9a0 [shape=record,label="{isBstHelper}"];
+	Node0x560784c8c9a0 -> Node0x560784c8c9a0;
+	Node0x560784c8c870 [shape=record,label="{findMax}"];
+	Node0x560784c8c870 -> Node0x560784c8c870;
+	Node0x560784c8c920 [shape=record,label="{findMin}"];
+	Node0x560784c8c920 -> Node0x560784c8c920;
+	Node0x560784c8c710 [shape=record,label="{malloc}"];
+}

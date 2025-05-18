@@ -1,0 +1,46 @@
+{
+  "c_total_issues": 0,
+  "rust_total_issues": 4,
+  "issue_reduction_percentage": 0,
+  "issue_categories": {
+    "null_dereference": {
+      "c_count": 0,
+      "rust_count": 0
+    },
+    "buffer_overflow": {
+      "c_count": 0,
+      "rust_count": 1
+    },
+    "double_free": {
+      "c_count": 0,
+      "rust_count": 0
+    },
+    "use_after_free": {
+      "c_count": 0,
+      "rust_count": 3
+    }
+  },
+  "functions_analyzed": {
+    "c_count": 18,
+    "rust_count": 19,
+    "common_functions": [
+      "getMinMax ========",
+      "ins ========",
+      "printTotal ========",
+      "display ========",
+      "search ========",
+      "inorder ========",
+      "insert ========",
+      "eatline ========",
+      "totalKeys ========",
+      "getMin ========",
+      "printMaxLevel ========",
+      "maxLevel ========",
+      "searchPos ========",
+      "del ========",
+      "max ========",
+      "DelNode ========",
+      "getMax ========"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+digraph "C Code Call Graph: ./c_code/program_002/program_002.ll" {
+	label="C Code Call Graph: ./c_code/program_002/program_002.ll";
+
+	Node0x5616f86f7b20 [shape=record,label="{modular_multiplicative_inverse}"];
+	Node0x5616f86f7b20 -> Node0x5616f86f7ba0;
+	Node0x5616f86f7b20 -> Node0x5616f8712070;
+	Node0x5616f86f7ba0 [shape=record,label="{llvm.memcpy.p0.p0.i64}"];
+	Node0x5616f8712070 [shape=record,label="{div}"];
+	Node0x5616f8712250 [shape=record,label="{inverse_key}"];
+	Node0x5616f8712250 -> Node0x5616f86f7b20;
+	Node0x5616f87122d0 [shape=record,label="{affine_encrypt}"];
+	Node0x5616f87124a0 [shape=record,label="{affine_decrypt}"];
+	Node0x5616f87124a0 -> Node0x5616f8712250;
+	Node0x5616f8712550 [shape=record,label="{test_string}"];
+	Node0x5616f8712550 -> Node0x5616f87125d0;
+	Node0x5616f8712550 -> Node0x5616f8712680;
+	Node0x5616f8712550 -> Node0x5616f8712700;
+	Node0x5616f8712550 -> Node0x5616f87122d0;
+	Node0x5616f8712550 -> Node0x5616f87124a0;
+	Node0x5616f8712550 -> Node0x5616f87128d0;
+	Node0x5616f8712680 [shape=record,label="{malloc}"];
+	Node0x5616f87125d0 [shape=record,label="{strlen}"];
+	Node0x5616f8712700 [shape=record,label="{strcpy}"];
+	Node0x5616f87128d0 [shape=record,label="{free}"];
+	Node0x5616f8712c70 [shape=record,label="{main}"];
+	Node0x5616f8712c70 -> Node0x5616f8712cf0;
+	Node0x5616f8712cf0 [shape=record,label="{tests}"];
+	Node0x5616f8712cf0 -> Node0x5616f8712550;
+	Node0x5616f8712cf0 -> Node0x5616f8712dd0;
+	Node0x5616f8712dd0 [shape=record,label="{printf}"];
+}

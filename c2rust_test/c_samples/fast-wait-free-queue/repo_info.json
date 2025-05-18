@@ -1,0 +1,10 @@
+{
+  "name": "fast-wait-free-queue",
+  "full_name": "chaoran/fast-wait-free-queue",
+  "description": "A benchmark framework for concurrent queue implementations",
+  "url": "https://github.com/chaoran/fast-wait-free-queue",
+  "stars": 291,
+  "forks": 49,
+  "created_at": "2015-01-23T00:08:03Z",
+  "updated_at": "2025-04-01T17:01:34Z"
+}

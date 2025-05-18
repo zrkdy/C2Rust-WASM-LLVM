@@ -1,0 +1,47 @@
+digraph "C Code Call Graph: ./c_code/program_054/program_054.ll" {
+	label="C Code Call Graph: ./c_code/program_054/program_054.ll";
+
+	Node0x55fd9f3f4390 [shape=record,label="{push}"];
+	Node0x55fd9f3f4390 -> Node0x55fd9f3f6950;
+	Node0x55fd9f3f4390 -> Node0x55fd9f4022d0;
+	Node0x55fd9f3f6950 [shape=record,label="{malloc}"];
+	Node0x55fd9f4022d0 [shape=record,label="{printf}"];
+	Node0x55fd9f3f9750 [shape=record,label="{pop}"];
+	Node0x55fd9f3f9750 -> Node0x55fd9f4022d0;
+	Node0x55fd9f3f9750 -> Node0x55fd9f3f7d20;
+	Node0x55fd9f3f7d20 [shape=record,label="{free}"];
+	Node0x55fd9f414c30 [shape=record,label="{isFull}"];
+	Node0x55fd9f414c30 -> Node0x55fd9f3f6950;
+	Node0x55fd9f40f030 [shape=record,label="{isEmpty}"];
+	Node0x55fd9f418580 [shape=record,label="{stackTop}"];
+	Node0x55fd9f418600 [shape=record,label="{checkmatch}"];
+	Node0x55fd9f418600 -> Node0x55fd9f3f4390;
+	Node0x55fd9f418600 -> Node0x55fd9f40f030;
+	Node0x55fd9f418600 -> Node0x55fd9f418580;
+	Node0x55fd9f418600 -> Node0x55fd9f3f9750;
+	Node0x55fd9f41d990 [shape=record,label="{inStack}"];
+	Node0x55fd9f41da10 [shape=record,label="{outStack}"];
+	Node0x55fd9f41da90 [shape=record,label="{isOperand}"];
+	Node0x55fd9f41db10 [shape=record,label="{precedence}"];
+	Node0x55fd9f41db90 [shape=record,label="{makePostfix}"];
+	Node0x55fd9f41db90 -> Node0x55fd9f41dc10;
+	Node0x55fd9f41db90 -> Node0x55fd9f3f6950;
+	Node0x55fd9f41db90 -> Node0x55fd9f41da90;
+	Node0x55fd9f41db90 -> Node0x55fd9f418580;
+	Node0x55fd9f41db90 -> Node0x55fd9f41d990;
+	Node0x55fd9f41db90 -> Node0x55fd9f41da10;
+	Node0x55fd9f41db90 -> Node0x55fd9f3f4390;
+	Node0x55fd9f41db90 -> Node0x55fd9f3f9750;
+	Node0x55fd9f41db90 -> Node0x55fd9f40f030;
+	Node0x55fd9f41dc10 [shape=record,label="{strlen}"];
+	Node0x55fd9f41e070 [shape=record,label="{evaluate}"];
+	Node0x55fd9f41e070 -> Node0x55fd9f41da90;
+	Node0x55fd9f41e070 -> Node0x55fd9f3f4390;
+	Node0x55fd9f41e070 -> Node0x55fd9f3f9750;
+	Node0x55fd9f41e070 -> Node0x55fd9f418580;
+	Node0x55fd9f41e0f0 [shape=record,label="{main}"];
+	Node0x55fd9f41e0f0 -> Node0x55fd9f418600;
+	Node0x55fd9f41e0f0 -> Node0x55fd9f4022d0;
+	Node0x55fd9f41e0f0 -> Node0x55fd9f41e070;
+	Node0x55fd9f41e0f0 -> Node0x55fd9f41db90;
+}

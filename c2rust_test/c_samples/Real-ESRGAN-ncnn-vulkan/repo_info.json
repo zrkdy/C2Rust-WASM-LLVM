@@ -1,0 +1,10 @@
+{
+  "name": "Real-ESRGAN-ncnn-vulkan",
+  "full_name": "xinntao/Real-ESRGAN-ncnn-vulkan",
+  "description": "NCNN implementation of Real-ESRGAN. Real-ESRGAN aims at developing Practical Algorithms for General Image Restoration.",
+  "url": "https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan",
+  "stars": 1672,
+  "forks": 209,
+  "created_at": "2021-07-31T09:44:37Z",
+  "updated_at": "2025-04-28T04:48:55Z"
+}

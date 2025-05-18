@@ -1,0 +1,10 @@
+{
+  "name": "libpqueue",
+  "full_name": "vy/libpqueue",
+  "description": "Generic priority queue (heap) implementation used by the Apache HTTP Server project.",
+  "url": "https://github.com/vy/libpqueue",
+  "stars": 103,
+  "forks": 20,
+  "created_at": "2010-01-22T11:31:34Z",
+  "updated_at": "2024-03-05T17:53:12Z"
+}

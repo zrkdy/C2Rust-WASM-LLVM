@@ -1,0 +1,16 @@
+{
+  "null_dereference": [],
+  "buffer_overflow": [],
+  "double_free": [],
+  "use_after_free": [],
+  "total_issues": 0,
+  "analyzed_functions": [
+    "_ZN11program_0436main_017h01cdac6e73029fedE ========",
+    "deleteNode ========",
+    "findMinimum ========",
+    "insertNode ========",
+    "preOrderPrint ========",
+    "_ZN11program_0434main17he5fb8e80d9c3a10dE ========"
+  ],
+  "instruction_count": 418
+}

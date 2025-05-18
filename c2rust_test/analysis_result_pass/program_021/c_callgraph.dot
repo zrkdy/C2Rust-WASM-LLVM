@@ -1,0 +1,26 @@
+digraph "C Code Call Graph: ./c_code/program_021/program_021.ll" {
+	label="C Code Call Graph: ./c_code/program_021/program_021.ll";
+
+	Node0x563e6dcde920 [shape=record,label="{Insertion_Sort}"];
+	Node0x563e6dcdf0f0 [shape=record,label="{Merge}"];
+	Node0x563e6dcef640 [shape=record,label="{Merge_Pass}"];
+	Node0x563e6dcef640 -> Node0x563e6dcdf0f0;
+	Node0x563e6dcf4600 [shape=record,label="{Identical}"];
+	Node0x563e6dcf4680 [shape=record,label="{Merge_sort}"];
+	Node0x563e6dcf4680 -> Node0x563e6dcf4850;
+	Node0x563e6dcf4680 -> Node0x563e6dcef640;
+	Node0x563e6dcf4680 -> Node0x563e6dcf4600;
+	Node0x563e6dcf4680 -> Node0x563e6dcf48d0;
+	Node0x563e6dcf4850 [shape=record,label="{malloc}"];
+	Node0x563e6dcf48d0 [shape=record,label="{free}"];
+	Node0x563e6dcf4aa0 [shape=record,label="{IsInsertion}"];
+	Node0x563e6dcf4b20 [shape=record,label="{main}"];
+	Node0x563e6dcf4b20 -> Node0x563e6dcf4e30;
+	Node0x563e6dcf4b20 -> Node0x563e6dcf4850;
+	Node0x563e6dcf4b20 -> Node0x563e6dcf4eb0;
+	Node0x563e6dcf4b20 -> Node0x563e6dcf4680;
+	Node0x563e6dcf4b20 -> Node0x563e6dcde920;
+	Node0x563e6dcf4b20 -> Node0x563e6dcf4aa0;
+	Node0x563e6dcf4e30 [shape=record,label="{__isoc99_scanf}"];
+	Node0x563e6dcf4eb0 [shape=record,label="{printf}"];
+}

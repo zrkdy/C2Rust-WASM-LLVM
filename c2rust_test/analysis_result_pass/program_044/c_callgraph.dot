@@ -1,0 +1,45 @@
+digraph "C Code Call Graph: ./c_code/program_044/program_044.ll" {
+	label="C Code Call Graph: ./c_code/program_044/program_044.ll";
+
+	Node0x560f06f13d30 [shape=record,label="{newNode}"];
+	Node0x560f06f13d30 -> Node0x560f06e9b580;
+	Node0x560f06e9b580 [shape=record,label="{malloc}"];
+	Node0x560f06f0b460 [shape=record,label="{createMinHeap}"];
+	Node0x560f06f0b460 -> Node0x560f06e9b580;
+	Node0x560f06f221f0 [shape=record,label="{swapMinheapNodes}"];
+	Node0x560f06f22270 [shape=record,label="{minHeapify}"];
+	Node0x560f06f22270 -> Node0x560f06f221f0;
+	Node0x560f06f22270 -> Node0x560f06f22270;
+	Node0x560f06f22440 [shape=record,label="{isSizeOne}"];
+	Node0x560f06f224c0 [shape=record,label="{extractMin}"];
+	Node0x560f06f224c0 -> Node0x560f06f22270;
+	Node0x560f06f22540 [shape=record,label="{insertMinHeap}"];
+	Node0x560f06f225c0 [shape=record,label="{printarray}"];
+	Node0x560f06f225c0 -> Node0x560f06f228d0;
+	Node0x560f06f228d0 [shape=record,label="{printf}"];
+	Node0x560f06f22950 [shape=record,label="{isLeaf}"];
+	Node0x560f06f229d0 [shape=record,label="{buildMinHeap}"];
+	Node0x560f06f229d0 -> Node0x560f06f22270;
+	Node0x560f06f22a50 [shape=record,label="{createAndBuildHeap}"];
+	Node0x560f06f22a50 -> Node0x560f06f0b460;
+	Node0x560f06f22a50 -> Node0x560f06f13d30;
+	Node0x560f06f22a50 -> Node0x560f06f229d0;
+	Node0x560f06f22b60 [shape=record,label="{buildHuffmanTree}"];
+	Node0x560f06f22b60 -> Node0x560f06f22a50;
+	Node0x560f06f22b60 -> Node0x560f06f22440;
+	Node0x560f06f22b60 -> Node0x560f06f224c0;
+	Node0x560f06f22b60 -> Node0x560f06f22540;
+	Node0x560f06f22b60 -> Node0x560f06f13d30;
+	Node0x560f06f22c90 [shape=record,label="{pritCodes}"];
+	Node0x560f06f22c90 -> Node0x560f06f22c90;
+	Node0x560f06f22c90 -> Node0x560f06f225c0;
+	Node0x560f06f22c90 -> Node0x560f06f22950;
+	Node0x560f06f22c90 -> Node0x560f06f228d0;
+	Node0x560f06f22e60 [shape=record,label="{HuffmanCodes}"];
+	Node0x560f06f22e60 -> Node0x560f06f22b60;
+	Node0x560f06f22e60 -> Node0x560f06f22c90;
+	Node0x560f06f22ee0 [shape=record,label="{main}"];
+	Node0x560f06f22ee0 -> Node0x560f06f23470;
+	Node0x560f06f22ee0 -> Node0x560f06f22e60;
+	Node0x560f06f23470 [shape=record,label="{llvm.memcpy.p0.p0.i64}"];
+}

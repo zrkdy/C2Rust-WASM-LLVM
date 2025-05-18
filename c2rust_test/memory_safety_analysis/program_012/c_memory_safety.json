@@ -1,0 +1,14 @@
+{
+  "null_dereference": [],
+  "buffer_overflow": [],
+  "double_free": [],
+  "use_after_free": [],
+  "total_issues": 0,
+  "analyzed_functions": [
+    "add_numbers ========",
+    "print_number ========",
+    "get_digits ========",
+    "main ========"
+  ],
+  "instruction_count": 241
+}

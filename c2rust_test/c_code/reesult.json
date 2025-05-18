@@ -1,0 +1,199 @@
+{
+    "program_001": {
+    "项目名": "C",
+    "Stars": 20081,
+    "领域": "算法",
+    "C语言特性": [
+      "array",
+      "comment",
+      "conditional",
+      "int",
+      "loop",
+      "pointer",
+      "static",
+      "bitwise",
+      "macro"
+    ],
+    "仓库链接": "https://github.com/TheAlgorithms/C",
+    "描述": "Collection of various algorithms in mathematics, machine learning, computer science, physics, etc implemented in C for educational purposes.",
+    "原始文件名": "alaw.c",
+    "原始文件路径": "./c_samples/C/audio/alaw.c"
+    },
+    "program_016": {
+      "项目名": "Data-Structure-Notes",
+      "Stars": 460,
+      "领域": "数据结构",
+      "C语言特性": [
+        "array",
+        "comment",
+        "conditional",
+        "struct",
+        "int",
+        "loop",
+        "malloc",
+        "pointer",
+        "typedef",
+        "bitwise",
+        "macro"
+      ],
+      "仓库链接": "https://github.com/smysophia/Data-Structure-Notes",
+      "描述": "数据结构 浙大MOOC",
+      "原始文件名": "Sort.c",
+      "原始文件路径": "./c_samples/Data-Structure-Notes/Notes/Sort.c"
+    },"program_027": {
+    "项目名": "Data-Structures-And-Algorithms",
+    "Stars": 78,
+    "领域": "数据结构",
+    "C语言特性": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "pointer",
+      "enum",
+      "bitwise",
+      "macro"
+    ],
+    "仓库链接": "https://github.com/codefinite-vri/Data-Structures-And-Algorithms",
+    "描述": "These repository contains all the important codes in Data Structures and Algorithms spanning across different areas like Recursion, Stacks, Queues, Linked Lists, Arrays, Pointers, Graphs, Trees, Sorts, Search, Hashing, etc.",
+    "原始文件名": "Double Hashing.c",
+    "原始文件路径": "./c_samples/Data-Structures-And-Algorithms/Search, Hash and Store/Double Hashing.c"
+  },"program_047": {
+    "项目名": "Data-Structures-and-Algorithms-in-C",
+    "Stars": 21,
+    "领域": "数据结构",
+    "C语言特性": [
+      "array",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "bitwise",
+      "macro"
+    ],
+    "仓库链接": "https://github.com/Nikoletos-K/Data-Structures-and-Algorithms-in-C",
+    "描述": "📚🔡 Some famous and really basic algorithms and data structures implemented in C",
+    "原始文件名": "7.3_branchbound.c",
+    "原始文件路径": "./c_samples/Data-Structures-and-Algorithms-in-C/Backtrack/ch7code/7.3_branchbound.c"
+  },"program_052": {
+    "项目名": "Data-Structures-and-Algorithms",
+    "Stars": 257,
+    "领域": "数据结构",
+    "C语言特性": [
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "bitwise"
+    ],
+    "仓库链接": "https://github.com/amitbansal7/Data-Structures-and-Algorithms",
+    "描述": "Implementation of various Data Structures and algorithms - Linked List, Stacks, Queues, Binary Search Tree, AVL tree,Red Black Trees, Trie, Graph Algorithms, Sorting Algorithms, Greedy Algorithms, Dynamic Programming, Segment Trees etc.",
+    "原始文件名": "LinkedList.c",
+    "原始文件路径": "./c_samples/Data-Structures-and-Algorithms/1.Singly-Linked-list/LinkedList.c"
+  },"program_067": {
+    "项目名": "DataStructure",
+    "Stars": 50,
+    "领域": "数据结构",
+    "C语言特性": [
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "bitwise"
+    ],
+    "仓库链接": "https://github.com/cosmic-code-09/DataStructure",
+    "描述": "implementation of Datastructure in C/C++ Programming Language",
+    "原始文件名": "recursive.c",
+    "原始文件路径": "./c_samples/DataStructure/BST/C/recursive.c"
+  },"program_072": {
+    "项目名": "POPT",
+    "Stars": 19,
+    "领域": "文本处理",
+    "C语言特性": [
+      "array",
+      "comment",
+      "conditional",
+      "int",
+      "loop",
+      "pointer",
+      "static",
+      "union",
+      "function_pointer",
+      "bitwise",
+      "macro"
+    ],
+    "仓库链接": "https://github.com/devzero2000/POPT",
+    "描述": "Popt is a C library for parsing command line parameters. Popt was heavily influenced by the getopt() and getopt_long() functions, but it improves on them by allowing more powerful argument expansion. Popt can parse arbitrary argv[] style arrays and automatically set variables based on command line arguments. Popt allows command line arguments to be aliased via configuration files and includes utility functions for parsing arbitrary strings into argv[] arrays using shell-like rules.",
+    "原始文件名": "lookup3.c",
+    "原始文件路径": "./c_samples/POPT/lookup3.c"
+  },"program_073": {
+    "项目名": "data-structures-and-algorithms-made-easy",
+    "Stars": 489,
+    "领域": "数据结构",
+    "C语言特性": [
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "bitwise"
+    ],
+    "仓库链接": "https://github.com/careermonk/data-structures-and-algorithms-made-easy",
+    "描述": "Data Structures And Algorithms Made Easy",
+    "原始文件名": "intersectingNodeBruteForce.c",
+    "原始文件路径": "./c_samples/data-structures-and-algorithms-made-easy/src/Chapter_03_Linked_Lists/intersectingNodeBruteForce.c"
+  },"program_086": {
+    "项目名": "data-structures",
+    "Stars": 147,
+    "领域": "数据结构",
+    "C语言特性": [
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "typedef",
+      "bitwise"
+    ],
+    "仓库链接": "https://github.com/hasancse91/data-structures",
+    "描述": "This repository contains some data structures implementation in C programming language. I wrote the tutorial posts about these data structures on my personal blog site in Bengali language. If you know Bengali then visit my site",
+    "原始文件名": "Binary Search Tree - Delete any node.c",
+    "原始文件路径": "./c_samples/data-structures/Source Code/Binary Search Tree - Delete any node.c"
+  },"program_096": {
+    "项目名": "learn-data-structures",
+    "Stars": 412,
+    "领域": "数据结构",
+    "C语言特性": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "typedef",
+      "bitwise",
+      "macro"
+    ],
+    "仓库链接": "https://github.com/austin2035/learn-data-structures",
+    "描述": "数据结构（C语言描述）学习笔记",
+    "原始文件名": "bst.c",
+    "原始文件路径": "./c_samples/learn-data-structures/2.7 二叉搜索树/bst.c"
+  }
+
+}

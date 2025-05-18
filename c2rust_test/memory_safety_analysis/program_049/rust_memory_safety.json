@@ -1,0 +1,18 @@
+{
+  "null_dereference": [],
+  "buffer_overflow": [],
+  "double_free": [],
+  "use_after_free": [],
+  "total_issues": 0,
+  "analyzed_functions": [
+    "_ZN11program_0496main_017h701c52d225fd08a0E ========",
+    "getNewNode ========",
+    "insert_at_tail ========",
+    "insert_at_first ========",
+    "insert_at_middle ========",
+    "printLinkedListForward ========",
+    "printLinkedListBackward ========",
+    "_ZN11program_0494main17h3fa6671874a19364E ========"
+  ],
+  "instruction_count": 400
+}

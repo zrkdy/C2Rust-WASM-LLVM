@@ -1,0 +1,10 @@
+{
+  "name": "xcb-util-xrm",
+  "full_name": "Airblader/xcb-util-xrm",
+  "description": "XCB utility functions for the X resource manager",
+  "url": "https://github.com/Airblader/xcb-util-xrm",
+  "stars": 58,
+  "forks": 21,
+  "created_at": "2016-01-17T12:05:45Z",
+  "updated_at": "2025-02-11T13:27:48Z"
+}

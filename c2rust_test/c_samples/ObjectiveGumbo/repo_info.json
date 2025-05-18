@@ -1,0 +1,10 @@
+{
+  "name": "ObjectiveGumbo",
+  "full_name": "thomasdenney/ObjectiveGumbo",
+  "description": "An Objective-C wrapper with utility functions around Gumbo for easy HTML5 parsing in Cocoa and Cocoa Touch",
+  "url": "https://github.com/thomasdenney/ObjectiveGumbo",
+  "stars": 181,
+  "forks": 26,
+  "created_at": "2013-08-17T18:26:51Z",
+  "updated_at": "2024-12-26T09:37:39Z"
+}

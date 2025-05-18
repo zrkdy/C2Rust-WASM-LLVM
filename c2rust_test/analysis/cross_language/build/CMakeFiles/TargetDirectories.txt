@@ -1,0 +1,4 @@
+/home/xiaoan/c2rust_project/c2rust_test/analysis_separate/cross_language/build/CMakeFiles/intrinsics_gen.dir
+/home/xiaoan/c2rust_project/c2rust_test/analysis_separate/cross_language/build/CMakeFiles/CrossLanguagePass.dir
+/home/xiaoan/c2rust_project/c2rust_test/analysis_separate/cross_language/build/CMakeFiles/edit_cache.dir
+/home/xiaoan/c2rust_project/c2rust_test/analysis_separate/cross_language/build/CMakeFiles/rebuild_cache.dir

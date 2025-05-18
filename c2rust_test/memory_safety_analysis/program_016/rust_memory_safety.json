@@ -1,0 +1,14 @@
+{
+  "null_dereference": [],
+  "buffer_overflow": [],
+  "double_free": [],
+  "use_after_free": [],
+  "total_issues": 0,
+  "analyzed_functions": [
+    "exponential_search ========",
+    "binary_search ========",
+    "_ZN11program_0166main_017ha0819bf018055209E ========",
+    "_ZN11program_0164main17h4087f34e73090fbaE ========"
+  ],
+  "instruction_count": 408
+}

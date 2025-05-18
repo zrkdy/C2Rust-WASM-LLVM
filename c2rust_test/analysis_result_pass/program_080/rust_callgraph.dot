@@ -1,0 +1,45 @@
+digraph "Rust Code Call Graph: ./rust_code/program_080/program_080.ll" {
+	label="Rust Code Call Graph: ./rust_code/program_080/program_080.ll";
+
+	Node0x558ca9ebf720 [shape=record,label="{_ZN4core10intrinsics9cold_path17hcec02ef90b060898E}"];
+	Node0x558ca9ea86a0 [shape=record,label="{_ZN4core3ptr7mut_ptr31_$LT$impl$u20$$BP$mut$u20$T$GT$6offset18precondition_check17h90422bb8d1693f9bE}"];
+	Node0x558ca9ea86a0 -> Node0x558ca9ea9e50;
+	Node0x558ca9ea86a0 -> Node0x558ca9ea7bf0;
+	Node0x558ca9ea86a0 -> Node0x558ca9ea6d70;
+	Node0x558ca9e9fa10 [shape=record,label="{_ZN4core3ptr7mut_ptr31_$LT$impl$u20$$BP$mut$u20$T$GT$7is_null17h5e0dd5b1dc64c4dfE}"];
+	Node0x558ca9ea0b90 [shape=record,label="{_ZN4core3ptr7mut_ptr31_$LT$impl$u20$$BP$mut$u20$T$GT$7is_null17hb1be81dba1477ceeE}"];
+	Node0x558ca9ea1800 [shape=record,label="{strtow}"];
+	Node0x558ca9ea1800 -> Node0x558ca9e9fa10;
+	Node0x558ca9ea1800 -> Node0x558ca9ea2a90;
+	Node0x558ca9ea1800 -> Node0x558ca9ea3a10;
+	Node0x558ca9ea1800 -> Node0x558ca9ec79e0;
+	Node0x558ca9ea1800 -> Node0x558ca9ea0b90;
+	Node0x558ca9ea1800 -> Node0x558ca9ea86a0;
+	Node0x558ca9ea1800 -> Node0x558ca9ec7bb0;
+	Node0x558ca9ea1800 -> Node0x558ca9ea7810;
+	Node0x558ca9ea1800 -> Node0x558ca9ec7c30;
+	Node0x558ca9ea1800 -> Node0x558ca9ea6690;
+	Node0x558ca9ea1800 -> Node0x558ca9ea5260;
+	Node0x558ca9ea9e50 [shape=record,label="{llvm.smul.with.overflow.i64}"];
+	Node0x558ca9ea7bf0 [shape=record,label="{llvm.uadd.with.overflow.i64}"];
+	Node0x558ca9ea6d70 [shape=record,label="{_ZN4core9panicking14panic_nounwind17h211d9ce8d63f12e7E}"];
+	Node0x558ca9ea2a90 [shape=record,label="{_ZN4core9panicking30panic_null_pointer_dereference17hf718fcc86a223baaE}"];
+	Node0x558ca9ec7c30 [shape=record,label="{is_delim}"];
+	Node0x558ca9ec7c30 -> Node0x558ca9ea86a0;
+	Node0x558ca9ec7c30 -> Node0x558ca9ea2a90;
+	Node0x558ca9ec7bb0 [shape=record,label="{get_word_length}"];
+	Node0x558ca9ec7bb0 -> Node0x558ca9ea86a0;
+	Node0x558ca9ec7bb0 -> Node0x558ca9ea2a90;
+	Node0x558ca9ec7bb0 -> Node0x558ca9ec7c30;
+	Node0x558ca9ea3a10 [shape=record,label="{get_word_count}"];
+	Node0x558ca9ea3a10 -> Node0x558ca9ea86a0;
+	Node0x558ca9ea3a10 -> Node0x558ca9ea2a90;
+	Node0x558ca9ea3a10 -> Node0x558ca9ec7c30;
+	Node0x558ca9ea5260 [shape=record,label="{get_next_word}"];
+	Node0x558ca9ea5260 -> Node0x558ca9ea86a0;
+	Node0x558ca9ea5260 -> Node0x558ca9ea2a90;
+	Node0x558ca9ea5260 -> Node0x558ca9ec7c30;
+	Node0x558ca9ec79e0 [shape=record,label="{malloc}"];
+	Node0x558ca9ea6690 [shape=record,label="{_ZN4core9panicking36panic_misaligned_pointer_dereference17hcc3cbded9382b6e5E}"];
+	Node0x558ca9ea7810 [shape=record,label="{free}"];
+}

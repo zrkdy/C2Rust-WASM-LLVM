@@ -1,0 +1,7551 @@
+{
+  "program_001": {
+    "graph_stats": {
+      "c_nodes": 5,
+      "c_edges": 12,
+      "rust_nodes": 0,
+      "rust_edges": 0
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 0.0,
+        "pattern_similarity": 0.0,
+        "context_similarity": 0.0,
+        "common_functions_count": 2,
+        "c_only_functions_count": 3,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 2,
+          "rust": 0,
+          "difference": -2
+        },
+        "avg_depth": {
+          "c": 1.2,
+          "rust": 0.0,
+          "difference": -1.2
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "encode": [
+            "encode"
+          ],
+          "decode": [
+            "decode"
+          ]
+        }
+      }
+    }
+  },
+  "program_002": {
+    "graph_stats": {
+      "c_nodes": 13,
+      "c_edges": 18,
+      "rust_nodes": 12,
+      "rust_edges": 13
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 0.9574832962138086,
+        "context_similarity": 0.7735000000000002,
+        "common_functions_count": 10,
+        "c_only_functions_count": 3,
+        "rust_only_functions_count": 3
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 6,
+          "rust": 0,
+          "difference": -6
+        },
+        "avg_depth": {
+          "c": 2.923076923076923,
+          "rust": 0.0,
+          "difference": -2.923076923076923
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 2
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "free": [
+            "free"
+          ],
+          "test_string": [
+            "test_string"
+          ],
+          "modular_multiplicative_inverse": [
+            "modular_multiplicative_inverse"
+          ],
+          "div": [
+            "div"
+          ],
+          "affine_encrypt": [
+            "affine_encrypt"
+          ],
+          "llvm.memcpy.p0.p0.i64": [
+            "llvm.memcpy.p0.p0.i64"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "strcmp": [
+            "strcmp"
+          ],
+          "strcpy": [
+            "strcpy"
+          ],
+          "inverse_key": [
+            "inverse_key"
+          ],
+          "strlen": [
+            "strlen"
+          ],
+          "affine_decrypt": [
+            "affine_decrypt"
+          ],
+          "__assert_fail": [
+            "__assert_fail"
+          ]
+        }
+      }
+    }
+  },
+  "program_003": {
+    "graph_stats": {
+      "c_nodes": 11,
+      "c_edges": 35,
+      "rust_nodes": 7,
+      "rust_edges": 9
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 0.98592,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.78,
+        "common_functions_count": 7,
+        "c_only_functions_count": 4,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 4,
+          "rust": 0,
+          "difference": -4
+        },
+        "avg_depth": {
+          "c": 2.272727272727273,
+          "rust": 0.0,
+          "difference": -2.272727272727273
+        }
+      },
+      "recursive_calls": {
+        "common_count": 2,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "strchr": [
+            "strchr"
+          ],
+          "decimal_to_anybase": [
+            "decimal_to_anybase"
+          ],
+          "converted_len": [
+            "converted_len"
+          ],
+          "isbad_alphabet": [
+            "isbad_alphabet"
+          ],
+          "convertion": [
+            "convertion"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "strlen": [
+            "strlen"
+          ]
+        }
+      }
+    }
+  },
+  "program_004": {
+    "graph_stats": {
+      "c_nodes": 10,
+      "c_edges": 28,
+      "rust_nodes": 3,
+      "rust_edges": 2
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 0.5497885714285715,
+        "pattern_similarity": 0.8450000000000001,
+        "context_similarity": 0.312,
+        "common_functions_count": 4,
+        "c_only_functions_count": 6,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 2,
+          "rust": 0,
+          "difference": -2
+        },
+        "avg_depth": {
+          "c": 1.7,
+          "rust": 0.0,
+          "difference": -1.7
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "lcslen": [
+            "lcslen"
+          ],
+          "calloc": [
+            "calloc"
+          ],
+          "perror": [
+            "perror"
+          ],
+          "lcsbuild": [
+            "lcsbuild"
+          ]
+        }
+      }
+    }
+  },
+  "program_007": {
+    "graph_stats": {
+      "c_nodes": 8,
+      "c_edges": 15,
+      "rust_nodes": 6,
+      "rust_edges": 12
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 0.6650211764705882,
+        "pattern_similarity": 0.81,
+        "context_similarity": 0.3076666666666667,
+        "common_functions_count": 4,
+        "c_only_functions_count": 4,
+        "rust_only_functions_count": 3
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.5,
+          "rust": 0.0,
+          "difference": -1.5
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 2
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "scanf": [
+            "scanf"
+          ],
+          "minimum": [
+            "minimum"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "user_graph": [
+            "user_graph"
+          ],
+          "llvm.memset.p0.i64": [
+            "llvm.memset.p0.i64"
+          ],
+          "prim": [
+            "prim"
+          ],
+          "__assert_fail": [
+            "__assert_fail"
+          ]
+        }
+      }
+    }
+  },
+  "program_008": {
+    "graph_stats": {
+      "c_nodes": 10,
+      "c_edges": 19,
+      "rust_nodes": 9,
+      "rust_edges": 18
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 0.9673507655938555,
+        "pattern_similarity": 0.9540838650865998,
+        "context_similarity": 0.7209090909090909,
+        "common_functions_count": 8,
+        "c_only_functions_count": 2,
+        "rust_only_functions_count": 1
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.4,
+          "rust": 0.0,
+          "difference": -1.4
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 1
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "free": [
+            "free"
+          ],
+          "destroy": [
+            "destroy"
+          ],
+          "realloc": [
+            "realloc"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "increase": [
+            "increase"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "print_arr": [
+            "print_arr"
+          ],
+          "int_fact": [
+            "int_fact"
+          ],
+          "__assert_fail": [
+            "__assert_fail"
+          ]
+        }
+      }
+    }
+  },
+  "program_009": {
+    "graph_stats": {
+      "c_nodes": 14,
+      "c_edges": 26,
+      "rust_nodes": 12,
+      "rust_edges": 16
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 1.0,
+        "common_functions_count": 12,
+        "c_only_functions_count": 2,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 4,
+          "rust": 0,
+          "difference": -4
+        },
+        "avg_depth": {
+          "c": 2.3076923076923075,
+          "rust": 0.0,
+          "difference": -2.3076923076923075
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "free": [
+            "free"
+          ],
+          "show_list": [
+            "show_list"
+          ],
+          "compare": [
+            "compare"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "l_length": [
+            "l_length"
+          ],
+          "update": [
+            "update"
+          ],
+          "calculate_ct": [
+            "calculate_ct"
+          ],
+          "insert": [
+            "insert"
+          ],
+          "calculate_wt": [
+            "calculate_wt"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "delete": [
+            "delete"
+          ],
+          "calculate_tat": [
+            "calculate_tat"
+          ]
+        }
+      }
+    }
+  },
+  "program_011": {
+    "graph_stats": {
+      "c_nodes": 11,
+      "c_edges": 17,
+      "rust_nodes": 5,
+      "rust_edges": 7
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 0.8596350802139038,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.5318181818181819,
+        "common_functions_count": 5,
+        "c_only_functions_count": 6,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 2,
+          "rust": 0,
+          "difference": -2
+        },
+        "avg_depth": {
+          "c": 1.1818181818181819,
+          "rust": 0.0,
+          "difference": -1.1818181818181819
+        }
+      },
+      "recursive_calls": {
+        "common_count": 1,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "free": [
+            "free"
+          ],
+          "perror": [
+            "perror"
+          ],
+          "add_digit": [
+            "add_digit"
+          ],
+          "remove_digits": [
+            "remove_digits"
+          ],
+          "malloc": [
+            "malloc"
+          ]
+        }
+      }
+    }
+  },
+  "program_012": {
+    "graph_stats": {
+      "c_nodes": 9,
+      "c_edges": 24,
+      "rust_nodes": 9,
+      "rust_edges": 18
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 0.9807689445408014,
+        "pattern_similarity": 0.9013192182410426,
+        "context_similarity": 0.8407792207792208,
+        "common_functions_count": 8,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 1
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 2,
+          "rust": 0,
+          "difference": -2
+        },
+        "avg_depth": {
+          "c": 1.4444444444444444,
+          "rust": 0.0,
+          "difference": -1.4444444444444444
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 1
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "InsertionSort": [
+            "InsertionSort"
+          ],
+          "free": [
+            "free"
+          ],
+          "print": [
+            "print"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "__assert_fail": [
+            "__assert_fail"
+          ],
+          "getBucketIndex": [
+            "getBucketIndex"
+          ],
+          "printBuckets": [
+            "printBuckets"
+          ],
+          "BucketSort": [
+            "BucketSort"
+          ]
+        }
+      }
+    }
+  },
+  "program_013": {
+    "graph_stats": {
+      "c_nodes": 9,
+      "c_edges": 20,
+      "rust_nodes": 7,
+      "rust_edges": 8
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.9533333333333333,
+        "common_functions_count": 7,
+        "c_only_functions_count": 2,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.3333333333333333,
+          "rust": 0.0,
+          "difference": -1.3333333333333333
+        }
+      },
+      "recursive_calls": {
+        "common_count": 1,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "free": [
+            "free"
+          ],
+          "merge": [
+            "merge"
+          ],
+          "swap": [
+            "swap"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "exit": [
+            "exit"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "merge_sort": [
+            "merge_sort"
+          ]
+        }
+      }
+    }
+  },
+  "program_014": {
+    "graph_stats": {
+      "c_nodes": 20,
+      "c_edges": 37,
+      "rust_nodes": 18,
+      "rust_edges": 35
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 1.0,
+        "common_functions_count": 20,
+        "c_only_functions_count": 2,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.6666666666666667,
+          "rust": 0.0,
+          "difference": -1.6666666666666667
+        }
+      },
+      "recursive_calls": {
+        "common_count": 6,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "inssort": [
+            "inssort"
+          ],
+          "vecswap": [
+            "vecswap"
+          ],
+          "ssort2": [
+            "ssort2"
+          ],
+          "search2": [
+            "search2"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "ssort1": [
+            "ssort1"
+          ],
+          "search1": [
+            "search1"
+          ],
+          "vecswap2": [
+            "vecswap2"
+          ],
+          "ssort1main": [
+            "ssort1main"
+          ],
+          "insert1": [
+            "insert1"
+          ],
+          "ssort2main": [
+            "ssort2main"
+          ],
+          "rand": [
+            "rand"
+          ],
+          "pmsearch": [
+            "pmsearch"
+          ],
+          "cleanup1": [
+            "cleanup1"
+          ],
+          "free": [
+            "free"
+          ],
+          "insert2": [
+            "insert2"
+          ],
+          "nearsearch": [
+            "nearsearch"
+          ],
+          "cleanup2": [
+            "cleanup2"
+          ],
+          "strlen": [
+            "strlen"
+          ],
+          "med3func": [
+            "med3func"
+          ]
+        }
+      }
+    }
+  },
+  "program_015": {
+    "graph_stats": {
+      "c_nodes": 14,
+      "c_edges": 22,
+      "rust_nodes": 11,
+      "rust_edges": 14
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.9100000000000001,
+        "common_functions_count": 11,
+        "c_only_functions_count": 3,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.5714285714285714,
+          "rust": 0.0,
+          "difference": -1.5714285714285714
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "CreateHeap": [
+            "CreateHeap"
+          ],
+          "IsHeapFull": [
+            "IsHeapFull"
+          ],
+          "Huffman": [
+            "Huffman"
+          ],
+          "CreateHuffman": [
+            "CreateHuffman"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "DeleteMin": [
+            "DeleteMin"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "PercDown": [
+            "PercDown"
+          ],
+          "IsHeapEmpty": [
+            "IsHeapEmpty"
+          ],
+          "BuildMinHeap": [
+            "BuildMinHeap"
+          ],
+          "InsertMinHeap": [
+            "InsertMinHeap"
+          ]
+        }
+      }
+    }
+  },
+  "program_016": {
+    "graph_stats": {
+      "c_nodes": 20,
+      "c_edges": 36,
+      "rust_nodes": 18,
+      "rust_edges": 32
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 1.0,
+        "common_functions_count": 20,
+        "c_only_functions_count": 2,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 1,
+          "rust": 0,
+          "difference": -1
+        },
+        "avg_depth": {
+          "c": 0.6666666666666666,
+          "rust": 0.0,
+          "difference": -0.6666666666666666
+        }
+      },
+      "recursive_calls": {
+        "common_count": 2,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "MSort": [
+            "MSort"
+          ],
+          "Qsort": [
+            "Qsort"
+          ],
+          "compare": [
+            "compare"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "Quick_Sort": [
+            "Quick_Sort"
+          ],
+          "Merge_Pass": [
+            "Merge_Pass"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "Shell_Sort": [
+            "Shell_Sort"
+          ],
+          "LSDRadix_Sort": [
+            "LSDRadix_Sort"
+          ],
+          "GetDigit": [
+            "GetDigit"
+          ],
+          "Median3": [
+            "Median3"
+          ],
+          "Merge": [
+            "Merge"
+          ],
+          "Insertion_Sort": [
+            "Insertion_Sort"
+          ],
+          "Merge_Sort": [
+            "Merge_Sort"
+          ],
+          "free": [
+            "free"
+          ],
+          "Swap": [
+            "Swap"
+          ],
+          "Merge_sort": [
+            "Merge_sort"
+          ],
+          "Bubble_Sort": [
+            "Bubble_Sort"
+          ],
+          "PercDown": [
+            "PercDown"
+          ],
+          "Heap_Sort": [
+            "Heap_Sort"
+          ]
+        }
+      }
+    }
+  },
+  "program_017": {
+    "graph_stats": {
+      "c_nodes": 12,
+      "c_edges": 27,
+      "rust_nodes": 10,
+      "rust_edges": 18
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.73,
+        "common_functions_count": 9,
+        "c_only_functions_count": 3,
+        "rust_only_functions_count": 1
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.4166666666666667,
+          "rust": 0.0,
+          "difference": -1.4166666666666667
+        }
+      },
+      "recursive_calls": {
+        "common_count": 4,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 1
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "scanf": [
+            "scanf"
+          ],
+          "free": [
+            "free"
+          ],
+          "Insert": [
+            "Insert"
+          ],
+          "MakeTree": [
+            "MakeTree"
+          ],
+          "FreeTree": [
+            "FreeTree"
+          ],
+          "check": [
+            "check"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "Judge": [
+            "Judge"
+          ],
+          "ResetT": [
+            "ResetT"
+          ],
+          "NewNode": [
+            "NewNode"
+          ]
+        }
+      }
+    }
+  },
+  "program_018": {
+    "graph_stats": {
+      "c_nodes": 20,
+      "c_edges": 36,
+      "rust_nodes": 17,
+      "rust_edges": 22
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.9945,
+        "common_functions_count": 17,
+        "c_only_functions_count": 3,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.7,
+          "rust": 0.0,
+          "difference": -1.7
+        }
+      },
+      "recursive_calls": {
+        "common_count": 1,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "CreateHeap": [
+            "CreateHeap"
+          ],
+          "IsHeapFull": [
+            "IsHeapFull"
+          ],
+          "Huffman": [
+            "Huffman"
+          ],
+          "CreateHuffman": [
+            "CreateHuffman"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "Min": [
+            "Min"
+          ],
+          "DeleteMin": [
+            "DeleteMin"
+          ],
+          "Check": [
+            "Check"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "IsPrefix": [
+            "IsPrefix"
+          ],
+          "PercDown": [
+            "PercDown"
+          ],
+          "IsHeapEmpty": [
+            "IsHeapEmpty"
+          ],
+          "WPL": [
+            "WPL"
+          ],
+          "BuildMinHeap": [
+            "BuildMinHeap"
+          ],
+          "strlen": [
+            "strlen"
+          ],
+          "strncmp": [
+            "strncmp"
+          ],
+          "InsertMinHeap": [
+            "InsertMinHeap"
+          ]
+        }
+      }
+    }
+  },
+  "program_019": {
+    "graph_stats": {
+      "c_nodes": 20,
+      "c_edges": 38,
+      "rust_nodes": 20,
+      "rust_edges": 28
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.8534782608695652,
+        "common_functions_count": 19,
+        "c_only_functions_count": 2,
+        "rust_only_functions_count": 2
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 2,
+          "rust": 0,
+          "difference": -2
+        },
+        "avg_depth": {
+          "c": 1.4210526315789473,
+          "rust": 0.0,
+          "difference": -1.4210526315789473
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 2
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "PrintList": [
+            "PrintList"
+          ],
+          "IsEmpty": [
+            "IsEmpty"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "DeleteQ": [
+            "DeleteQ"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "Unweighted": [
+            "Unweighted"
+          ],
+          "Push": [
+            "Push"
+          ],
+          "Initial": [
+            "Initial"
+          ],
+          "IsStackEmpty": [
+            "IsStackEmpty"
+          ],
+          "pow": [
+            "pow"
+          ],
+          "abs": [
+            "abs"
+          ],
+          "sqrt": [
+            "sqrt"
+          ],
+          "CreateStack": [
+            "CreateStack"
+          ],
+          "scanf": [
+            "scanf"
+          ],
+          "FirstJump": [
+            "FirstJump"
+          ],
+          "NearShore": [
+            "NearShore"
+          ],
+          "Pop": [
+            "Pop"
+          ],
+          "CreateQueue": [
+            "CreateQueue"
+          ],
+          "IsFull": [
+            "IsFull"
+          ],
+          "Distance": [
+            "Distance"
+          ],
+          "AddQ": [
+            "AddQ"
+          ]
+        }
+      }
+    }
+  },
+  "program_020": {
+    "graph_stats": {
+      "c_nodes": 9,
+      "c_edges": 11,
+      "rust_nodes": 7,
+      "rust_edges": 6
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 0.9733207136788445,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.5507272727272727,
+        "common_functions_count": 6,
+        "c_only_functions_count": 3,
+        "rust_only_functions_count": 2
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 2,
+          "rust": 0,
+          "difference": -2
+        },
+        "avg_depth": {
+          "c": 1.3333333333333333,
+          "rust": 0.0,
+          "difference": -1.3333333333333333
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 1
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "scanf": [
+            "scanf"
+          ],
+          "Dijkstra": [
+            "Dijkstra"
+          ],
+          "InsertEdge": [
+            "InsertEdge"
+          ],
+          "CreateGraph": [
+            "CreateGraph"
+          ],
+          "FindMinDist": [
+            "FindMinDist"
+          ],
+          "BuildGraph": [
+            "BuildGraph"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "llvm.memset.p0.i64": [
+            "llvm.memset.p0.i64"
+          ]
+        }
+      }
+    }
+  },
+  "program_021": {
+    "graph_stats": {
+      "c_nodes": 11,
+      "c_edges": 21,
+      "rust_nodes": 6,
+      "rust_edges": 8
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 0.9172800000000002,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.65,
+        "common_functions_count": 8,
+        "c_only_functions_count": 3,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.3636363636363635,
+          "rust": 0.0,
+          "difference": -1.3636363636363635
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "IsInsertion": [
+            "IsInsertion"
+          ],
+          "free": [
+            "free"
+          ],
+          "Insertion_Sort": [
+            "Insertion_Sort"
+          ],
+          "Merge_sort": [
+            "Merge_sort"
+          ],
+          "Merge_Pass": [
+            "Merge_Pass"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "Identical": [
+            "Identical"
+          ],
+          "Merge": [
+            "Merge"
+          ]
+        }
+      }
+    }
+  },
+  "program_022": {
+    "graph_stats": {
+      "c_nodes": 4,
+      "c_edges": 9,
+      "rust_nodes": 0,
+      "rust_edges": 0
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 0.0,
+        "pattern_similarity": 0.0,
+        "context_similarity": 0.0,
+        "common_functions_count": 1,
+        "c_only_functions_count": 4,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 1,
+          "rust": 0,
+          "difference": -1
+        },
+        "avg_depth": {
+          "c": 0.75,
+          "rust": 0.0,
+          "difference": -0.75
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "compare3keys": [
+            "compare3keys"
+          ]
+        }
+      }
+    }
+  },
+  "program_023": {
+    "graph_stats": {
+      "c_nodes": 16,
+      "c_edges": 26,
+      "rust_nodes": 14,
+      "rust_edges": 20
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.9367647058823529,
+        "common_functions_count": 14,
+        "c_only_functions_count": 2,
+        "rust_only_functions_count": 1
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.6875,
+          "rust": 0.0,
+          "difference": -1.6875
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "free": [
+            "free"
+          ],
+          "Insert": [
+            "Insert"
+          ],
+          "atoi": [
+            "atoi"
+          ],
+          "DestroyTable": [
+            "DestroyTable"
+          ],
+          "ScanAndOutput": [
+            "ScanAndOutput"
+          ],
+          "Find": [
+            "Find"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "GetPrime": [
+            "GetPrime"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "strcmp": [
+            "strcmp"
+          ],
+          "strcpy": [
+            "strcpy"
+          ],
+          "CreateTable": [
+            "CreateTable"
+          ],
+          "Hash": [
+            "Hash"
+          ],
+          "llvm.memset.p0.i64": [
+            "llvm.memset.p0.i64"
+          ],
+          "sqrt": [
+            "sqrt"
+          ]
+        }
+      }
+    }
+  },
+  "program_024": {
+    "graph_stats": {
+      "c_nodes": 10,
+      "c_edges": 15,
+      "rust_nodes": 7,
+      "rust_edges": 6
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.806,
+        "common_functions_count": 7,
+        "c_only_functions_count": 3,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.6,
+          "rust": 0.0,
+          "difference": -1.6
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "Insert": [
+            "Insert"
+          ],
+          "Find": [
+            "Find"
+          ],
+          "GetPrime": [
+            "GetPrime"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "CreateTable": [
+            "CreateTable"
+          ],
+          "Hash": [
+            "Hash"
+          ],
+          "sqrt": [
+            "sqrt"
+          ]
+        }
+      }
+    }
+  },
+  "program_025": {
+    "graph_stats": {
+      "c_nodes": 15,
+      "c_edges": 28,
+      "rust_nodes": 12,
+      "rust_edges": 16
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.9099999999999999,
+        "common_functions_count": 12,
+        "c_only_functions_count": 3,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.4,
+          "rust": 0.0,
+          "difference": -1.4
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "free": [
+            "free"
+          ],
+          "Insert": [
+            "Insert"
+          ],
+          "DestroyTable": [
+            "DestroyTable"
+          ],
+          "Find": [
+            "Find"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "NextPrime": [
+            "NextPrime"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "strcmp": [
+            "strcmp"
+          ],
+          "strcpy": [
+            "strcpy"
+          ],
+          "CreateTable": [
+            "CreateTable"
+          ],
+          "Hash": [
+            "Hash"
+          ],
+          "sqrt": [
+            "sqrt"
+          ]
+        }
+      }
+    }
+  },
+  "program_026": {
+    "graph_stats": {
+      "c_nodes": 7,
+      "c_edges": 14,
+      "rust_nodes": 4,
+      "rust_edges": 3
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 0.8197428571428573,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.40625,
+        "common_functions_count": 4,
+        "c_only_functions_count": 3,
+        "rust_only_functions_count": 1
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 1,
+          "rust": 0,
+          "difference": -1
+        },
+        "avg_depth": {
+          "c": 0.8571428571428571,
+          "rust": 0.0,
+          "difference": -0.8571428571428571
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "InsertEdge": [
+            "InsertEdge"
+          ],
+          "CreateGraph": [
+            "CreateGraph"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "TopSort": [
+            "TopSort"
+          ],
+          "llvm.memset.p0.i64": [
+            "llvm.memset.p0.i64"
+          ]
+        }
+      }
+    }
+  },
+  "program_027": {
+    "graph_stats": {
+      "c_nodes": 18,
+      "c_edges": 36,
+      "rust_nodes": 17,
+      "rust_edges": 30
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 1.0,
+        "common_functions_count": 18,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 1
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 2,
+          "rust": 0,
+          "difference": -2
+        },
+        "avg_depth": {
+          "c": 1.6666666666666667,
+          "rust": 0.0,
+          "difference": -1.6666666666666667
+        }
+      },
+      "recursive_calls": {
+        "common_count": 1,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "dequeue": [
+            "dequeue"
+          ],
+          "push": [
+            "push"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "top": [
+            "top"
+          ],
+          "sempty": [
+            "sempty"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "qempty": [
+            "qempty"
+          ],
+          "llvm.memset.p0.i64": [
+            "llvm.memset.p0.i64"
+          ],
+          "isneibor": [
+            "isneibor"
+          ],
+          "enqueue": [
+            "enqueue"
+          ],
+          "getneibors": [
+            "getneibors"
+          ],
+          "pop": [
+            "pop"
+          ],
+          "inme": [
+            "inme"
+          ],
+          "dfs_search": [
+            "dfs_search"
+          ],
+          "qfull": [
+            "qfull"
+          ],
+          "displayoutcome": [
+            "displayoutcome"
+          ],
+          "bfs_search": [
+            "bfs_search"
+          ],
+          "displayout_come": [
+            "displayout_come"
+          ],
+          "backtrace": [
+            "backtrace"
+          ]
+        }
+      }
+    }
+  },
+  "program_028": {
+    "graph_stats": {
+      "c_nodes": 20,
+      "c_edges": 51,
+      "rust_nodes": 19,
+      "rust_edges": 50
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 1.0,
+        "common_functions_count": 19,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 2
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 2.05,
+          "rust": 0.0,
+          "difference": -2.05
+        }
+      },
+      "recursive_calls": {
+        "common_count": 1,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "printf": [
+            "printf"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "cube_equal": [
+            "cube_equal"
+          ],
+          "cube_copy": [
+            "cube_copy"
+          ],
+          "cube_display": [
+            "cube_display"
+          ],
+          "move_right": [
+            "move_right"
+          ],
+          "llvm.memset.p0.i64": [
+            "llvm.memset.p0.i64"
+          ],
+          "insert_heap": [
+            "insert_heap"
+          ],
+          "llvm.memcpy.p0.p0.i64": [
+            "llvm.memcpy.p0.p0.i64"
+          ],
+          "heap_hold": [
+            "heap_hold"
+          ],
+          "move_up": [
+            "move_up"
+          ],
+          "move_left": [
+            "move_left"
+          ],
+          "calc_weight": [
+            "calc_weight"
+          ],
+          "inme": [
+            "inme"
+          ],
+          "init_heap": [
+            "init_heap"
+          ],
+          "heap_swap": [
+            "heap_swap"
+          ],
+          "move_down": [
+            "move_down"
+          ],
+          "astar": [
+            "astar"
+          ],
+          "displayoutcome": [
+            "displayoutcome"
+          ],
+          "delete_min": [
+            "delete_min"
+          ],
+          "heap_empty": [
+            "heap_empty"
+          ]
+        }
+      }
+    }
+  },
+  "program_029": {
+    "graph_stats": {
+      "c_nodes": 20,
+      "c_edges": 52,
+      "rust_nodes": 19,
+      "rust_edges": 51
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 1.0,
+        "common_functions_count": 20,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 2
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 2.05,
+          "rust": 0.0,
+          "difference": -2.05
+        }
+      },
+      "recursive_calls": {
+        "common_count": 1,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "insertsort": [
+            "insertsort"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "cube_equal": [
+            "cube_equal"
+          ],
+          "cube_copy": [
+            "cube_copy"
+          ],
+          "cube_display": [
+            "cube_display"
+          ],
+          "move_right": [
+            "move_right"
+          ],
+          "llvm.memset.p0.i64": [
+            "llvm.memset.p0.i64"
+          ],
+          "insert_heap": [
+            "insert_heap"
+          ],
+          "llvm.memcpy.p0.p0.i64": [
+            "llvm.memcpy.p0.p0.i64"
+          ],
+          "heap_hold": [
+            "heap_hold"
+          ],
+          "move_up": [
+            "move_up"
+          ],
+          "hillclimbing": [
+            "hillclimbing"
+          ],
+          "move_left": [
+            "move_left"
+          ],
+          "calc_weight": [
+            "calc_weight"
+          ],
+          "inme": [
+            "inme"
+          ],
+          "init_heap": [
+            "init_heap"
+          ],
+          "heap_swap": [
+            "heap_swap"
+          ],
+          "move_down": [
+            "move_down"
+          ],
+          "displayoutcome": [
+            "displayoutcome"
+          ],
+          "delete_min": [
+            "delete_min"
+          ],
+          "heap_empty": [
+            "heap_empty"
+          ]
+        }
+      }
+    }
+  },
+  "program_030": {
+    "graph_stats": {
+      "c_nodes": 17,
+      "c_edges": 42,
+      "rust_nodes": 16,
+      "rust_edges": 41
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 1.0,
+        "common_functions_count": 17,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 2
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.8823529411764706,
+          "rust": 0.0,
+          "difference": -1.8823529411764706
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "dequeue": [
+            "dequeue"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "cube_equal": [
+            "cube_equal"
+          ],
+          "cube_copy": [
+            "cube_copy"
+          ],
+          "queue_top": [
+            "queue_top"
+          ],
+          "cube_display": [
+            "cube_display"
+          ],
+          "move_right": [
+            "move_right"
+          ],
+          "llvm.memset.p0.i64": [
+            "llvm.memset.p0.i64"
+          ],
+          "enqueue": [
+            "enqueue"
+          ],
+          "llvm.memcpy.p0.p0.i64": [
+            "llvm.memcpy.p0.p0.i64"
+          ],
+          "move_up": [
+            "move_up"
+          ],
+          "queue_empty": [
+            "queue_empty"
+          ],
+          "move_left": [
+            "move_left"
+          ],
+          "inme": [
+            "inme"
+          ],
+          "move_down": [
+            "move_down"
+          ],
+          "displayoutcome": [
+            "displayoutcome"
+          ],
+          "full": [
+            "full"
+          ],
+          "bfs_search": [
+            "bfs_search"
+          ]
+        }
+      }
+    }
+  },
+  "program_031": {
+    "graph_stats": {
+      "c_nodes": 18,
+      "c_edges": 44,
+      "rust_nodes": 17,
+      "rust_edges": 43
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 1.0,
+        "common_functions_count": 18,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 2
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 2,
+          "rust": 0,
+          "difference": -2
+        },
+        "avg_depth": {
+          "c": 1.8333333333333333,
+          "rust": 0.0,
+          "difference": -1.8333333333333333
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "insertsort": [
+            "insertsort"
+          ],
+          "push": [
+            "push"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "top": [
+            "top"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "cube_equal": [
+            "cube_equal"
+          ],
+          "cube_copy": [
+            "cube_copy"
+          ],
+          "cube_display": [
+            "cube_display"
+          ],
+          "move_right": [
+            "move_right"
+          ],
+          "llvm.memset.p0.i64": [
+            "llvm.memset.p0.i64"
+          ],
+          "llvm.memcpy.p0.p0.i64": [
+            "llvm.memcpy.p0.p0.i64"
+          ],
+          "move_up": [
+            "move_up"
+          ],
+          "hillclimbing": [
+            "hillclimbing"
+          ],
+          "pop": [
+            "pop"
+          ],
+          "move_left": [
+            "move_left"
+          ],
+          "calc_weight": [
+            "calc_weight"
+          ],
+          "inme": [
+            "inme"
+          ],
+          "move_down": [
+            "move_down"
+          ],
+          "displayoutcome": [
+            "displayoutcome"
+          ],
+          "empty": [
+            "empty"
+          ]
+        }
+      }
+    }
+  },
+  "program_032": {
+    "graph_stats": {
+      "c_nodes": 13,
+      "c_edges": 45,
+      "rust_nodes": 12,
+      "rust_edges": 20
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 1.0,
+        "common_functions_count": 13,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 1
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.9230769230769231,
+          "rust": 0.0,
+          "difference": -1.9230769230769231
+        }
+      },
+      "recursive_calls": {
+        "common_count": 1,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "heap_empty": [
+            "heap_empty"
+          ],
+          "insertsort": [
+            "insertsort"
+          ],
+          "insertedge": [
+            "insertedge"
+          ],
+          "displayoutcome": [
+            "displayoutcome"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "insert_heap": [
+            "insert_heap"
+          ],
+          "init_heap": [
+            "init_heap"
+          ],
+          "heap_hold": [
+            "heap_hold"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "delete_min": [
+            "delete_min"
+          ],
+          "heap_swap": [
+            "heap_swap"
+          ],
+          "llvm.memset.p0.i64": [
+            "llvm.memset.p0.i64"
+          ],
+          "find_min_h": [
+            "find_min_h"
+          ],
+          "astar": [
+            "astar"
+          ]
+        }
+      }
+    }
+  },
+  "program_033": {
+    "graph_stats": {
+      "c_nodes": 11,
+      "c_edges": 37,
+      "rust_nodes": 10,
+      "rust_edges": 12
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.9966666666666666,
+        "common_functions_count": 10,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.7272727272727273,
+          "rust": 0.0,
+          "difference": -1.7272727272727273
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "pop": [
+            "pop"
+          ],
+          "insertsort": [
+            "insertsort"
+          ],
+          "displayoutcome": [
+            "displayoutcome"
+          ],
+          "push": [
+            "push"
+          ],
+          "empty": [
+            "empty"
+          ],
+          "insertedge": [
+            "insertedge"
+          ],
+          "top": [
+            "top"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "branchbound": [
+            "branchbound"
+          ]
+        }
+      }
+    }
+  },
+  "program_034": {
+    "graph_stats": {
+      "c_nodes": 11,
+      "c_edges": 15,
+      "rust_nodes": 10,
+      "rust_edges": 14
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 1.0,
+        "common_functions_count": 11,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 2,
+          "rust": 0,
+          "difference": -2
+        },
+        "avg_depth": {
+          "c": 1.7272727272727273,
+          "rust": 0.0,
+          "difference": -1.7272727272727273
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "pop": [
+            "pop"
+          ],
+          "insertsort": [
+            "insertsort"
+          ],
+          "inme": [
+            "inme"
+          ],
+          "empty": [
+            "empty"
+          ],
+          "push": [
+            "push"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "top": [
+            "top"
+          ],
+          "display_outcome": [
+            "display_outcome"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "sum": [
+            "sum"
+          ],
+          "branchbound": [
+            "branchbound"
+          ]
+        }
+      }
+    }
+  },
+  "program_035": {
+    "graph_stats": {
+      "c_nodes": 15,
+      "c_edges": 40,
+      "rust_nodes": 12,
+      "rust_edges": 31
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.9533333333333333,
+        "common_functions_count": 12,
+        "c_only_functions_count": 3,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 2,
+          "rust": 0,
+          "difference": -2
+        },
+        "avg_depth": {
+          "c": 1.4,
+          "rust": 0.0,
+          "difference": -1.4
+        }
+      },
+      "recursive_calls": {
+        "common_count": 2,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "infix2suffix": [
+            "infix2suffix"
+          ],
+          "empty": [
+            "empty"
+          ],
+          "create_expresstree": [
+            "create_expresstree"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "push_ch": [
+            "push_ch"
+          ],
+          "push_node": [
+            "push_node"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "top_ch": [
+            "top_ch"
+          ],
+          "pop_node": [
+            "pop_node"
+          ],
+          "display_infix": [
+            "display_infix"
+          ],
+          "pop_ch": [
+            "pop_ch"
+          ],
+          "display_suffix": [
+            "display_suffix"
+          ]
+        }
+      }
+    }
+  },
+  "program_036": {
+    "graph_stats": {
+      "c_nodes": 12,
+      "c_edges": 25,
+      "rust_nodes": 10,
+      "rust_edges": 12
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.8600000000000001,
+        "common_functions_count": 10,
+        "c_only_functions_count": 2,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 2,
+          "rust": 0,
+          "difference": -2
+        },
+        "avg_depth": {
+          "c": 1.1818181818181819,
+          "rust": 0.0,
+          "difference": -1.1818181818181819
+        }
+      },
+      "recursive_calls": {
+        "common_count": 3,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "free": [
+            "free"
+          ],
+          "insert_node": [
+            "insert_node"
+          ],
+          "init_pointer_array": [
+            "init_pointer_array"
+          ],
+          "insert_node_r": [
+            "insert_node_r"
+          ],
+          "destory_tree": [
+            "destory_tree"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "strlen": [
+            "strlen"
+          ],
+          "search_tree_r": [
+            "search_tree_r"
+          ],
+          "create_tree": [
+            "create_tree"
+          ],
+          "search_tree": [
+            "search_tree"
+          ]
+        }
+      }
+    }
+  },
+  "program_037": {
+    "graph_stats": {
+      "c_nodes": 15,
+      "c_edges": 21,
+      "rust_nodes": 14,
+      "rust_edges": 16
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 1.0,
+        "common_functions_count": 14,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.6428571428571428,
+          "rust": 0.0,
+          "difference": -1.6428571428571428
+        }
+      },
+      "recursive_calls": {
+        "common_count": 1,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "insertnode": [
+            "insertnode"
+          ],
+          "pop": [
+            "pop"
+          ],
+          "qfull": [
+            "qfull"
+          ],
+          "enqueue": [
+            "enqueue"
+          ],
+          "dequeue": [
+            "dequeue"
+          ],
+          "empty": [
+            "empty"
+          ],
+          "push": [
+            "push"
+          ],
+          "getdepth": [
+            "getdepth"
+          ],
+          "exit": [
+            "exit"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "getdepth_cuo": [
+            "getdepth_cuo"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "prefix": [
+            "prefix"
+          ],
+          "qempty": [
+            "qempty"
+          ]
+        }
+      }
+    }
+  },
+  "program_038": {
+    "graph_stats": {
+      "c_nodes": 11,
+      "c_edges": 45,
+      "rust_nodes": 9,
+      "rust_edges": 14
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.8745454545454544,
+        "common_functions_count": 9,
+        "c_only_functions_count": 2,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 2,
+          "rust": 0,
+          "difference": -2
+        },
+        "avg_depth": {
+          "c": 1.0,
+          "rust": 0.0,
+          "difference": -1.0
+        }
+      },
+      "recursive_calls": {
+        "common_count": 3,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "insertatbeg": [
+            "insertatbeg"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "printrev": [
+            "printrev"
+          ],
+          "reverse": [
+            "reverse"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "insertatend": [
+            "insertatend"
+          ],
+          "deleteatn": [
+            "deleteatn"
+          ],
+          "inseratn": [
+            "inseratn"
+          ],
+          "printlist": [
+            "printlist"
+          ]
+        }
+      }
+    }
+  },
+  "program_039": {
+    "graph_stats": {
+      "c_nodes": 17,
+      "c_edges": 44,
+      "rust_nodes": 18,
+      "rust_edges": 29
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.8666666666666667,
+        "common_functions_count": 16,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 7
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.9411764705882353,
+          "rust": 0.0,
+          "difference": -1.9411764705882353
+        }
+      },
+      "recursive_calls": {
+        "common_count": 2,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 3,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 2
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "printf": [
+            "printf"
+          ],
+          "83_4drop": [
+            "_ZN83_$LT$alloc..vec..set_len_on_drop..SetLenOnDrop$u20$as$u20$core..ops..drop..Drop$GT$4drop17h595e8466dc74429dE"
+          ],
+          "decreaseKey": [
+            "decreaseKey"
+          ],
+          "createGraph": [
+            "createGraph"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "extractMin": [
+            "extractMin"
+          ],
+          "swapMinHeapNode": [
+            "swapMinHeapNode"
+          ],
+          "createMinHeap": [
+            "createMinHeap"
+          ],
+          "dijkstra": [
+            "dijkstra"
+          ],
+          "newAdjListNode": [
+            "newAdjListNode"
+          ],
+          "isEmpty": [
+            "isEmpty"
+          ],
+          "llvm.memcpy.p0.p0.i64": [
+            "llvm.memcpy.p0.p0.i64"
+          ],
+          "isInMinHeap": [
+            "isInMinHeap"
+          ],
+          "core4hint16assert_unchecked18precondition_check17hd9f8d832207b9f30": [
+            "_ZN4core4hint16assert_unchecked18precondition_check17hd9f8d832207b9f30E"
+          ],
+          "70_4drop": [
+            "_ZN70_$LT$alloc..vec..Vec$LT$T$C$A$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h6b15024f437b5d67E"
+          ],
+          "77_4drop": [
+            "_ZN77_$LT$alloc..raw_vec..RawVec$LT$T$C$A$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h612086f8a3d4dbe2E"
+          ],
+          "printarr": [
+            "printarr"
+          ],
+          "AddEdge": [
+            "AddEdge"
+          ],
+          "51_7is_zero": [
+            "_ZN51_$LT$i32$u20$as$u20$alloc..vec..is_zero..IsZero$GT$7is_zero17hd889516165f76f40E"
+          ],
+          "printpath": [
+            "printpath"
+          ],
+          "MinHeapify": [
+            "MinHeapify"
+          ],
+          "62_9from_elem": [
+            "_ZN62_$LT$T$u20$as$u20$alloc..vec..spec_from_elem..SpecFromElem$GT$9from_elem17hc2c4bfa0b3bf1c88E"
+          ],
+          "newMinHeapNode": [
+            "newMinHeapNode"
+          ]
+        }
+      }
+    }
+  },
+  "program_040": {
+    "graph_stats": {
+      "c_nodes": 14,
+      "c_edges": 27,
+      "rust_nodes": 13,
+      "rust_edges": 19
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 1.0,
+        "common_functions_count": 13,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.7142857142857142,
+          "rust": 0.0,
+          "difference": -1.7142857142857142
+        }
+      },
+      "recursive_calls": {
+        "common_count": 2,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "free": [
+            "free"
+          ],
+          "pop": [
+            "pop"
+          ],
+          "addEdge": [
+            "addEdge"
+          ],
+          "push": [
+            "push"
+          ],
+          "fillOrder": [
+            "fillOrder"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "top": [
+            "top"
+          ],
+          "isEmpty": [
+            "isEmpty"
+          ],
+          "createGraph": [
+            "createGraph"
+          ],
+          "DFSutil": [
+            "DFSutil"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "Transpose": [
+            "Transpose"
+          ],
+          "printSCC": [
+            "printSCC"
+          ]
+        }
+      }
+    }
+  },
+  "program_041": {
+    "graph_stats": {
+      "c_nodes": 8,
+      "c_edges": 15,
+      "rust_nodes": 7,
+      "rust_edges": 13
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.685,
+        "common_functions_count": 8,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 7
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 2,
+          "rust": 0,
+          "difference": -2
+        },
+        "avg_depth": {
+          "c": 1.5,
+          "rust": 0.0,
+          "difference": -1.5
+        }
+      },
+      "recursive_calls": {
+        "common_count": 1,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 3,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 2
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "Union": [
+            "Union"
+          ],
+          "56_5clone": [
+            "_ZN56_$LT$program_041..Edge$u20$as$u20$core..clone..Clone$GT$5clone17h82a044624a57eba9E"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "83_4drop": [
+            "_ZN83_$LT$alloc..vec..set_len_on_drop..SetLenOnDrop$u20$as$u20$core..ops..drop..Drop$GT$4drop17h2fe95b1768dbbc54E"
+          ],
+          "find": [
+            "find"
+          ],
+          "llvm.memcpy.p0.p0.i64": [
+            "llvm.memcpy.p0.p0.i64"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "62_9from_elem": [
+            "_ZN62_$LT$T$u20$as$u20$alloc..vec..spec_from_elem..SpecFromElem$GT$9from_elem17h9ede6222bf4929a1E"
+          ],
+          "MST_kruskal": [
+            "MST_kruskal"
+          ],
+          "77_4drop": [
+            "_ZN77_$LT$alloc..raw_vec..RawVec$LT$T$C$A$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h6a306d3c3e0b8cb3E"
+          ],
+          "qsort": [
+            "qsort"
+          ],
+          "70_4drop": [
+            "_ZN70_$LT$alloc..vec..Vec$LT$T$C$A$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h415e55ee4c5a8378E"
+          ],
+          "core4hint16assert_unchecked18precondition_check17ha7c0815d47dda845": [
+            "_ZN4core4hint16assert_unchecked18precondition_check17ha7c0815d47dda845E"
+          ],
+          "creategraph": [
+            "creategraph"
+          ],
+          "scompare": [
+            "scompare"
+          ]
+        }
+      }
+    }
+  },
+  "program_042": {
+    "graph_stats": {
+      "c_nodes": 12,
+      "c_edges": 22,
+      "rust_nodes": 11,
+      "rust_edges": 13
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 1.0,
+        "common_functions_count": 11,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.6666666666666667,
+          "rust": 0.0,
+          "difference": -1.6666666666666667
+        }
+      },
+      "recursive_calls": {
+        "common_count": 1,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "free": [
+            "free"
+          ],
+          "pop": [
+            "pop"
+          ],
+          "addEdge": [
+            "addEdge"
+          ],
+          "push": [
+            "push"
+          ],
+          "TopologicalSort": [
+            "TopologicalSort"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "top": [
+            "top"
+          ],
+          "isempty": [
+            "isempty"
+          ],
+          "createGraph": [
+            "createGraph"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "tSortutil": [
+            "tSortutil"
+          ]
+        }
+      }
+    }
+  },
+  "program_043": {
+    "graph_stats": {
+      "c_nodes": 17,
+      "c_edges": 44,
+      "rust_nodes": 18,
+      "rust_edges": 29
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.8666666666666667,
+        "common_functions_count": 16,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 7
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.9411764705882353,
+          "rust": 0.0,
+          "difference": -1.9411764705882353
+        }
+      },
+      "recursive_calls": {
+        "common_count": 2,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 3,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 2
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "core4hint16assert_unchecked18precondition_check17h6d4e0a0cb20735f2": [
+            "_ZN4core4hint16assert_unchecked18precondition_check17h6d4e0a0cb20735f2E"
+          ],
+          "77_4drop": [
+            "_ZN77_$LT$alloc..raw_vec..RawVec$LT$T$C$A$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h36da9bf9820405baE"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "decreaseKey": [
+            "decreaseKey"
+          ],
+          "createGraph": [
+            "createGraph"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "extractMin": [
+            "extractMin"
+          ],
+          "swapMinHeapNode": [
+            "swapMinHeapNode"
+          ],
+          "createMinHeap": [
+            "createMinHeap"
+          ],
+          "dijkstra": [
+            "dijkstra"
+          ],
+          "newAdjListNode": [
+            "newAdjListNode"
+          ],
+          "isEmpty": [
+            "isEmpty"
+          ],
+          "llvm.memcpy.p0.p0.i64": [
+            "llvm.memcpy.p0.p0.i64"
+          ],
+          "isInMinHeap": [
+            "isInMinHeap"
+          ],
+          "70_4drop": [
+            "_ZN70_$LT$alloc..vec..Vec$LT$T$C$A$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hde3a41817bdc85bfE"
+          ],
+          "51_7is_zero": [
+            "_ZN51_$LT$i32$u20$as$u20$alloc..vec..is_zero..IsZero$GT$7is_zero17h6e965e6105410e06E"
+          ],
+          "printarr": [
+            "printarr"
+          ],
+          "83_4drop": [
+            "_ZN83_$LT$alloc..vec..set_len_on_drop..SetLenOnDrop$u20$as$u20$core..ops..drop..Drop$GT$4drop17h514bf25dab30b0b1E"
+          ],
+          "AddEdge": [
+            "AddEdge"
+          ],
+          "62_9from_elem": [
+            "_ZN62_$LT$T$u20$as$u20$alloc..vec..spec_from_elem..SpecFromElem$GT$9from_elem17hb910f623ae023efaE"
+          ],
+          "printpath": [
+            "printpath"
+          ],
+          "MinHeapify": [
+            "MinHeapify"
+          ],
+          "newMinHeapNode": [
+            "newMinHeapNode"
+          ]
+        }
+      }
+    }
+  },
+  "program_044": {
+    "graph_stats": {
+      "c_nodes": 17,
+      "c_edges": 27,
+      "rust_nodes": 16,
+      "rust_edges": 26
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 1.0,
+        "common_functions_count": 16,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 1
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 5,
+          "rust": 0,
+          "difference": -5
+        },
+        "avg_depth": {
+          "c": 2.9411764705882355,
+          "rust": 0.0,
+          "difference": -2.9411764705882355
+        }
+      },
+      "recursive_calls": {
+        "common_count": 2,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "isSizeOne": [
+            "isSizeOne"
+          ],
+          "minHeapify": [
+            "minHeapify"
+          ],
+          "insertMinHeap": [
+            "insertMinHeap"
+          ],
+          "buildHuffmanTree": [
+            "buildHuffmanTree"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "newNode": [
+            "newNode"
+          ],
+          "buildMinHeap": [
+            "buildMinHeap"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "pritCodes": [
+            "pritCodes"
+          ],
+          "isLeaf": [
+            "isLeaf"
+          ],
+          "extractMin": [
+            "extractMin"
+          ],
+          "createAndBuildHeap": [
+            "createAndBuildHeap"
+          ],
+          "HuffmanCodes": [
+            "HuffmanCodes"
+          ],
+          "swapMinheapNodes": [
+            "swapMinheapNodes"
+          ],
+          "llvm.memset.p0.i64": [
+            "llvm.memset.p0.i64"
+          ],
+          "createMinHeap": [
+            "createMinHeap"
+          ],
+          "printarray": [
+            "printarray"
+          ]
+        }
+      }
+    }
+  },
+  "program_045": {
+    "graph_stats": {
+      "c_nodes": 8,
+      "c_edges": 15,
+      "rust_nodes": 7,
+      "rust_edges": 13
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.685,
+        "common_functions_count": 8,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 7
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 2,
+          "rust": 0,
+          "difference": -2
+        },
+        "avg_depth": {
+          "c": 1.5,
+          "rust": 0.0,
+          "difference": -1.5
+        }
+      },
+      "recursive_calls": {
+        "common_count": 1,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 3,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 2
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "Union": [
+            "Union"
+          ],
+          "56_5clone": [
+            "_ZN56_$LT$program_045..Edge$u20$as$u20$core..clone..Clone$GT$5clone17h5165563656ea4cadE"
+          ],
+          "83_4drop": [
+            "_ZN83_$LT$alloc..vec..set_len_on_drop..SetLenOnDrop$u20$as$u20$core..ops..drop..Drop$GT$4drop17h86555dfa215cc3d9E"
+          ],
+          "77_4drop": [
+            "_ZN77_$LT$alloc..raw_vec..RawVec$LT$T$C$A$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h1b047897000a489dE"
+          ],
+          "62_9from_elem": [
+            "_ZN62_$LT$T$u20$as$u20$alloc..vec..spec_from_elem..SpecFromElem$GT$9from_elem17h3f4a73aa0b64d367E"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "core4hint16assert_unchecked18precondition_check17h421f20968419a38f": [
+            "_ZN4core4hint16assert_unchecked18precondition_check17h421f20968419a38fE"
+          ],
+          "find": [
+            "find"
+          ],
+          "llvm.memcpy.p0.p0.i64": [
+            "llvm.memcpy.p0.p0.i64"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "70_4drop": [
+            "_ZN70_$LT$alloc..vec..Vec$LT$T$C$A$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hdf87253abcafdfd1E"
+          ],
+          "MST_kruskal": [
+            "MST_kruskal"
+          ],
+          "qsort": [
+            "qsort"
+          ],
+          "scompare": [
+            "scompare"
+          ],
+          "creategraph": [
+            "creategraph"
+          ]
+        }
+      }
+    }
+  },
+  "program_046": {
+    "graph_stats": {
+      "c_nodes": 17,
+      "c_edges": 47,
+      "rust_nodes": 16,
+      "rust_edges": 38
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 1.0,
+        "common_functions_count": 16,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 2.0,
+          "rust": 0.0,
+          "difference": -2.0
+        }
+      },
+      "recursive_calls": {
+        "common_count": 5,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "free": [
+            "free"
+          ],
+          "Pfront": [
+            "Pfront"
+          ],
+          "InOrder": [
+            "InOrder"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "Delete": [
+            "Delete"
+          ],
+          "isEmpty": [
+            "isEmpty"
+          ],
+          "FindMin": [
+            "FindMin"
+          ],
+          "insert": [
+            "insert"
+          ],
+          "traverse": [
+            "traverse"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "Pop": [
+            "Pop"
+          ],
+          "PreOrder": [
+            "PreOrder"
+          ],
+          "Enqeue": [
+            "Enqeue"
+          ],
+          "LevelOrder": [
+            "LevelOrder"
+          ],
+          "PostOrder": [
+            "PostOrder"
+          ],
+          "NewNode": [
+            "NewNode"
+          ]
+        }
+      }
+    }
+  },
+  "program_047": {
+    "graph_stats": {
+      "c_nodes": 14,
+      "c_edges": 68,
+      "rust_nodes": 13,
+      "rust_edges": 52
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 1.0,
+        "common_functions_count": 13,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.6428571428571428,
+          "rust": 0.0,
+          "difference": -1.6428571428571428
+        }
+      },
+      "recursive_calls": {
+        "common_count": 3,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "max": [
+            "max"
+          ],
+          "free": [
+            "free"
+          ],
+          "Insert": [
+            "Insert"
+          ],
+          "preorder": [
+            "preorder"
+          ],
+          "LeftRotate": [
+            "LeftRotate"
+          ],
+          "Balance": [
+            "Balance"
+          ],
+          "height": [
+            "height"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "Delete": [
+            "Delete"
+          ],
+          "FindMin": [
+            "FindMin"
+          ],
+          "RightRotate": [
+            "RightRotate"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "NewNode": [
+            "NewNode"
+          ]
+        }
+      }
+    }
+  },
+  "program_048": {
+    "graph_stats": {
+      "c_nodes": 19,
+      "c_edges": 52,
+      "rust_nodes": 18,
+      "rust_edges": 33
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 1.0,
+        "common_functions_count": 18,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.736842105263158,
+          "rust": 0.0,
+          "difference": -1.736842105263158
+        }
+      },
+      "recursive_calls": {
+        "common_count": 2,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "free": [
+            "free"
+          ],
+          "enqueue": [
+            "enqueue"
+          ],
+          "dequeue": [
+            "dequeue"
+          ],
+          "RB_insert": [
+            "RB_insert"
+          ],
+          "preorder": [
+            "preorder"
+          ],
+          "LeftRotate": [
+            "LeftRotate"
+          ],
+          "Tree_minimum": [
+            "Tree_minimum"
+          ],
+          "RB_delete": [
+            "RB_delete"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "RightRotate": [
+            "RightRotate"
+          ],
+          "RB_insert_fixup": [
+            "RB_insert_fixup"
+          ],
+          "isempty": [
+            "isempty"
+          ],
+          "RB_transplat": [
+            "RB_transplat"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "levelorder": [
+            "levelorder"
+          ],
+          "BST_search": [
+            "BST_search"
+          ],
+          "pfront": [
+            "pfront"
+          ],
+          "RB_delete_fixup": [
+            "RB_delete_fixup"
+          ]
+        }
+      }
+    }
+  },
+  "program_049": {
+    "graph_stats": {
+      "c_nodes": 13,
+      "c_edges": 39,
+      "rust_nodes": 12,
+      "rust_edges": 26
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 1.0,
+        "common_functions_count": 12,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.9230769230769231,
+          "rust": 0.0,
+          "difference": -1.9230769230769231
+        }
+      },
+      "recursive_calls": {
+        "common_count": 2,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "LL_Rotation": [
+            "LL_Rotation"
+          ],
+          "RL_Rotation": [
+            "RL_Rotation"
+          ],
+          "node_height": [
+            "node_height"
+          ],
+          "Inorder": [
+            "Inorder"
+          ],
+          "Balance_factor": [
+            "Balance_factor"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "Rotate": [
+            "Rotate"
+          ],
+          "insert": [
+            "insert"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "createNode": [
+            "createNode"
+          ],
+          "RR_Rotation": [
+            "RR_Rotation"
+          ],
+          "LR_Rotation": [
+            "LR_Rotation"
+          ]
+        }
+      }
+    }
+  },
+  "program_050": {
+    "graph_stats": {
+      "c_nodes": 12,
+      "c_edges": 29,
+      "rust_nodes": 11,
+      "rust_edges": 20
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 1.0,
+        "common_functions_count": 11,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.5,
+          "rust": 0.0,
+          "difference": -1.5
+        }
+      },
+      "recursive_calls": {
+        "common_count": 5,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "free": [
+            "free"
+          ],
+          "inorder": [
+            "inorder"
+          ],
+          "height": [
+            "height"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "search": [
+            "search"
+          ],
+          "Delete": [
+            "Delete"
+          ],
+          "insert": [
+            "insert"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "createNode": [
+            "createNode"
+          ],
+          "successor": [
+            "successor"
+          ],
+          "Predecessor": [
+            "Predecessor"
+          ]
+        }
+      }
+    }
+  },
+  "program_051": {
+    "graph_stats": {
+      "c_nodes": 14,
+      "c_edges": 29,
+      "rust_nodes": 12,
+      "rust_edges": 15
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.9013333333333332,
+        "common_functions_count": 13,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.3846153846153846,
+          "rust": 0.0,
+          "difference": -1.3846153846153846
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "PrintList": [
+            "PrintList"
+          ],
+          "free": [
+            "free"
+          ],
+          "ReverseList": [
+            "ReverseList"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "InsertNode": [
+            "InsertNode"
+          ],
+          "removeValue": [
+            "removeValue"
+          ],
+          "removeHead": [
+            "removeHead"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "InsertHead": [
+            "InsertHead"
+          ],
+          "CreateLinkList": [
+            "CreateLinkList"
+          ],
+          "PrintReverseList": [
+            "PrintReverseList"
+          ],
+          "CreateNode": [
+            "CreateNode"
+          ],
+          "calculateLength": [
+            "calculateLength"
+          ]
+        }
+      }
+    }
+  },
+  "program_052": {
+    "graph_stats": {
+      "c_nodes": 11,
+      "c_edges": 22,
+      "rust_nodes": 10,
+      "rust_edges": 13
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.8991666666666666,
+        "common_functions_count": 10,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.4545454545454546,
+          "rust": 0.0,
+          "difference": -1.4545454545454546
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "free": [
+            "free"
+          ],
+          "insertNode": [
+            "insertNode"
+          ],
+          "insertHead": [
+            "insertHead"
+          ],
+          "createLinkList": [
+            "createLinkList"
+          ],
+          "findLength": [
+            "findLength"
+          ],
+          "printList": [
+            "printList"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "createNode": [
+            "createNode"
+          ],
+          "removeNode": [
+            "removeNode"
+          ]
+        }
+      }
+    }
+  },
+  "program_053": {
+    "graph_stats": {
+      "c_nodes": 10,
+      "c_edges": 20,
+      "rust_nodes": 9,
+      "rust_edges": 10
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.8627272727272727,
+        "common_functions_count": 9,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.4,
+          "rust": 0.0,
+          "difference": -1.4
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "PrintList": [
+            "PrintList"
+          ],
+          "free": [
+            "free"
+          ],
+          "createCircularNode": [
+            "createCircularNode"
+          ],
+          "createLinkList": [
+            "createLinkList"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "insertValue": [
+            "insertValue"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "removeNode": [
+            "removeNode"
+          ],
+          "calculateLength": [
+            "calculateLength"
+          ]
+        }
+      }
+    }
+  },
+  "program_054": {
+    "graph_stats": {
+      "c_nodes": 16,
+      "c_edges": 39,
+      "rust_nodes": 15,
+      "rust_edges": 32
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 1.0,
+        "common_functions_count": 16,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.6666666666666667,
+          "rust": 0.0,
+          "difference": -1.6666666666666667
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "isOperand": [
+            "isOperand"
+          ],
+          "stackTop": [
+            "stackTop"
+          ],
+          "pop": [
+            "pop"
+          ],
+          "free": [
+            "free"
+          ],
+          "isFull": [
+            "isFull"
+          ],
+          "inStack": [
+            "inStack"
+          ],
+          "push": [
+            "push"
+          ],
+          "checkmatch": [
+            "checkmatch"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "isEmpty": [
+            "isEmpty"
+          ],
+          "evaluate": [
+            "evaluate"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "makePostfix": [
+            "makePostfix"
+          ],
+          "strlen": [
+            "strlen"
+          ],
+          "outStack": [
+            "outStack"
+          ],
+          "precedence": [
+            "precedence"
+          ]
+        }
+      }
+    }
+  },
+  "program_055": {
+    "graph_stats": {
+      "c_nodes": 0,
+      "c_edges": 0,
+      "rust_nodes": 0,
+      "rust_edges": 0
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 0.0,
+        "pattern_similarity": 0.0,
+        "context_similarity": 0.0,
+        "common_functions_count": 0,
+        "c_only_functions_count": 0,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 0,
+          "rust": 0,
+          "difference": 0
+        },
+        "avg_depth": {
+          "c": 0.0,
+          "rust": 0.0,
+          "difference": 0.0
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {}
+      }
+    }
+  },
+  "program_056": {
+    "graph_stats": {
+      "c_nodes": 9,
+      "c_edges": 36,
+      "rust_nodes": 6,
+      "rust_edges": 6
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 0.94796,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.6933333333333335,
+        "common_functions_count": 8,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 2,
+          "rust": 0,
+          "difference": -2
+        },
+        "avg_depth": {
+          "c": 1.0,
+          "rust": 0.0,
+          "difference": -1.0
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "intersectingNodeBruteForce": [
+            "intersectingNodeBruteForce"
+          ],
+          "initialize": [
+            "initialize"
+          ],
+          "printLinkedList": [
+            "printLinkedList"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "insert": [
+            "insert"
+          ],
+          "getLength": [
+            "getLength"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "reverseLinkedList": [
+            "reverseLinkedList"
+          ]
+        }
+      }
+    }
+  },
+  "program_057": {
+    "graph_stats": {
+      "c_nodes": 15,
+      "c_edges": 44,
+      "rust_nodes": 11,
+      "rust_edges": 10
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.8146666666666667,
+        "common_functions_count": 14,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.4,
+          "rust": 0.0,
+          "difference": -1.4
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "free": [
+            "free"
+          ],
+          "enqueue": [
+            "enqueue"
+          ],
+          "isFull": [
+            "isFull"
+          ],
+          "dequeue": [
+            "dequeue"
+          ],
+          "realloc": [
+            "realloc"
+          ],
+          "deleteQueue": [
+            "deleteQueue"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "isEmpty": [
+            "isEmpty"
+          ],
+          "resizeQueue": [
+            "resizeQueue"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "createQueue": [
+            "createQueue"
+          ],
+          "size": [
+            "size"
+          ],
+          "frontElement": [
+            "frontElement"
+          ],
+          "rearElement": [
+            "rearElement"
+          ]
+        }
+      }
+    }
+  },
+  "program_058": {
+    "graph_stats": {
+      "c_nodes": 19,
+      "c_edges": 47,
+      "rust_nodes": 18,
+      "rust_edges": 25
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 1.0,
+        "common_functions_count": 18,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 4,
+          "rust": 0,
+          "difference": -4
+        },
+        "avg_depth": {
+          "c": 1.7647058823529411,
+          "rust": 0.0,
+          "difference": -1.7647058823529411
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "free": [
+            "free"
+          ],
+          "pop": [
+            "pop"
+          ],
+          "deQueue": [
+            "deQueue"
+          ],
+          "isFull": [
+            "isFull"
+          ],
+          "realloc": [
+            "realloc"
+          ],
+          "queueSize": [
+            "queueSize"
+          ],
+          "deleteQueue": [
+            "deleteQueue"
+          ],
+          "push": [
+            "push"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "isEmpty": [
+            "isEmpty"
+          ],
+          "createStack": [
+            "createStack"
+          ],
+          "doubleStack": [
+            "doubleStack"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "createQueue": [
+            "createQueue"
+          ],
+          "deleteStack": [
+            "deleteStack"
+          ],
+          "enQueue": [
+            "enQueue"
+          ],
+          "peek": [
+            "peek"
+          ],
+          "size": [
+            "size"
+          ]
+        }
+      }
+    }
+  },
+  "program_059": {
+    "graph_stats": {
+      "c_nodes": 13,
+      "c_edges": 43,
+      "rust_nodes": 9,
+      "rust_edges": 14
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 0.9944013289036545,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.7,
+        "common_functions_count": 12,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 2,
+          "rust": 0,
+          "difference": -2
+        },
+        "avg_depth": {
+          "c": 1.0833333333333333,
+          "rust": 0.0,
+          "difference": -1.0833333333333333
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "free": [
+            "free"
+          ],
+          "enqueue": [
+            "enqueue"
+          ],
+          "dequeue": [
+            "dequeue"
+          ],
+          "deleteQueue": [
+            "deleteQueue"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "isEmpty": [
+            "isEmpty"
+          ],
+          "rearElement": [
+            "rearElement"
+          ],
+          "printQueue": [
+            "printQueue"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "CreateQueue": [
+            "CreateQueue"
+          ],
+          "frontElement": [
+            "frontElement"
+          ],
+          "size": [
+            "size"
+          ]
+        }
+      }
+    }
+  },
+  "program_060": {
+    "graph_stats": {
+      "c_nodes": 23,
+      "c_edges": 61,
+      "rust_nodes": 19,
+      "rust_edges": 28
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.9947826086956523,
+        "common_functions_count": 24,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.5714285714285714,
+          "rust": 0.0,
+          "difference": -1.5714285714285714
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "dequeue": [
+            "dequeue"
+          ],
+          "stackSize": [
+            "stackSize"
+          ],
+          "push": [
+            "push"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "reverseQueue": [
+            "reverseQueue"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "enqueue": [
+            "enqueue"
+          ],
+          "realloc": [
+            "realloc"
+          ],
+          "deleteQueue": [
+            "deleteQueue"
+          ],
+          "createStack": [
+            "createStack"
+          ],
+          "doubleStack": [
+            "doubleStack"
+          ],
+          "queueSize": [
+            "queueSize"
+          ],
+          "peek": [
+            "peek"
+          ],
+          "pop": [
+            "pop"
+          ],
+          "isFullQueue": [
+            "isFullQueue"
+          ],
+          "frontElement": [
+            "frontElement"
+          ],
+          "rearElement": [
+            "rearElement"
+          ],
+          "free": [
+            "free"
+          ],
+          "isEmptyStack": [
+            "isEmptyStack"
+          ],
+          "resizeQueue": [
+            "resizeQueue"
+          ],
+          "createQueue": [
+            "createQueue"
+          ],
+          "isEmptyQueue": [
+            "isEmptyQueue"
+          ],
+          "deleteStack": [
+            "deleteStack"
+          ],
+          "isFullStack": [
+            "isFullStack"
+          ]
+        }
+      }
+    }
+  },
+  "program_061": {
+    "graph_stats": {
+      "c_nodes": 19,
+      "c_edges": 47,
+      "rust_nodes": 18,
+      "rust_edges": 25
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 1.0,
+        "common_functions_count": 18,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 4,
+          "rust": 0,
+          "difference": -4
+        },
+        "avg_depth": {
+          "c": 1.7647058823529411,
+          "rust": 0.0,
+          "difference": -1.7647058823529411
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "free": [
+            "free"
+          ],
+          "pop": [
+            "pop"
+          ],
+          "deQueue": [
+            "deQueue"
+          ],
+          "isFull": [
+            "isFull"
+          ],
+          "realloc": [
+            "realloc"
+          ],
+          "queueSize": [
+            "queueSize"
+          ],
+          "deleteQueue": [
+            "deleteQueue"
+          ],
+          "push": [
+            "push"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "isEmpty": [
+            "isEmpty"
+          ],
+          "createStack": [
+            "createStack"
+          ],
+          "doubleStack": [
+            "doubleStack"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "createQueue": [
+            "createQueue"
+          ],
+          "deleteStack": [
+            "deleteStack"
+          ],
+          "enQueue": [
+            "enQueue"
+          ],
+          "peek": [
+            "peek"
+          ],
+          "size": [
+            "size"
+          ]
+        }
+      }
+    }
+  },
+  "program_062": {
+    "graph_stats": {
+      "c_nodes": 23,
+      "c_edges": 61,
+      "rust_nodes": 19,
+      "rust_edges": 28
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.9947826086956523,
+        "common_functions_count": 24,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.5714285714285714,
+          "rust": 0.0,
+          "difference": -1.5714285714285714
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "dequeue": [
+            "dequeue"
+          ],
+          "stackSize": [
+            "stackSize"
+          ],
+          "push": [
+            "push"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "reverseQueue": [
+            "reverseQueue"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "enqueue": [
+            "enqueue"
+          ],
+          "realloc": [
+            "realloc"
+          ],
+          "deleteQueue": [
+            "deleteQueue"
+          ],
+          "createStack": [
+            "createStack"
+          ],
+          "doubleStack": [
+            "doubleStack"
+          ],
+          "queueSize": [
+            "queueSize"
+          ],
+          "peek": [
+            "peek"
+          ],
+          "pop": [
+            "pop"
+          ],
+          "isFullQueue": [
+            "isFullQueue"
+          ],
+          "frontElement": [
+            "frontElement"
+          ],
+          "rearElement": [
+            "rearElement"
+          ],
+          "free": [
+            "free"
+          ],
+          "isEmptyStack": [
+            "isEmptyStack"
+          ],
+          "resizeQueue": [
+            "resizeQueue"
+          ],
+          "createQueue": [
+            "createQueue"
+          ],
+          "isEmptyQueue": [
+            "isEmptyQueue"
+          ],
+          "deleteStack": [
+            "deleteStack"
+          ],
+          "isFullStack": [
+            "isFullStack"
+          ]
+        }
+      }
+    }
+  },
+  "program_063": {
+    "graph_stats": {
+      "c_nodes": 21,
+      "c_edges": 40,
+      "rust_nodes": 18,
+      "rust_edges": 28
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 1.0,
+        "common_functions_count": 22,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 4,
+          "rust": 0,
+          "difference": -4
+        },
+        "avg_depth": {
+          "c": 1.6842105263157894,
+          "rust": 0.0,
+          "difference": -1.6842105263157894
+        }
+      },
+      "recursive_calls": {
+        "common_count": 1,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "deleteStackA": [
+            "deleteStackA"
+          ],
+          "isEmptyA": [
+            "isEmptyA"
+          ],
+          "popA": [
+            "popA"
+          ],
+          "push": [
+            "push"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "sizeA": [
+            "sizeA"
+          ],
+          "pushA": [
+            "pushA"
+          ],
+          "isFullA": [
+            "isFullA"
+          ],
+          "realloc": [
+            "realloc"
+          ],
+          "isEmpty": [
+            "isEmpty"
+          ],
+          "createStack": [
+            "createStack"
+          ],
+          "doubleStack": [
+            "doubleStack"
+          ],
+          "createAdvancedStack": [
+            "createAdvancedStack"
+          ],
+          "peek": [
+            "peek"
+          ],
+          "size": [
+            "size"
+          ],
+          "pop": [
+            "pop"
+          ],
+          "getMinimum": [
+            "getMinimum"
+          ],
+          "free": [
+            "free"
+          ],
+          "peekA": [
+            "peekA"
+          ],
+          "isFull": [
+            "isFull"
+          ],
+          "deleteStack": [
+            "deleteStack"
+          ]
+        }
+      }
+    }
+  },
+  "program_064": {
+    "graph_stats": {
+      "c_nodes": 21,
+      "c_edges": 42,
+      "rust_nodes": 18,
+      "rust_edges": 28
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.9842857142857143,
+        "common_functions_count": 22,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 4,
+          "rust": 0,
+          "difference": -4
+        },
+        "avg_depth": {
+          "c": 1.65,
+          "rust": 0.0,
+          "difference": -1.65
+        }
+      },
+      "recursive_calls": {
+        "common_count": 1,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "deleteStackA": [
+            "deleteStackA"
+          ],
+          "isEmptyA": [
+            "isEmptyA"
+          ],
+          "popA": [
+            "popA"
+          ],
+          "push": [
+            "push"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "sizeA": [
+            "sizeA"
+          ],
+          "pushA": [
+            "pushA"
+          ],
+          "isFullA": [
+            "isFullA"
+          ],
+          "realloc": [
+            "realloc"
+          ],
+          "isEmpty": [
+            "isEmpty"
+          ],
+          "createStack": [
+            "createStack"
+          ],
+          "doubleStack": [
+            "doubleStack"
+          ],
+          "createAdvancedStack": [
+            "createAdvancedStack"
+          ],
+          "peek": [
+            "peek"
+          ],
+          "size": [
+            "size"
+          ],
+          "pop": [
+            "pop"
+          ],
+          "getMinimum": [
+            "getMinimum"
+          ],
+          "free": [
+            "free"
+          ],
+          "peekA": [
+            "peekA"
+          ],
+          "isFull": [
+            "isFull"
+          ],
+          "deleteStack": [
+            "deleteStack"
+          ]
+        }
+      }
+    }
+  },
+  "program_065": {
+    "graph_stats": {
+      "c_nodes": 20,
+      "c_edges": 41,
+      "rust_nodes": 17,
+      "rust_edges": 27
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.9489999999999998,
+        "common_functions_count": 21,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 4,
+          "rust": 0,
+          "difference": -4
+        },
+        "avg_depth": {
+          "c": 1.65,
+          "rust": 0.0,
+          "difference": -1.65
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "isEmptyA": [
+            "isEmptyA"
+          ],
+          "popA": [
+            "popA"
+          ],
+          "push": [
+            "push"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "sizeA": [
+            "sizeA"
+          ],
+          "pushA": [
+            "pushA"
+          ],
+          "isFullA": [
+            "isFullA"
+          ],
+          "realloc": [
+            "realloc"
+          ],
+          "isEmpty": [
+            "isEmpty"
+          ],
+          "createStack": [
+            "createStack"
+          ],
+          "doubleStack": [
+            "doubleStack"
+          ],
+          "createAdvancedStack": [
+            "createAdvancedStack"
+          ],
+          "peek": [
+            "peek"
+          ],
+          "size": [
+            "size"
+          ],
+          "pop": [
+            "pop"
+          ],
+          "getMinimum": [
+            "getMinimum"
+          ],
+          "free": [
+            "free"
+          ],
+          "peekA": [
+            "peekA"
+          ],
+          "isFull": [
+            "isFull"
+          ],
+          "deleteStack": [
+            "deleteStack"
+          ]
+        }
+      }
+    }
+  },
+  "program_066": {
+    "graph_stats": {
+      "c_nodes": 12,
+      "c_edges": 28,
+      "rust_nodes": 11,
+      "rust_edges": 17
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 1.0,
+        "common_functions_count": 14,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.6363636363636365,
+          "rust": 0.0,
+          "difference": -1.6363636363636365
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "free": [
+            "free"
+          ],
+          "deQueue": [
+            "deQueue"
+          ],
+          "deleteQueue": [
+            "deleteQueue"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "isEmpty": [
+            "isEmpty"
+          ],
+          "printQueue": [
+            "printQueue"
+          ],
+          "findMaxUsingLevelOrder": [
+            "findMaxUsingLevelOrder"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "createQueue": [
+            "createQueue"
+          ],
+          "size": [
+            "size"
+          ],
+          "enQueue": [
+            "enQueue"
+          ],
+          "frontElement": [
+            "frontElement"
+          ],
+          "createNewNode": [
+            "createNewNode"
+          ],
+          "rearElement": [
+            "rearElement"
+          ]
+        }
+      }
+    }
+  },
+  "program_067": {
+    "graph_stats": {
+      "c_nodes": 12,
+      "c_edges": 29,
+      "rust_nodes": 11,
+      "rust_edges": 18
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 1.0,
+        "common_functions_count": 14,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.6363636363636365,
+          "rust": 0.0,
+          "difference": -1.6363636363636365
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "free": [
+            "free"
+          ],
+          "deQueue": [
+            "deQueue"
+          ],
+          "levelOrder": [
+            "levelOrder"
+          ],
+          "deleteQueue": [
+            "deleteQueue"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "isEmpty": [
+            "isEmpty"
+          ],
+          "printQueue": [
+            "printQueue"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "createQueue": [
+            "createQueue"
+          ],
+          "size": [
+            "size"
+          ],
+          "enQueue": [
+            "enQueue"
+          ],
+          "frontElement": [
+            "frontElement"
+          ],
+          "createNewNode": [
+            "createNewNode"
+          ],
+          "rearElement": [
+            "rearElement"
+          ]
+        }
+      }
+    }
+  },
+  "program_069": {
+    "graph_stats": {
+      "c_nodes": 8,
+      "c_edges": 30,
+      "rust_nodes": 6,
+      "rust_edges": 9
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.86125,
+        "common_functions_count": 6,
+        "c_only_functions_count": 2,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 2,
+          "rust": 0,
+          "difference": -2
+        },
+        "avg_depth": {
+          "c": 1.125,
+          "rust": 0.0,
+          "difference": -1.125
+        }
+      },
+      "recursive_calls": {
+        "common_count": 3,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "insertNode": [
+            "insertNode"
+          ],
+          "deleteNode": [
+            "deleteNode"
+          ],
+          "findMinimum": [
+            "findMinimum"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "preOrderPrint": [
+            "preOrderPrint"
+          ],
+          "malloc": [
+            "malloc"
+          ]
+        }
+      }
+    }
+  },
+  "program_070": {
+    "graph_stats": {
+      "c_nodes": 10,
+      "c_edges": 29,
+      "rust_nodes": 7,
+      "rust_edges": 9
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.8059999999999998,
+        "common_functions_count": 9,
+        "c_only_functions_count": 2,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 2,
+          "rust": 0,
+          "difference": -2
+        },
+        "avg_depth": {
+          "c": 1.0,
+          "rust": 0.0,
+          "difference": -1.0
+        }
+      },
+      "recursive_calls": {
+        "common_count": 4,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "findMaxRecursive": [
+            "findMaxRecursive"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "preOrderPrint": [
+            "preOrderPrint"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "findMinRecursive": [
+            "findMinRecursive"
+          ],
+          "insertNodeIterative": [
+            "insertNodeIterative"
+          ],
+          "findMinIterative": [
+            "findMinIterative"
+          ],
+          "insertNodeRecursive": [
+            "insertNodeRecursive"
+          ],
+          "findMaxIterative": [
+            "findMaxIterative"
+          ]
+        }
+      }
+    }
+  },
+  "program_071": {
+    "graph_stats": {
+      "c_nodes": 9,
+      "c_edges": 33,
+      "rust_nodes": 7,
+      "rust_edges": 12
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.8522222222222222,
+        "common_functions_count": 7,
+        "c_only_functions_count": 2,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 2,
+          "rust": 0,
+          "difference": -2
+        },
+        "avg_depth": {
+          "c": 1.0,
+          "rust": 0.0,
+          "difference": -1.0
+        }
+      },
+      "recursive_calls": {
+        "common_count": 3,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "insertNode": [
+            "insertNode"
+          ],
+          "inOrderPrint": [
+            "inOrderPrint"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "preOrderPrint": [
+            "preOrderPrint"
+          ],
+          "searchOnTree": [
+            "searchOnTree"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "postOrderPrint": [
+            "postOrderPrint"
+          ]
+        }
+      }
+    }
+  },
+  "program_072": {
+    "graph_stats": {
+      "c_nodes": 15,
+      "c_edges": 52,
+      "rust_nodes": 14,
+      "rust_edges": 24
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 1.0,
+        "common_functions_count": 14,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.4666666666666666,
+          "rust": 0.0,
+          "difference": -1.4666666666666666
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "delete_head": [
+            "delete_head"
+          ],
+          "free": [
+            "free"
+          ],
+          "delete_middle": [
+            "delete_middle"
+          ],
+          "insert_at_tail": [
+            "insert_at_tail"
+          ],
+          "print_list": [
+            "print_list"
+          ],
+          "insert_at_head": [
+            "insert_at_head"
+          ],
+          "print_reverse_order": [
+            "print_reverse_order"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "getListLength": [
+            "getListLength"
+          ],
+          "delete_tail": [
+            "delete_tail"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "puts": [
+            "puts"
+          ],
+          "print_forward_order": [
+            "print_forward_order"
+          ],
+          "insert_at_middle": [
+            "insert_at_middle"
+          ]
+        }
+      }
+    }
+  },
+  "program_073": {
+    "graph_stats": {
+      "c_nodes": 13,
+      "c_edges": 53,
+      "rust_nodes": 12,
+      "rust_edges": 17
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 1.0,
+        "common_functions_count": 12,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 2,
+          "rust": 0,
+          "difference": -2
+        },
+        "avg_depth": {
+          "c": 1.2307692307692308,
+          "rust": 0.0,
+          "difference": -1.2307692307692308
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "delete_head": [
+            "delete_head"
+          ],
+          "free": [
+            "free"
+          ],
+          "delete_middle": [
+            "delete_middle"
+          ],
+          "insert_at_tail": [
+            "insert_at_tail"
+          ],
+          "print_list": [
+            "print_list"
+          ],
+          "insert_at_head": [
+            "insert_at_head"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "getListLength": [
+            "getListLength"
+          ],
+          "delete_tail": [
+            "delete_tail"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "puts": [
+            "puts"
+          ],
+          "insert_at_middle": [
+            "insert_at_middle"
+          ]
+        }
+      }
+    }
+  },
+  "program_074": {
+    "graph_stats": {
+      "c_nodes": 13,
+      "c_edges": 48,
+      "rust_nodes": 11,
+      "rust_edges": 15
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.86,
+        "common_functions_count": 12,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 2,
+          "rust": 0,
+          "difference": -2
+        },
+        "avg_depth": {
+          "c": 1.2307692307692308,
+          "rust": 0.0,
+          "difference": -1.2307692307692308
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "free": [
+            "free"
+          ],
+          "deleteNode": [
+            "deleteNode"
+          ],
+          "insert_at_tail": [
+            "insert_at_tail"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "getNewNode": [
+            "getNewNode"
+          ],
+          "insert_at_head": [
+            "insert_at_head"
+          ],
+          "printLinkedListForward": [
+            "printLinkedListForward"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "printLinkedListBackward": [
+            "printLinkedListBackward"
+          ],
+          "isValueAvailable": [
+            "isValueAvailable"
+          ],
+          "puts": [
+            "puts"
+          ],
+          "insert_at_middle": [
+            "insert_at_middle"
+          ]
+        }
+      }
+    }
+  },
+  "program_075": {
+    "graph_stats": {
+      "c_nodes": 10,
+      "c_edges": 35,
+      "rust_nodes": 9,
+      "rust_edges": 11
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.9099999999999999,
+        "common_functions_count": 9,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 2,
+          "rust": 0,
+          "difference": -2
+        },
+        "avg_depth": {
+          "c": 1.2,
+          "rust": 0.0,
+          "difference": -1.2
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "insert_at_tail": [
+            "insert_at_tail"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "getNewNode": [
+            "getNewNode"
+          ],
+          "printLinkedListForward": [
+            "printLinkedListForward"
+          ],
+          "insert_at_first": [
+            "insert_at_first"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "printLinkedListBackward": [
+            "printLinkedListBackward"
+          ],
+          "puts": [
+            "puts"
+          ],
+          "insert_at_middle": [
+            "insert_at_middle"
+          ]
+        }
+      }
+    }
+  },
+  "program_076": {
+    "graph_stats": {
+      "c_nodes": 12,
+      "c_edges": 47,
+      "rust_nodes": 10,
+      "rust_edges": 15
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.9533333333333333,
+        "common_functions_count": 10,
+        "c_only_functions_count": 2,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 2,
+          "rust": 0,
+          "difference": -2
+        },
+        "avg_depth": {
+          "c": 1.25,
+          "rust": 0.0,
+          "difference": -1.25
+        }
+      },
+      "recursive_calls": {
+        "common_count": 6,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "insertNode": [
+            "insertNode"
+          ],
+          "isBstInOrderTraversal": [
+            "isBstInOrderTraversal"
+          ],
+          "findMin": [
+            "findMin"
+          ],
+          "inOrderPrint": [
+            "inOrderPrint"
+          ],
+          "findMax": [
+            "findMax"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "isBstHelper": [
+            "isBstHelper"
+          ],
+          "isItBst": [
+            "isItBst"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "isItBst_fast": [
+            "isItBst_fast"
+          ]
+        }
+      }
+    }
+  },
+  "program_077": {
+    "graph_stats": {
+      "c_nodes": 13,
+      "c_edges": 40,
+      "rust_nodes": 12,
+      "rust_edges": 16
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.7614285714285713,
+        "common_functions_count": 11,
+        "c_only_functions_count": 2,
+        "rust_only_functions_count": 1
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 2,
+          "rust": 0,
+          "difference": -2
+        },
+        "avg_depth": {
+          "c": 1.1538461538461537,
+          "rust": 0.0,
+          "difference": -1.1538461538461537
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 1
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "scanf": [
+            "scanf"
+          ],
+          "free": [
+            "free"
+          ],
+          "search_item": [
+            "search_item"
+          ],
+          "insert_at_last": [
+            "insert_at_last"
+          ],
+          "print_linked_list": [
+            "print_linked_list"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "insert_after": [
+            "insert_after"
+          ],
+          "insert_at_first": [
+            "insert_at_first"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "create_linked_list": [
+            "create_linked_list"
+          ],
+          "delete_item": [
+            "delete_item"
+          ],
+          "puts": [
+            "puts"
+          ]
+        }
+      }
+    }
+  },
+  "program_078": {
+    "graph_stats": {
+      "c_nodes": 0,
+      "c_edges": 0,
+      "rust_nodes": 0,
+      "rust_edges": 0
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 0.0,
+        "pattern_similarity": 0.0,
+        "context_similarity": 0.0,
+        "common_functions_count": 0,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 0,
+          "rust": 0,
+          "difference": 0
+        },
+        "avg_depth": {
+          "c": 0.0,
+          "rust": 0.0,
+          "difference": 0.0
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {}
+      }
+    }
+  },
+  "program_079": {
+    "graph_stats": {
+      "c_nodes": 11,
+      "c_edges": 25,
+      "rust_nodes": 10,
+      "rust_edges": 13
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.9208333333333332,
+        "common_functions_count": 10,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 2,
+          "rust": 0,
+          "difference": -2
+        },
+        "avg_depth": {
+          "c": 1.2727272727272727,
+          "rust": 0.0,
+          "difference": -1.2727272727272727
+        }
+      },
+      "recursive_calls": {
+        "common_count": 1,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "free": [
+            "free"
+          ],
+          "bst_create_node": [
+            "bst_create_node"
+          ],
+          "bst_inorder_traversal": [
+            "bst_inorder_traversal"
+          ],
+          "bst_search_node": [
+            "bst_search_node"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "bst_find_max_node": [
+            "bst_find_max_node"
+          ],
+          "bst_create": [
+            "bst_create"
+          ],
+          "bst_delete_node": [
+            "bst_delete_node"
+          ],
+          "bst_insert_node": [
+            "bst_insert_node"
+          ],
+          "malloc": [
+            "malloc"
+          ]
+        }
+      }
+    }
+  },
+  "program_080": {
+    "graph_stats": {
+      "c_nodes": 7,
+      "c_edges": 13,
+      "rust_nodes": 7,
+      "rust_edges": 13
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 1.0,
+        "common_functions_count": 7,
+        "c_only_functions_count": 0,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 0,
+          "rust": 0,
+          "difference": 0
+        },
+        "avg_depth": {
+          "c": 0.0,
+          "rust": 0.0,
+          "difference": 0.0
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "free": [
+            "free"
+          ],
+          "get_word_length": [
+            "get_word_length"
+          ],
+          "is_delim": [
+            "is_delim"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "strtow": [
+            "strtow"
+          ],
+          "get_next_word": [
+            "get_next_word"
+          ],
+          "get_word_count": [
+            "get_word_count"
+          ]
+        }
+      }
+    }
+  },
+  "program_082": {
+    "graph_stats": {
+      "c_nodes": 20,
+      "c_edges": 41,
+      "rust_nodes": 17,
+      "rust_edges": 27
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.9489999999999998,
+        "common_functions_count": 21,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 4,
+          "rust": 0,
+          "difference": -4
+        },
+        "avg_depth": {
+          "c": 1.65,
+          "rust": 0.0,
+          "difference": -1.65
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "isEmptyA": [
+            "isEmptyA"
+          ],
+          "popA": [
+            "popA"
+          ],
+          "push": [
+            "push"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "sizeA": [
+            "sizeA"
+          ],
+          "pushA": [
+            "pushA"
+          ],
+          "isFullA": [
+            "isFullA"
+          ],
+          "realloc": [
+            "realloc"
+          ],
+          "isEmpty": [
+            "isEmpty"
+          ],
+          "createStack": [
+            "createStack"
+          ],
+          "doubleStack": [
+            "doubleStack"
+          ],
+          "createAdvancedStack": [
+            "createAdvancedStack"
+          ],
+          "peek": [
+            "peek"
+          ],
+          "size": [
+            "size"
+          ],
+          "pop": [
+            "pop"
+          ],
+          "getMinimum": [
+            "getMinimum"
+          ],
+          "free": [
+            "free"
+          ],
+          "peekA": [
+            "peekA"
+          ],
+          "isFull": [
+            "isFull"
+          ],
+          "deleteStack": [
+            "deleteStack"
+          ]
+        }
+      }
+    }
+  },
+  "program_083": {
+    "graph_stats": {
+      "c_nodes": 12,
+      "c_edges": 28,
+      "rust_nodes": 11,
+      "rust_edges": 17
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 1.0,
+        "common_functions_count": 14,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.6363636363636365,
+          "rust": 0.0,
+          "difference": -1.6363636363636365
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "free": [
+            "free"
+          ],
+          "deQueue": [
+            "deQueue"
+          ],
+          "deleteQueue": [
+            "deleteQueue"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "isEmpty": [
+            "isEmpty"
+          ],
+          "printQueue": [
+            "printQueue"
+          ],
+          "findMaxUsingLevelOrder": [
+            "findMaxUsingLevelOrder"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "createQueue": [
+            "createQueue"
+          ],
+          "size": [
+            "size"
+          ],
+          "enQueue": [
+            "enQueue"
+          ],
+          "frontElement": [
+            "frontElement"
+          ],
+          "createNewNode": [
+            "createNewNode"
+          ],
+          "rearElement": [
+            "rearElement"
+          ]
+        }
+      }
+    }
+  },
+  "program_084": {
+    "graph_stats": {
+      "c_nodes": 12,
+      "c_edges": 29,
+      "rust_nodes": 11,
+      "rust_edges": 18
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 1.0,
+        "common_functions_count": 14,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.6363636363636365,
+          "rust": 0.0,
+          "difference": -1.6363636363636365
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "free": [
+            "free"
+          ],
+          "deQueue": [
+            "deQueue"
+          ],
+          "levelOrder": [
+            "levelOrder"
+          ],
+          "deleteQueue": [
+            "deleteQueue"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "isEmpty": [
+            "isEmpty"
+          ],
+          "printQueue": [
+            "printQueue"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "createQueue": [
+            "createQueue"
+          ],
+          "size": [
+            "size"
+          ],
+          "enQueue": [
+            "enQueue"
+          ],
+          "frontElement": [
+            "frontElement"
+          ],
+          "createNewNode": [
+            "createNewNode"
+          ],
+          "rearElement": [
+            "rearElement"
+          ]
+        }
+      }
+    }
+  },
+  "program_086": {
+    "graph_stats": {
+      "c_nodes": 8,
+      "c_edges": 30,
+      "rust_nodes": 6,
+      "rust_edges": 9
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.86125,
+        "common_functions_count": 6,
+        "c_only_functions_count": 2,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 2,
+          "rust": 0,
+          "difference": -2
+        },
+        "avg_depth": {
+          "c": 1.125,
+          "rust": 0.0,
+          "difference": -1.125
+        }
+      },
+      "recursive_calls": {
+        "common_count": 3,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "insertNode": [
+            "insertNode"
+          ],
+          "deleteNode": [
+            "deleteNode"
+          ],
+          "findMinimum": [
+            "findMinimum"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "preOrderPrint": [
+            "preOrderPrint"
+          ],
+          "malloc": [
+            "malloc"
+          ]
+        }
+      }
+    }
+  },
+  "program_087": {
+    "graph_stats": {
+      "c_nodes": 10,
+      "c_edges": 29,
+      "rust_nodes": 7,
+      "rust_edges": 9
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.8059999999999998,
+        "common_functions_count": 9,
+        "c_only_functions_count": 2,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 2,
+          "rust": 0,
+          "difference": -2
+        },
+        "avg_depth": {
+          "c": 1.0,
+          "rust": 0.0,
+          "difference": -1.0
+        }
+      },
+      "recursive_calls": {
+        "common_count": 4,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "findMaxRecursive": [
+            "findMaxRecursive"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "preOrderPrint": [
+            "preOrderPrint"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "findMinRecursive": [
+            "findMinRecursive"
+          ],
+          "insertNodeIterative": [
+            "insertNodeIterative"
+          ],
+          "findMinIterative": [
+            "findMinIterative"
+          ],
+          "insertNodeRecursive": [
+            "insertNodeRecursive"
+          ],
+          "findMaxIterative": [
+            "findMaxIterative"
+          ]
+        }
+      }
+    }
+  },
+  "program_088": {
+    "graph_stats": {
+      "c_nodes": 9,
+      "c_edges": 33,
+      "rust_nodes": 7,
+      "rust_edges": 12
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.8522222222222222,
+        "common_functions_count": 7,
+        "c_only_functions_count": 2,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 2,
+          "rust": 0,
+          "difference": -2
+        },
+        "avg_depth": {
+          "c": 1.0,
+          "rust": 0.0,
+          "difference": -1.0
+        }
+      },
+      "recursive_calls": {
+        "common_count": 3,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "insertNode": [
+            "insertNode"
+          ],
+          "inOrderPrint": [
+            "inOrderPrint"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "preOrderPrint": [
+            "preOrderPrint"
+          ],
+          "searchOnTree": [
+            "searchOnTree"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "postOrderPrint": [
+            "postOrderPrint"
+          ]
+        }
+      }
+    }
+  },
+  "program_089": {
+    "graph_stats": {
+      "c_nodes": 15,
+      "c_edges": 52,
+      "rust_nodes": 14,
+      "rust_edges": 24
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 1.0,
+        "common_functions_count": 14,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 3,
+          "rust": 0,
+          "difference": -3
+        },
+        "avg_depth": {
+          "c": 1.4666666666666666,
+          "rust": 0.0,
+          "difference": -1.4666666666666666
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "delete_head": [
+            "delete_head"
+          ],
+          "free": [
+            "free"
+          ],
+          "delete_middle": [
+            "delete_middle"
+          ],
+          "insert_at_tail": [
+            "insert_at_tail"
+          ],
+          "print_list": [
+            "print_list"
+          ],
+          "insert_at_head": [
+            "insert_at_head"
+          ],
+          "print_reverse_order": [
+            "print_reverse_order"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "getListLength": [
+            "getListLength"
+          ],
+          "delete_tail": [
+            "delete_tail"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "puts": [
+            "puts"
+          ],
+          "print_forward_order": [
+            "print_forward_order"
+          ],
+          "insert_at_middle": [
+            "insert_at_middle"
+          ]
+        }
+      }
+    }
+  },
+  "program_090": {
+    "graph_stats": {
+      "c_nodes": 13,
+      "c_edges": 53,
+      "rust_nodes": 12,
+      "rust_edges": 17
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 1.0,
+        "common_functions_count": 12,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 2,
+          "rust": 0,
+          "difference": -2
+        },
+        "avg_depth": {
+          "c": 1.2307692307692308,
+          "rust": 0.0,
+          "difference": -1.2307692307692308
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "delete_head": [
+            "delete_head"
+          ],
+          "free": [
+            "free"
+          ],
+          "delete_middle": [
+            "delete_middle"
+          ],
+          "insert_at_tail": [
+            "insert_at_tail"
+          ],
+          "print_list": [
+            "print_list"
+          ],
+          "insert_at_head": [
+            "insert_at_head"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "getListLength": [
+            "getListLength"
+          ],
+          "delete_tail": [
+            "delete_tail"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "puts": [
+            "puts"
+          ],
+          "insert_at_middle": [
+            "insert_at_middle"
+          ]
+        }
+      }
+    }
+  },
+  "program_091": {
+    "graph_stats": {
+      "c_nodes": 13,
+      "c_edges": 48,
+      "rust_nodes": 11,
+      "rust_edges": 15
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.86,
+        "common_functions_count": 12,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 2,
+          "rust": 0,
+          "difference": -2
+        },
+        "avg_depth": {
+          "c": 1.2307692307692308,
+          "rust": 0.0,
+          "difference": -1.2307692307692308
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "free": [
+            "free"
+          ],
+          "deleteNode": [
+            "deleteNode"
+          ],
+          "insert_at_tail": [
+            "insert_at_tail"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "getNewNode": [
+            "getNewNode"
+          ],
+          "insert_at_head": [
+            "insert_at_head"
+          ],
+          "printLinkedListForward": [
+            "printLinkedListForward"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "printLinkedListBackward": [
+            "printLinkedListBackward"
+          ],
+          "isValueAvailable": [
+            "isValueAvailable"
+          ],
+          "puts": [
+            "puts"
+          ],
+          "insert_at_middle": [
+            "insert_at_middle"
+          ]
+        }
+      }
+    }
+  },
+  "program_092": {
+    "graph_stats": {
+      "c_nodes": 10,
+      "c_edges": 35,
+      "rust_nodes": 9,
+      "rust_edges": 11
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.9099999999999999,
+        "common_functions_count": 9,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 2,
+          "rust": 0,
+          "difference": -2
+        },
+        "avg_depth": {
+          "c": 1.2,
+          "rust": 0.0,
+          "difference": -1.2
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "insert_at_tail": [
+            "insert_at_tail"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "getNewNode": [
+            "getNewNode"
+          ],
+          "printLinkedListForward": [
+            "printLinkedListForward"
+          ],
+          "insert_at_first": [
+            "insert_at_first"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "printLinkedListBackward": [
+            "printLinkedListBackward"
+          ],
+          "puts": [
+            "puts"
+          ],
+          "insert_at_middle": [
+            "insert_at_middle"
+          ]
+        }
+      }
+    }
+  },
+  "program_093": {
+    "graph_stats": {
+      "c_nodes": 12,
+      "c_edges": 47,
+      "rust_nodes": 10,
+      "rust_edges": 15
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.9533333333333333,
+        "common_functions_count": 10,
+        "c_only_functions_count": 2,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 2,
+          "rust": 0,
+          "difference": -2
+        },
+        "avg_depth": {
+          "c": 1.25,
+          "rust": 0.0,
+          "difference": -1.25
+        }
+      },
+      "recursive_calls": {
+        "common_count": 6,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "insertNode": [
+            "insertNode"
+          ],
+          "isBstInOrderTraversal": [
+            "isBstInOrderTraversal"
+          ],
+          "findMin": [
+            "findMin"
+          ],
+          "inOrderPrint": [
+            "inOrderPrint"
+          ],
+          "findMax": [
+            "findMax"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "isBstHelper": [
+            "isBstHelper"
+          ],
+          "isItBst": [
+            "isItBst"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "isItBst_fast": [
+            "isItBst_fast"
+          ]
+        }
+      }
+    }
+  },
+  "program_094": {
+    "graph_stats": {
+      "c_nodes": 13,
+      "c_edges": 40,
+      "rust_nodes": 12,
+      "rust_edges": 16
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.7614285714285713,
+        "common_functions_count": 11,
+        "c_only_functions_count": 2,
+        "rust_only_functions_count": 1
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 2,
+          "rust": 0,
+          "difference": -2
+        },
+        "avg_depth": {
+          "c": 1.1538461538461537,
+          "rust": 0.0,
+          "difference": -1.1538461538461537
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 1
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "scanf": [
+            "scanf"
+          ],
+          "free": [
+            "free"
+          ],
+          "search_item": [
+            "search_item"
+          ],
+          "insert_at_last": [
+            "insert_at_last"
+          ],
+          "print_linked_list": [
+            "print_linked_list"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "insert_after": [
+            "insert_after"
+          ],
+          "insert_at_first": [
+            "insert_at_first"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "create_linked_list": [
+            "create_linked_list"
+          ],
+          "delete_item": [
+            "delete_item"
+          ],
+          "puts": [
+            "puts"
+          ]
+        }
+      }
+    }
+  },
+  "program_095": {
+    "graph_stats": {
+      "c_nodes": 0,
+      "c_edges": 0,
+      "rust_nodes": 0,
+      "rust_edges": 0
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 0.0,
+        "pattern_similarity": 0.0,
+        "context_similarity": 0.0,
+        "common_functions_count": 0,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 0,
+          "rust": 0,
+          "difference": 0
+        },
+        "avg_depth": {
+          "c": 0.0,
+          "rust": 0.0,
+          "difference": 0.0
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {}
+      }
+    }
+  },
+  "program_096": {
+    "graph_stats": {
+      "c_nodes": 11,
+      "c_edges": 25,
+      "rust_nodes": 10,
+      "rust_edges": 13
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 0.9208333333333332,
+        "common_functions_count": 10,
+        "c_only_functions_count": 1,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 2,
+          "rust": 0,
+          "difference": -2
+        },
+        "avg_depth": {
+          "c": 1.2727272727272727,
+          "rust": 0.0,
+          "difference": -1.2727272727272727
+        }
+      },
+      "recursive_calls": {
+        "common_count": 1,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "free": [
+            "free"
+          ],
+          "bst_create_node": [
+            "bst_create_node"
+          ],
+          "bst_inorder_traversal": [
+            "bst_inorder_traversal"
+          ],
+          "bst_search_node": [
+            "bst_search_node"
+          ],
+          "printf": [
+            "printf"
+          ],
+          "bst_find_max_node": [
+            "bst_find_max_node"
+          ],
+          "bst_create": [
+            "bst_create"
+          ],
+          "bst_delete_node": [
+            "bst_delete_node"
+          ],
+          "bst_insert_node": [
+            "bst_insert_node"
+          ],
+          "malloc": [
+            "malloc"
+          ]
+        }
+      }
+    }
+  },
+  "program_097": {
+    "graph_stats": {
+      "c_nodes": 7,
+      "c_edges": 13,
+      "rust_nodes": 7,
+      "rust_edges": 13
+    },
+    "summary": {
+      "structure_comparison": {
+        "similarity": 1.0,
+        "pattern_similarity": 1.0,
+        "context_similarity": 1.0,
+        "common_functions_count": 7,
+        "c_only_functions_count": 0,
+        "rust_only_functions_count": 0
+      },
+      "call_hierarchy": {
+        "max_depth": {
+          "c": 0,
+          "rust": 0,
+          "difference": 0
+        },
+        "avg_depth": {
+          "c": 0.0,
+          "rust": 0.0,
+          "difference": 0.0
+        }
+      },
+      "recursive_calls": {
+        "common_count": 0,
+        "c_only_count": 0,
+        "rust_only_count": 0
+      },
+      "rust_specific_functions": {
+        "memory_management_count": 0,
+        "error_handling_count": 0,
+        "iterators_count": 0,
+        "standard_library_count": 0,
+        "other_count": 0
+      },
+      "function_mapping": {
+        "rust_to_c": {
+          "free": [
+            "free"
+          ],
+          "get_word_length": [
+            "get_word_length"
+          ],
+          "is_delim": [
+            "is_delim"
+          ],
+          "malloc": [
+            "malloc"
+          ],
+          "strtow": [
+            "strtow"
+          ],
+          "get_next_word": [
+            "get_next_word"
+          ],
+          "get_word_count": [
+            "get_word_count"
+          ]
+        }
+      }
+    }
+  }
+}

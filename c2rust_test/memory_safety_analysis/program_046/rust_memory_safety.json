@@ -1,0 +1,27 @@
+{
+  "null_dereference": [],
+  "buffer_overflow": [],
+  "double_free": [],
+  "use_after_free": [
+    {
+      "function": "delete_middle ========",
+      "instruction": "%13 = getelementptr inbounds nuw i8, ptr %_2, i64 16"
+    }
+  ],
+  "total_issues": 1,
+  "analyzed_functions": [
+    "_ZN11program_0466main_017h70821b0769757f36E ========",
+    "insert_at_head ========",
+    "insert_at_tail ========",
+    "insert_at_middle ========",
+    "delete_head ========",
+    "delete_tail ========",
+    "delete_middle ========",
+    "print_list ========",
+    "print_forward_order ========",
+    "print_reverse_order ========",
+    "getListLength ========",
+    "_ZN11program_0464main17hdc32e371972302b1E ========"
+  ],
+  "instruction_count": 559
+}

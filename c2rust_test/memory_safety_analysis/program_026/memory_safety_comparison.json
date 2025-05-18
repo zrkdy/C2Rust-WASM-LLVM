@@ -1,0 +1,42 @@
+{
+  "c_total_issues": 0,
+  "rust_total_issues": 1,
+  "issue_reduction_percentage": 0,
+  "issue_categories": {
+    "null_dereference": {
+      "c_count": 0,
+      "rust_count": 0
+    },
+    "buffer_overflow": {
+      "c_count": 0,
+      "rust_count": 0
+    },
+    "double_free": {
+      "c_count": 0,
+      "rust_count": 0
+    },
+    "use_after_free": {
+      "c_count": 0,
+      "rust_count": 1
+    }
+  },
+  "functions_analyzed": {
+    "c_count": 14,
+    "rust_count": 15,
+    "common_functions": [
+      "Enqeue ========",
+      "Delete ========",
+      "InOrder ========",
+      "Pop ========",
+      "PreOrder ========",
+      "insert ========",
+      "LevelOrder ========",
+      "FindMin ========",
+      "isEmpty ========",
+      "traverse ========",
+      "PostOrder ========",
+      "NewNode ========",
+      "Pfront ========"
+    ]
+  }
+}

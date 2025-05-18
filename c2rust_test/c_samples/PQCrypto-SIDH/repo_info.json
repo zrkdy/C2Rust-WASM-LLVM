@@ -1,0 +1,10 @@
+{
+  "name": "PQCrypto-SIDH",
+  "full_name": "microsoft/PQCrypto-SIDH",
+  "description": "SIDH Library is a fast and portable software library that implements state-of-the-art supersingular isogeny cryptographic schemes. The chosen parameters aim to provide security against attackers running a large-scale quantum computer, and security against classical algorithms.",
+  "url": "https://github.com/microsoft/PQCrypto-SIDH",
+  "stars": 322,
+  "forks": 100,
+  "created_at": "2017-04-17T23:16:37Z",
+  "updated_at": "2025-04-20T08:45:43Z"
+}

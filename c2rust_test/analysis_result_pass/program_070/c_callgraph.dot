@@ -1,0 +1,29 @@
+digraph "C Code Call Graph: ./c_code/program_070/program_070.ll" {
+	label="C Code Call Graph: ./c_code/program_070/program_070.ll";
+
+	Node0x5564a5820e10 [shape=record,label="{main}"];
+	Node0x5564a5820e10 -> Node0x5564a581c940;
+	Node0x5564a5820e10 -> Node0x5564a5824d00;
+	Node0x5564a5820e10 -> Node0x5564a582a950;
+	Node0x5564a5820e10 -> Node0x5564a582a3c0;
+	Node0x5564a5820e10 -> Node0x5564a582a340;
+	Node0x5564a5820e10 -> Node0x5564a5824d80;
+	Node0x5564a5820e10 -> Node0x5564a5824c80;
+	Node0x5564a581c940 [shape=record,label="{insertNodeRecursive}"];
+	Node0x5564a581c940 -> Node0x5564a582a9d0;
+	Node0x5564a581c940 -> Node0x5564a581c940;
+	Node0x5564a5824c80 [shape=record,label="{insertNodeIterative}"];
+	Node0x5564a5824c80 -> Node0x5564a582a9d0;
+	Node0x5564a5824d00 [shape=record,label="{printf}"];
+	Node0x5564a5824d80 [shape=record,label="{preOrderPrint}"];
+	Node0x5564a5824d80 -> Node0x5564a5824d00;
+	Node0x5564a5824d80 -> Node0x5564a5824d80;
+	Node0x5564a582a340 [shape=record,label="{puts}"];
+	Node0x5564a582a3c0 [shape=record,label="{findMinIterative}"];
+	Node0x5564a582a950 [shape=record,label="{findMaxRecursive}"];
+	Node0x5564a582a950 -> Node0x5564a582a950;
+	Node0x5564a582ab60 [shape=record,label="{findMinRecursive}"];
+	Node0x5564a582ab60 -> Node0x5564a582ab60;
+	Node0x5564a582ac10 [shape=record,label="{findMaxIterative}"];
+	Node0x5564a582a9d0 [shape=record,label="{malloc}"];
+}

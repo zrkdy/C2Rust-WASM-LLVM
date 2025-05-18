@@ -1,0 +1,10 @@
+{
+  "name": "msgqueue_thrdpool",
+  "full_name": "Barenboim/msgqueue_thrdpool",
+  "description": "Message queue and thread pool implementations of C++ Workflow",
+  "url": "https://github.com/Barenboim/msgqueue_thrdpool",
+  "stars": 33,
+  "forks": 13,
+  "created_at": "2022-06-24T11:28:05Z",
+  "updated_at": "2025-02-06T12:05:08Z"
+}

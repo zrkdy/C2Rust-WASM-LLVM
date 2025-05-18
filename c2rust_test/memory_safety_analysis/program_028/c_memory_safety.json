@@ -1,0 +1,21 @@
+{
+  "null_dereference": [],
+  "buffer_overflow": [],
+  "double_free": [],
+  "use_after_free": [],
+  "total_issues": 0,
+  "analyzed_functions": [
+    "node_height ========",
+    "LR_Rotation ========",
+    "RL_Rotation ========",
+    "RR_Rotation ========",
+    "LL_Rotation ========",
+    "createNode ========",
+    "Inorder ========",
+    "Balance_factor ========",
+    "Rotate ========",
+    "insert ========",
+    "main ========"
+  ],
+  "instruction_count": 461
+}

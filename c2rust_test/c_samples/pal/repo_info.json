@@ -1,0 +1,10 @@
+{
+  "name": "pal",
+  "full_name": "parallella/pal",
+  "description": "An optimized C library for math, parallel processing and data movement",
+  "url": "https://github.com/parallella/pal",
+  "stars": 310,
+  "forks": 111,
+  "created_at": "2014-12-01T18:53:33Z",
+  "updated_at": "2025-04-09T20:56:39Z"
+}

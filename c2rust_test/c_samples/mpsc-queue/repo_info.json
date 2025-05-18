@@ -1,0 +1,10 @@
+{
+  "name": "mpsc-queue",
+  "full_name": "grivet/mpsc-queue",
+  "description": "A C11 implementation of D. Vyukov MPSC queue",
+  "url": "https://github.com/grivet/mpsc-queue",
+  "stars": 27,
+  "forks": 2,
+  "created_at": "2021-01-17T22:58:47Z",
+  "updated_at": "2025-02-14T16:31:52Z"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "portable-lib",
+  "full_name": "opencoff/portable-lib",
+  "description": "Portable C, C++ code for hash tables, bloom filters, string-search, string utilities, hash functions, arc4random",
+  "url": "https://github.com/opencoff/portable-lib",
+  "stars": 53,
+  "forks": 16,
+  "created_at": "2017-05-12T16:28:38Z",
+  "updated_at": "2024-09-09T08:53:07Z"
+}

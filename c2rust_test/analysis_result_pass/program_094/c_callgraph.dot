@@ -1,0 +1,38 @@
+digraph "C Code Call Graph: ./c_code/program_094/program_094.ll" {
+	label="C Code Call Graph: ./c_code/program_094/program_094.ll";
+
+	Node0x5600afee39d0 [shape=record,label="{main}"];
+	Node0x5600afee39d0 -> Node0x5600afee3b70;
+	Node0x5600afee39d0 -> Node0x5600afeeafc0;
+	Node0x5600afee39d0 -> Node0x5600afeeb040;
+	Node0x5600afee39d0 -> Node0x5600afef0f90;
+	Node0x5600afee39d0 -> Node0x5600afeeb170;
+	Node0x5600afee39d0 -> Node0x5600afef05f0;
+	Node0x5600afee39d0 -> Node0x5600afef0f10;
+	Node0x5600afee39d0 -> Node0x5600afef0980;
+	Node0x5600afee39d0 -> Node0x5600afef0900;
+	Node0x5600afee3b70 [shape=record,label="{printf}"];
+	Node0x5600afeeb170 [shape=record,label="{__isoc99_scanf}"];
+	Node0x5600afef05f0 [shape=record,label="{insert_at_last}"];
+	Node0x5600afef05f0 -> Node0x5600afef1010;
+	Node0x5600afef0900 [shape=record,label="{insert_at_first}"];
+	Node0x5600afef0900 -> Node0x5600afef1010;
+	Node0x5600afef0980 [shape=record,label="{insert_after}"];
+	Node0x5600afef0980 -> Node0x5600afef1010;
+	Node0x5600afef0980 -> Node0x5600afee3b70;
+	Node0x5600afef0f10 [shape=record,label="{search_item}"];
+	Node0x5600afef0f10 -> Node0x5600afee3b70;
+	Node0x5600afef0f90 [shape=record,label="{delete_item}"];
+	Node0x5600afef0f90 -> Node0x5600afee3b70;
+	Node0x5600afef0f90 -> Node0x5600afef10f0;
+	Node0x5600afeeafc0 [shape=record,label="{create_linked_list}"];
+	Node0x5600afeeafc0 -> Node0x5600afee3b70;
+	Node0x5600afeeafc0 -> Node0x5600afeeb170;
+	Node0x5600afeeafc0 -> Node0x5600afef05f0;
+	Node0x5600afef1010 [shape=record,label="{malloc}"];
+	Node0x5600afef10f0 [shape=record,label="{free}"];
+	Node0x5600afeeb040 [shape=record,label="{print_linked_list}"];
+	Node0x5600afeeb040 -> Node0x5600afee3b70;
+	Node0x5600afeeb040 -> Node0x5600afef1330;
+	Node0x5600afef1330 [shape=record,label="{puts}"];
+}

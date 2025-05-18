@@ -1,0 +1,10 @@
+{
+  "name": "postgresql-hll",
+  "full_name": "citusdata/postgresql-hll",
+  "description": "PostgreSQL extension adding HyperLogLog data structures as a native data type ",
+  "url": "https://github.com/citusdata/postgresql-hll",
+  "stars": 1165,
+  "forks": 118,
+  "created_at": "2013-02-04T19:06:16Z",
+  "updated_at": "2025-04-25T07:04:49Z"
+}

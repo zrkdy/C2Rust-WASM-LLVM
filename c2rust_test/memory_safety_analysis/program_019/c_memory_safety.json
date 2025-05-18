@@ -1,0 +1,25 @@
+{
+  "null_dereference": [],
+  "buffer_overflow": [],
+  "double_free": [],
+  "use_after_free": [],
+  "total_issues": 0,
+  "analyzed_functions": [
+    "newAdjListNode ========",
+    "createGraph ========",
+    "AddEdge ========",
+    "newMinHeapNode ========",
+    "createMinHeap ========",
+    "swapMinHeapNode ========",
+    "MinHeapify ========",
+    "isEmpty ========",
+    "decreaseKey ========",
+    "extractMin ========",
+    "isInMinHeap ========",
+    "printpath ========",
+    "printarr ========",
+    "dijkstra ========",
+    "main ========"
+  ],
+  "instruction_count": 802
+}

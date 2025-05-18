@@ -1,0 +1,22 @@
+{
+  "null_dereference": [],
+  "buffer_overflow": [],
+  "double_free": [],
+  "use_after_free": [],
+  "total_issues": 0,
+  "analyzed_functions": [
+    "CreateNode ========",
+    "CreateLinkList ========",
+    "calculateLength ========",
+    "InsertHead ========",
+    "InsertNode ========",
+    "removeHead ========",
+    "removeValue ========",
+    "ReverseList ========",
+    "PrintList ========",
+    "PrintReverseList ========",
+    "_ZN11program_0356main_017h593fb4a575b1c438E ========",
+    "_ZN11program_0354main17h66554f476911007eE ========"
+  ],
+  "instruction_count": 480
+}

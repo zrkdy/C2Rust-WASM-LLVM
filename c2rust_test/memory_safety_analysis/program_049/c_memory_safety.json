@@ -1,0 +1,17 @@
+{
+  "null_dereference": [],
+  "buffer_overflow": [],
+  "double_free": [],
+  "use_after_free": [],
+  "total_issues": 0,
+  "analyzed_functions": [
+    "main ========",
+    "insert_at_tail ========",
+    "insert_at_middle ========",
+    "insert_at_first ========",
+    "getNewNode ========",
+    "printLinkedListForward ========",
+    "printLinkedListBackward ========"
+  ],
+  "instruction_count": 275
+}

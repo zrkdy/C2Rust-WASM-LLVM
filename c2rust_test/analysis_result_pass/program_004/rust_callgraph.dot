@@ -1,0 +1,34 @@
+digraph "Rust Code Call Graph: ./rust_code/program_004/program_004.ll" {
+	label="Rust Code Call Graph: ./rust_code/program_004/program_004.ll";
+
+	Node0x564629c63b40 [shape=record,label="{_ZN4core10intrinsics9cold_path17hf0baf4dc33fb1c2bE}"];
+	Node0x564629c4f040 [shape=record,label="{_ZN4core3ptr7mut_ptr31_$LT$impl$u20$$BP$mut$u20$T$GT$6offset18precondition_check17ha0024f3793f1cad5E}"];
+	Node0x564629c4f040 -> Node0x564629c50760;
+	Node0x564629c4f040 -> Node0x564629c553e0;
+	Node0x564629c4f040 -> Node0x564629c57210;
+	Node0x564629c3fde0 [shape=record,label="{_ZN4core3ptr7mut_ptr31_$LT$impl$u20$$BP$mut$u20$T$GT$7is_null17h3a1a2d3929c8b870E}"];
+	Node0x564629c57cd0 [shape=record,label="{_ZN4core3ptr9const_ptr33_$LT$impl$u20$$BP$const$u20$T$GT$6offset18precondition_check17hcdfdf5278b9c9c99E}"];
+	Node0x564629c57cd0 -> Node0x564629c50760;
+	Node0x564629c57cd0 -> Node0x564629c553e0;
+	Node0x564629c57cd0 -> Node0x564629c57210;
+	Node0x564629c6a580 [shape=record,label="{lcslen}"];
+	Node0x564629c6a580 -> Node0x564629c57cd0;
+	Node0x564629c6a580 -> Node0x564629c6a630;
+	Node0x564629c6a580 -> Node0x564629c59cf0;
+	Node0x564629c6a580 -> Node0x564629c4f040;
+	Node0x564629c5db40 [shape=record,label="{lcsbuild}"];
+	Node0x564629c5db40 -> Node0x564629c4f040;
+	Node0x564629c5db40 -> Node0x564629c59cf0;
+	Node0x564629c5db40 -> Node0x564629c6a630;
+	Node0x564629c5db40 -> Node0x564629c57cd0;
+	Node0x564629c5db40 -> Node0x564629c62430;
+	Node0x564629c5db40 -> Node0x564629c60bf0;
+	Node0x564629c5db40 -> Node0x564629c3fde0;
+	Node0x564629c50760 [shape=record,label="{llvm.smul.with.overflow.i64}"];
+	Node0x564629c553e0 [shape=record,label="{llvm.uadd.with.overflow.i64}"];
+	Node0x564629c57210 [shape=record,label="{_ZN4core9panicking14panic_nounwind17h211d9ce8d63f12e7E}"];
+	Node0x564629c6a630 [shape=record,label="{_ZN4core9panicking30panic_null_pointer_dereference17hf718fcc86a223baaE}"];
+	Node0x564629c59cf0 [shape=record,label="{_ZN4core9panicking36panic_misaligned_pointer_dereference17hcc3cbded9382b6e5E}"];
+	Node0x564629c60bf0 [shape=record,label="{calloc}"];
+	Node0x564629c62430 [shape=record,label="{perror}"];
+}

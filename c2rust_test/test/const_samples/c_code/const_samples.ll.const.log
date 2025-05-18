@@ -1,0 +1,106 @@
+======== 开始分析全局变量翻译 ========
+变量: SIMPLE_INT
+  C定义: @SIMPLE_INT = dso_local constant i32 42, align 4
+  建议翻译为: const
+  原因: 简单字面量，编译时常量且地址未被使用，可以安全地翻译为Rust const
+  建议Rust代码: pub const SIMPLE_INT: [类型省略] = [初始化器省略];
+
+变量: SIMPLE_FLOAT
+  C定义: @SIMPLE_FLOAT = dso_local constant float 0x40091EB860000000, align 4
+  建议翻译为: const
+  原因: 简单字面量，编译时常量且地址未被使用，可以安全地翻译为Rust const
+  建议Rust代码: pub const SIMPLE_FLOAT: [类型省略] = [初始化器省略];
+
+变量: SIMPLE_CHAR
+  C定义: @SIMPLE_CHAR = dso_local constant i8 65, align 1
+  建议翻译为: const
+  原因: 简单字面量，编译时常量且地址未被使用，可以安全地翻译为Rust const
+  建议Rust代码: pub const SIMPLE_CHAR: [类型省略] = [初始化器省略];
+
+变量: STRING_LITERAL
+  C定义: @STRING_LITERAL = dso_local global i8* getelementptr inbounds ([14 x i8], [14 x i8]* @.str, i32 0, i32 0), align 8
+  建议翻译为: static mut
+  原因: 原始C代码中不是const变量，翻译为static mut
+  建议Rust代码: pub static mut STRING_LITERAL: [类型省略] = [初始化器省略];
+
+变量: ANOTHER_CONST
+  C定义: @ANOTHER_CONST = dso_local constant i32 100, align 4
+  建议翻译为: static
+  原因: 地址被引用，需要固定地址和'static生命周期，建议使用static
+  建议Rust代码: pub static ANOTHER_CONST: [类型省略] = [初始化器省略];
+
+变量: POINTER_TO_CONST
+  C定义: @POINTER_TO_CONST = dso_local global i32* @ANOTHER_CONST, align 8
+  建议翻译为: static mut
+  原因: 原始C代码中不是const变量，翻译为static mut
+  建议Rust代码: pub static mut POINTER_TO_CONST: [类型省略] = [初始化器省略];
+
+变量: mutable_var
+  C定义: @mutable_var = dso_local global i32 200, align 4
+  建议翻译为: static mut
+  原因: 原始C代码中不是const变量，翻译为static mut
+  建议Rust代码: pub static mut mutable_var: [类型省略] = [初始化器省略];
+
+变量: POINTER_TO_MUTABLE
+  C定义: @POINTER_TO_MUTABLE = dso_local global i32* @mutable_var, align 8
+  建议翻译为: static mut
+  原因: 原始C代码中不是const变量，翻译为static mut
+  建议Rust代码: pub static mut POINTER_TO_MUTABLE: [类型省略] = [初始化器省略];
+
+变量: INTTOPTR_EXAMPLE
+  C定义: @INTTOPTR_EXAMPLE = dso_local global i8* inttoptr (i64 3735928559 to i8*), align 8
+  建议翻译为: static mut
+  原因: 原始C代码中不是const变量，翻译为static mut
+  建议Rust代码: pub static mut INTTOPTR_EXAMPLE: [类型省略] = [初始化器省略];
+
+变量: SIMPLE_STRUCT
+  C定义: @SIMPLE_STRUCT = dso_local constant %struct.Point { i32 10, i32 20 }, align 4
+  建议翻译为: const
+  原因: 简单字面量，编译时常量且地址未被使用，可以安全地翻译为Rust const
+  建议Rust代码: pub const SIMPLE_STRUCT: [类型省略] = [初始化器省略];
+
+变量: STRUCT_WITH_CONST_PTR
+  C定义: @STRUCT_WITH_CONST_PTR = dso_local constant %struct.Person { i32 1, i8* getelementptr inbounds ([5 x i8], [5 x i8]* @.str.1, i32 0, i32 0) }, align 8
+  建议翻译为: static
+  原因: 包含指针，需要固定地址和'static生命周期，建议使用static
+  建议Rust代码: pub static STRUCT_WITH_CONST_PTR: [类型省略] = [初始化器省略];
+
+变量: STRUCT_WITH_MUTABLE_PTR
+  C定义: @STRUCT_WITH_MUTABLE_PTR = dso_local constant %struct.Record { i32 2, i32* @mutable_var }, align 8
+  建议翻译为: static
+  原因: 包含指针，需要固定地址和'static生命周期，建议使用static
+  建议Rust代码: pub static STRUCT_WITH_MUTABLE_PTR: [类型省略] = [初始化器省略];
+
+变量: INT_ARRAY
+  C定义: @INT_ARRAY = dso_local constant [3 x i32] [i32 1, i32 2, i32 3], align 4
+  建议翻译为: const
+  原因: 简单字面量，编译时常量且地址未被使用，可以安全地翻译为Rust const
+  建议Rust代码: pub const INT_ARRAY: [类型省略] = [初始化器省略];
+
+变量: STRING_ARRAY
+  C定义: @STRING_ARRAY = dso_local global [2 x i8*] [i8* getelementptr inbounds ([6 x i8], [6 x i8]* @.str.2, i32 0, i32 0), i8* getelementptr inbounds ([7 x i8], [7 x i8]* @.str.3, i32 0, i32 0)], align 16
+  建议翻译为: static mut
+  原因: 原始C代码中不是const变量，翻译为static mut
+  建议Rust代码: pub static mut STRING_ARRAY: [类型省略] = [初始化器省略];
+
+变量: MUTABLE_PTR_ARRAY
+  C定义: @MUTABLE_PTR_ARRAY = dso_local global [2 x i32*] [i32* @mutable_var, i32* @mutable_var], align 16
+  建议翻译为: static mut
+  原因: 原始C代码中不是const变量，翻译为static mut
+  建议Rust代码: pub static mut MUTABLE_PTR_ARRAY: [类型省略] = [初始化器省略];
+
+变量: NON_CONST_VAR
+  C定义: @NON_CONST_VAR = dso_local global i32 300, align 4
+  建议翻译为: static mut
+  原因: 原始C代码中不是const变量，翻译为static mut
+  建议Rust代码: pub static mut NON_CONST_VAR: [类型省略] = [初始化器省略];
+
+变量: COMPLEX_STRUCT
+  C定义: @COMPLEX_STRUCT = dso_local constant %struct.Complex { %struct.Point { i32 30, i32 40 }, i8* inttoptr (i64 4096 to i8*) }, align 8
+  建议翻译为: static
+  原因: 包含指针，需要固定地址和'static生命周期，建议使用static
+  建议Rust代码: pub static COMPLEX_STRUCT: [类型省略] = [初始化器省略];
+
+共分析了 17 个全局变量 (const: 5, static: 4, static mut: 8)
+======== 分析完成 ========
+

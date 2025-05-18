@@ -1,0 +1,23 @@
+digraph "C Code Call Graph: ./c_code/program_086/program_086.ll" {
+	label="C Code Call Graph: ./c_code/program_086/program_086.ll";
+
+	Node0x56412f090d70 [shape=record,label="{main}"];
+	Node0x56412f090d70 -> Node0x56412f090df0;
+	Node0x56412f090d70 -> Node0x56412f091840;
+	Node0x56412f090d70 -> Node0x56412f0917c0;
+	Node0x56412f090d70 -> Node0x56412f091740;
+	Node0x56412f090d70 -> Node0x56412f091dd0;
+	Node0x56412f090df0 [shape=record,label="{insertNode}"];
+	Node0x56412f090df0 -> Node0x56412f091e50;
+	Node0x56412f091740 [shape=record,label="{printf}"];
+	Node0x56412f0917c0 [shape=record,label="{preOrderPrint}"];
+	Node0x56412f0917c0 -> Node0x56412f091740;
+	Node0x56412f0917c0 -> Node0x56412f0917c0;
+	Node0x56412f091840 [shape=record,label="{puts}"];
+	Node0x56412f091dd0 [shape=record,label="{deleteNode}"];
+	Node0x56412f091dd0 -> Node0x56412f091dd0;
+	Node0x56412f091dd0 -> Node0x56412f091fe0;
+	Node0x56412f091fe0 [shape=record,label="{findMinimum}"];
+	Node0x56412f091fe0 -> Node0x56412f091fe0;
+	Node0x56412f091e50 [shape=record,label="{malloc}"];
+}

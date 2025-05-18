@@ -1,0 +1,10 @@
+{
+  "name": "RedisTimeSeries",
+  "full_name": "RedisTimeSeries/RedisTimeSeries",
+  "description": "Time Series data structure for Redis",
+  "url": "https://github.com/RedisTimeSeries/RedisTimeSeries",
+  "stars": 1041,
+  "forks": 147,
+  "created_at": "2018-01-08T09:55:32Z",
+  "updated_at": "2025-04-27T05:54:24Z"
+}

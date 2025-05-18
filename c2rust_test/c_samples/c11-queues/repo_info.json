@@ -1,0 +1,10 @@
+{
+  "name": "c11-queues",
+  "full_name": "stv0g/c11-queues",
+  "description": "A single producer single - single consumer queue implemented by a ring buffer with C11's 'stdatomic.h'",
+  "url": "https://github.com/stv0g/c11-queues",
+  "stars": 37,
+  "forks": 7,
+  "created_at": "2016-08-14T20:39:05Z",
+  "updated_at": "2024-10-03T19:28:04Z"
+}

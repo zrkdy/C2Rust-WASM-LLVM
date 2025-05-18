@@ -1,0 +1,130 @@
+{
+  "input_file": "c_code/const_samples.ll",
+  "variables": [
+    {
+      "name": "SIMPLE_INT",
+      "c_definition": "@SIMPLE_INT = dso_local constant i32 42, align 4",
+      "translation_type": "const",
+      "reason": "简单字面量，编译时常量且地址未被使用，可以安全地翻译为Rust const",
+      "rust_code": "pub const SIMPLE_INT: [类型省略] = [初始化器省略];"
+    },
+    {
+      "name": "SIMPLE_FLOAT",
+      "c_definition": "@SIMPLE_FLOAT = dso_local constant float 0x40091EB860000000, align 4",
+      "translation_type": "const",
+      "reason": "简单字面量，编译时常量且地址未被使用，可以安全地翻译为Rust const",
+      "rust_code": "pub const SIMPLE_FLOAT: [类型省略] = [初始化器省略];"
+    },
+    {
+      "name": "SIMPLE_CHAR",
+      "c_definition": "@SIMPLE_CHAR = dso_local constant i8 65, align 1",
+      "translation_type": "const",
+      "reason": "简单字面量，编译时常量且地址未被使用，可以安全地翻译为Rust const",
+      "rust_code": "pub const SIMPLE_CHAR: [类型省略] = [初始化器省略];"
+    },
+    {
+      "name": "STRING_LITERAL",
+      "c_definition": "@STRING_LITERAL = dso_local global i8* getelementptr inbounds ([14 x i8], [14 x i8]* @.str, i32 0, i32 0), align 8",
+      "translation_type": "static mut",
+      "reason": "原始C代码中不是const变量，翻译为static mut",
+      "rust_code": "pub static mut STRING_LITERAL: [类型省略] = [初始化器省略];"
+    },
+    {
+      "name": "ANOTHER_CONST",
+      "c_definition": "@ANOTHER_CONST = dso_local constant i32 100, align 4",
+      "translation_type": "static",
+      "reason": "地址被引用，需要固定地址和'static生命周期，建议使用static",
+      "rust_code": "pub static ANOTHER_CONST: [类型省略] = [初始化器省略];"
+    },
+    {
+      "name": "POINTER_TO_CONST",
+      "c_definition": "@POINTER_TO_CONST = dso_local global i32* @ANOTHER_CONST, align 8",
+      "translation_type": "static mut",
+      "reason": "原始C代码中不是const变量，翻译为static mut",
+      "rust_code": "pub static mut POINTER_TO_CONST: [类型省略] = [初始化器省略];"
+    },
+    {
+      "name": "mutable_var",
+      "c_definition": "@mutable_var = dso_local global i32 200, align 4",
+      "translation_type": "static mut",
+      "reason": "原始C代码中不是const变量，翻译为static mut",
+      "rust_code": "pub static mut mutable_var: [类型省略] = [初始化器省略];"
+    },
+    {
+      "name": "POINTER_TO_MUTABLE",
+      "c_definition": "@POINTER_TO_MUTABLE = dso_local global i32* @mutable_var, align 8",
+      "translation_type": "static mut",
+      "reason": "原始C代码中不是const变量，翻译为static mut",
+      "rust_code": "pub static mut POINTER_TO_MUTABLE: [类型省略] = [初始化器省略];"
+    },
+    {
+      "name": "INTTOPTR_EXAMPLE",
+      "c_definition": "@INTTOPTR_EXAMPLE = dso_local global i8* inttoptr (i64 3735928559 to i8*), align 8",
+      "translation_type": "static mut",
+      "reason": "原始C代码中不是const变量，翻译为static mut",
+      "rust_code": "pub static mut INTTOPTR_EXAMPLE: [类型省略] = [初始化器省略];"
+    },
+    {
+      "name": "SIMPLE_STRUCT",
+      "c_definition": "@SIMPLE_STRUCT = dso_local constant %struct.Point { i32 10, i32 20 }, align 4",
+      "translation_type": "const",
+      "reason": "简单字面量，编译时常量且地址未被使用，可以安全地翻译为Rust const",
+      "rust_code": "pub const SIMPLE_STRUCT: [类型省略] = [初始化器省略];"
+    },
+    {
+      "name": "STRUCT_WITH_CONST_PTR",
+      "c_definition": "@STRUCT_WITH_CONST_PTR = dso_local constant %struct.Person { i32 1, i8* getelementptr inbounds ([5 x i8], [5 x i8]* @.str.1, i32 0, i32 0) }, align 8",
+      "translation_type": "static",
+      "reason": "包含指针，需要固定地址和'static生命周期，建议使用static",
+      "rust_code": "pub static STRUCT_WITH_CONST_PTR: [类型省略] = [初始化器省略];"
+    },
+    {
+      "name": "STRUCT_WITH_MUTABLE_PTR",
+      "c_definition": "@STRUCT_WITH_MUTABLE_PTR = dso_local constant %struct.Record { i32 2, i32* @mutable_var }, align 8",
+      "translation_type": "static",
+      "reason": "包含指针，需要固定地址和'static生命周期，建议使用static",
+      "rust_code": "pub static STRUCT_WITH_MUTABLE_PTR: [类型省略] = [初始化器省略];"
+    },
+    {
+      "name": "INT_ARRAY",
+      "c_definition": "@INT_ARRAY = dso_local constant [3 x i32] [i32 1, i32 2, i32 3], align 4",
+      "translation_type": "const",
+      "reason": "简单字面量，编译时常量且地址未被使用，可以安全地翻译为Rust const",
+      "rust_code": "pub const INT_ARRAY: [类型省略] = [初始化器省略];"
+    },
+    {
+      "name": "STRING_ARRAY",
+      "c_definition": "@STRING_ARRAY = dso_local global [2 x i8*] [i8* getelementptr inbounds ([6 x i8], [6 x i8]* @.str.2, i32 0, i32 0), i8* getelementptr inbounds ([7 x i8], [7 x i8]* @.str.3, i32 0, i32 0)], align 16",
+      "translation_type": "static mut",
+      "reason": "原始C代码中不是const变量，翻译为static mut",
+      "rust_code": "pub static mut STRING_ARRAY: [类型省略] = [初始化器省略];"
+    },
+    {
+      "name": "MUTABLE_PTR_ARRAY",
+      "c_definition": "@MUTABLE_PTR_ARRAY = dso_local global [2 x i32*] [i32* @mutable_var, i32* @mutable_var], align 16",
+      "translation_type": "static mut",
+      "reason": "原始C代码中不是const变量，翻译为static mut",
+      "rust_code": "pub static mut MUTABLE_PTR_ARRAY: [类型省略] = [初始化器省略];"
+    },
+    {
+      "name": "NON_CONST_VAR",
+      "c_definition": "@NON_CONST_VAR = dso_local global i32 300, align 4",
+      "translation_type": "static mut",
+      "reason": "原始C代码中不是const变量，翻译为static mut",
+      "rust_code": "pub static mut NON_CONST_VAR: [类型省略] = [初始化器省略];"
+    },
+    {
+      "name": "COMPLEX_STRUCT",
+      "c_definition": "@COMPLEX_STRUCT = dso_local constant %struct.Complex { %struct.Point { i32 30, i32 40 }, i8* inttoptr (i64 4096 to i8*) }, align 8",
+      "translation_type": "static",
+      "reason": "包含指针，需要固定地址和'static生命周期，建议使用static",
+      "rust_code": "pub static COMPLEX_STRUCT: [类型省略] = [初始化器省略];"
+    }
+  ],
+  "summary": {
+    "total": 17,
+    "const": 5,
+    "static": 4,
+    "static_mut": 8
+  }
+}

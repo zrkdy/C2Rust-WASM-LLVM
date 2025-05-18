@@ -1,0 +1,10 @@
+{
+  "name": "tomsfastmath",
+  "full_name": "libtom/tomsfastmath",
+  "description": "TomsFastMath is a fast public domain, open source, large integer arithmetic library written in portable ISO C.",
+  "url": "https://github.com/libtom/tomsfastmath",
+  "stars": 217,
+  "forks": 68,
+  "created_at": "2010-07-22T08:12:38Z",
+  "updated_at": "2025-04-14T12:04:38Z"
+}

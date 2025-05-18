@@ -1,0 +1,20 @@
+digraph "C Code Call Graph: ./c_code/program_026/program_026.ll" {
+	label="C Code Call Graph: ./c_code/program_026/program_026.ll";
+
+	Node0x5608c461fe50 [shape=record,label="{CreateGraph}"];
+	Node0x5608c461fe50 -> Node0x5608c4624960;
+	Node0x5608c4624960 [shape=record,label="{malloc}"];
+	Node0x5608c4624e20 [shape=record,label="{InsertEdge}"];
+	Node0x5608c4624e20 -> Node0x5608c4624960;
+	Node0x5608c4624f80 [shape=record,label="{TopSort}"];
+	Node0x5608c4624f80 -> Node0x5608c4624960;
+	Node0x5608c4625030 [shape=record,label="{main}"];
+	Node0x5608c4625030 -> Node0x5608c4625200;
+	Node0x5608c4625030 -> Node0x5608c4624960;
+	Node0x5608c4625030 -> Node0x5608c4625400;
+	Node0x5608c4625030 -> Node0x5608c4624f80;
+	Node0x5608c4625030 -> Node0x5608c461fe50;
+	Node0x5608c4625030 -> Node0x5608c4624e20;
+	Node0x5608c4625200 [shape=record,label="{__isoc99_scanf}"];
+	Node0x5608c4625400 [shape=record,label="{printf}"];
+}

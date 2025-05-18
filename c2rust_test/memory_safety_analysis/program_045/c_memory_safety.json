@@ -1,0 +1,16 @@
+{
+  "null_dereference": [],
+  "buffer_overflow": [],
+  "double_free": [],
+  "use_after_free": [],
+  "total_issues": 0,
+  "analyzed_functions": [
+    "main ========",
+    "insertNode ========",
+    "preOrderPrint ========",
+    "inOrderPrint ========",
+    "postOrderPrint ========",
+    "searchOnTree ========"
+  ],
+  "instruction_count": 201
+}

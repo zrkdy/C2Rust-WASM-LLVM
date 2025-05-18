@@ -1,0 +1,22 @@
+digraph "Rust Code Call Graph: ./rust_code/program_011/program_011.ll" {
+	label="Rust Code Call Graph: ./rust_code/program_011/program_011.ll";
+
+	Node0x5576316fe650 [shape=record,label="{_ZN4core3ptr7mut_ptr31_$LT$impl$u20$$BP$mut$u20$T$GT$7is_null17h269c5702e0f687bdE}"];
+	Node0x5576316ffd20 [shape=record,label="{add_digit}"];
+	Node0x5576316ffd20 -> Node0x5576316fe650;
+	Node0x5576316ffd20 -> Node0x557631700f40;
+	Node0x5576316ffd20 -> Node0x557631703c20;
+	Node0x5576316ffd20 -> Node0x5576317029c0;
+	Node0x5576316ffd20 -> Node0x557631706ef0;
+	Node0x5576317093a0 [shape=record,label="{remove_digits}"];
+	Node0x5576317093a0 -> Node0x5576316fe650;
+	Node0x5576317093a0 -> Node0x5576317029c0;
+	Node0x5576317093a0 -> Node0x557631703c20;
+	Node0x5576317093a0 -> Node0x5576317093a0;
+	Node0x5576317093a0 -> Node0x55763170afd0;
+	Node0x5576317029c0 [shape=record,label="{_ZN4core9panicking36panic_misaligned_pointer_dereference17hcc3cbded9382b6e5E}"];
+	Node0x557631703c20 [shape=record,label="{_ZN4core9panicking30panic_null_pointer_dereference17hf718fcc86a223baaE}"];
+	Node0x557631700f40 [shape=record,label="{malloc}"];
+	Node0x557631706ef0 [shape=record,label="{perror}"];
+	Node0x55763170afd0 [shape=record,label="{free}"];
+}

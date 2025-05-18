@@ -1,0 +1,10 @@
+{
+  "name": "c-minheap-indirect",
+  "full_name": "armon/c-minheap-indirect",
+  "description": "Implements a Min-Heap / Priority Queue in C using an indirection table for memory efficiency.",
+  "url": "https://github.com/armon/c-minheap-indirect",
+  "stars": 28,
+  "forks": 4,
+  "created_at": "2011-04-16T21:40:18Z",
+  "updated_at": "2023-12-30T09:22:08Z"
+}

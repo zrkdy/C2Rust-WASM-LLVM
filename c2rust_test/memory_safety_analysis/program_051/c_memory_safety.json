@@ -1,0 +1,18 @@
+{
+  "null_dereference": [],
+  "buffer_overflow": [],
+  "double_free": [],
+  "use_after_free": [],
+  "total_issues": 0,
+  "analyzed_functions": [
+    "main ========",
+    "insert_at_last ========",
+    "insert_at_first ========",
+    "insert_after ========",
+    "search_item ========",
+    "delete_item ========",
+    "create_linked_list ========",
+    "print_linked_list ========"
+  ],
+  "instruction_count": 255
+}

@@ -1,0 +1,44 @@
+{
+  "c_total_issues": 0,
+  "rust_total_issues": 0,
+  "issue_reduction_percentage": 0,
+  "issue_categories": {
+    "null_dereference": {
+      "c_count": 0,
+      "rust_count": 0
+    },
+    "buffer_overflow": {
+      "c_count": 0,
+      "rust_count": 0
+    },
+    "double_free": {
+      "c_count": 0,
+      "rust_count": 0
+    },
+    "use_after_free": {
+      "c_count": 0,
+      "rust_count": 0
+    }
+  },
+  "functions_analyzed": {
+    "c_count": 16,
+    "rust_count": 17,
+    "common_functions": [
+      "levelorder ========",
+      "preorder ========",
+      "RB_insert_fixup ========",
+      "RB_transplat ========",
+      "dequeue ========",
+      "RB_insert ========",
+      "RB_delete ========",
+      "RightRotate ========",
+      "enqueue ========",
+      "pfront ========",
+      "Tree_minimum ========",
+      "BST_search ========",
+      "RB_delete_fixup ========",
+      "isempty ========",
+      "LeftRotate ========"
+    ]
+  }
+}

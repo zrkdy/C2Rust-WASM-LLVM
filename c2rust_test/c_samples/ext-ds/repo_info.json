@@ -1,0 +1,10 @@
+{
+  "name": "ext-ds",
+  "full_name": "php-ds/ext-ds",
+  "description": "An extension providing efficient data structures for PHP 7",
+  "url": "https://github.com/php-ds/ext-ds",
+  "stars": 2120,
+  "forks": 95,
+  "created_at": "2016-02-01T08:05:07Z",
+  "updated_at": "2025-03-14T18:13:04Z"
+}

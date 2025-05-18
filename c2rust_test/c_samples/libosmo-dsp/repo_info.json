@@ -1,0 +1,10 @@
+{
+  "name": "libosmo-dsp",
+  "full_name": "osmocom/libosmo-dsp",
+  "description": "Osmocom DSP utility function library; mirrored from https://gitea.osmocom.org/sdr/libosmo-dsp",
+  "url": "https://github.com/osmocom/libosmo-dsp",
+  "stars": 14,
+  "forks": 7,
+  "created_at": "2014-09-23T20:38:25Z",
+  "updated_at": "2025-04-25T09:33:18Z"
+}

@@ -1,0 +1,34 @@
+digraph "C Code Call Graph: ./c_code/program_038/program_038.ll" {
+	label="C Code Call Graph: ./c_code/program_038/program_038.ll";
+
+	Node0x560e343c9420 [shape=record,label="{insertatbeg}"];
+	Node0x560e343c9420 -> Node0x560e343c96a0;
+	Node0x560e343c96a0 [shape=record,label="{malloc}"];
+	Node0x560e343c00c0 [shape=record,label="{insertatend}"];
+	Node0x560e343c00c0 -> Node0x560e343c96a0;
+	Node0x560e343579e0 [shape=record,label="{printlist}"];
+	Node0x560e343579e0 -> Node0x560e343c9b80;
+	Node0x560e343579e0 -> Node0x560e343579e0;
+	Node0x560e343c9b80 [shape=record,label="{printf}"];
+	Node0x560e343c8e00 [shape=record,label="{inseratn}"];
+	Node0x560e343c8e00 -> Node0x560e343c9420;
+	Node0x560e343c8e00 -> Node0x560e343c96a0;
+	Node0x560e343d7770 [shape=record,label="{deleteatn}"];
+	Node0x560e343d7770 -> Node0x560e343c96a0;
+	Node0x560e343d77f0 [shape=record,label="{reverse}"];
+	Node0x560e343d77f0 -> Node0x560e343d77f0;
+	Node0x560e343d7870 [shape=record,label="{printrev}"];
+	Node0x560e343d7870 -> Node0x560e343d7870;
+	Node0x560e343d7870 -> Node0x560e343c9b80;
+	Node0x560e343d7b80 [shape=record,label="{main}"];
+	Node0x560e343d7b80 -> Node0x560e343c9b80;
+	Node0x560e343d7b80 -> Node0x560e343d7c00;
+	Node0x560e343d7b80 -> Node0x560e343d7870;
+	Node0x560e343d7b80 -> Node0x560e343579e0;
+	Node0x560e343d7b80 -> Node0x560e343c9420;
+	Node0x560e343d7b80 -> Node0x560e343d77f0;
+	Node0x560e343d7b80 -> Node0x560e343c00c0;
+	Node0x560e343d7b80 -> Node0x560e343d7770;
+	Node0x560e343d7b80 -> Node0x560e343c8e00;
+	Node0x560e343d7c00 [shape=record,label="{__isoc99_scanf}"];
+}

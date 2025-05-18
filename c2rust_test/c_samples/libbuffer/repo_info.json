@@ -1,0 +1,10 @@
+{
+  "name": "libbuffer",
+  "full_name": "github/libbuffer",
+  "description": "This library holds utility functions for working with string buffers in C.",
+  "url": "https://github.com/github/libbuffer",
+  "stars": 9,
+  "forks": 4,
+  "created_at": "2021-01-06T14:55:58Z",
+  "updated_at": "2025-01-15T14:12:18Z"
+}

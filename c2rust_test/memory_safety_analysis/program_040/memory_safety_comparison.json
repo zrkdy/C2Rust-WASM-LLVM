@@ -1,0 +1,32 @@
+{
+  "c_total_issues": 0,
+  "rust_total_issues": 0,
+  "issue_reduction_percentage": 0,
+  "issue_categories": {
+    "null_dereference": {
+      "c_count": 0,
+      "rust_count": 0
+    },
+    "buffer_overflow": {
+      "c_count": 0,
+      "rust_count": 0
+    },
+    "double_free": {
+      "c_count": 0,
+      "rust_count": 0
+    },
+    "use_after_free": {
+      "c_count": 0,
+      "rust_count": 0
+    }
+  },
+  "functions_analyzed": {
+    "c_count": 4,
+    "rust_count": 5,
+    "common_functions": [
+      "Get ========",
+      "Display ========",
+      "Set ========"
+    ]
+  }
+}

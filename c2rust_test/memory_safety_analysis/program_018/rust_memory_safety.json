@@ -1,0 +1,19 @@
+{
+  "null_dereference": [],
+  "buffer_overflow": [],
+  "double_free": [],
+  "use_after_free": [],
+  "total_issues": 0,
+  "analyzed_functions": [
+    "insertatbeg ========",
+    "insertatend ========",
+    "printlist ========",
+    "inseratn ========",
+    "deleteatn ========",
+    "reverse ========",
+    "printrev ========",
+    "_ZN11program_0186main_017h916135e9885679bdE ========",
+    "_ZN11program_0184main17heb86f58a6afb43d8E ========"
+  ],
+  "instruction_count": 551
+}

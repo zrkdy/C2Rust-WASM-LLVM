@@ -1,0 +1,9 @@
+digraph "Rust Code Call Graph: ./rust_code/program_022/program_022.ll" {
+	label="Rust Code Call Graph: ./rust_code/program_022/program_022.ll";
+
+	Node0x5579cecb9ae0 [shape=record,label="{compare3keys}"];
+	Node0x5579cecb9ae0 -> Node0x5579cecc1d50;
+	Node0x5579cecb9ae0 -> Node0x5579cecc21e0;
+	Node0x5579cecc1d50 [shape=record,label="{_ZN4core9panicking36panic_misaligned_pointer_dereference17hcc3cbded9382b6e5E}"];
+	Node0x5579cecc21e0 [shape=record,label="{_ZN4core9panicking30panic_null_pointer_dereference17hf718fcc86a223baaE}"];
+}

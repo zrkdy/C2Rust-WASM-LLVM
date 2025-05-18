@@ -1,0 +1,26 @@
+{
+  "total_programs_analyzed": 45,
+  "total_c_issues": 0,
+  "total_rust_issues": 15,
+  "average_issue_reduction": 0,
+  "programs_with_no_c_issues": 45,
+  "programs_with_no_rust_issues": 39,
+  "issue_categories": {
+    "null_dereference": {
+      "c_total": 0,
+      "rust_total": 0
+    },
+    "buffer_overflow": {
+      "c_total": 0,
+      "rust_total": 2
+    },
+    "double_free": {
+      "c_total": 0,
+      "rust_total": 0
+    },
+    "use_after_free": {
+      "c_total": 0,
+      "rust_total": 13
+    }
+  }
+}

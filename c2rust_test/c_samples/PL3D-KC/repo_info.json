@@ -1,0 +1,10 @@
+{
+  "name": "PL3D-KC",
+  "full_name": "LMP88959/PL3D-KC",
+  "description": "A very fast and simple software renderer using only integers and fixed point math. PiSHi LE (PL) is a subset of the 3D software graphics library used in King's Crook.",
+  "url": "https://github.com/LMP88959/PL3D-KC",
+  "stars": 125,
+  "forks": 7,
+  "created_at": "2022-07-30T15:38:56Z",
+  "updated_at": "2025-04-11T21:39:53Z"
+}

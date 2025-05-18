@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/xiaoan/c2rust_project/c2rust_test/analysis_separate/memory_safety/build",
+  "command": "/usr/bin/c++ -DMemorySafetyPass_EXPORTS -I/usr/lib/llvm-17/include  -fno-rtti -g -O0 -g -std=gnu++17 -fPIC   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/MemorySafetyPass.dir/MemorySafetyAnalysis.cpp.o -c /home/xiaoan/c2rust_project/c2rust_test/analysis_separate/memory_safety/MemorySafetyAnalysis.cpp",
+  "file": "/home/xiaoan/c2rust_project/c2rust_test/analysis_separate/memory_safety/MemorySafetyAnalysis.cpp",
+  "output": "CMakeFiles/MemorySafetyPass.dir/MemorySafetyAnalysis.cpp.o"
+}
+]

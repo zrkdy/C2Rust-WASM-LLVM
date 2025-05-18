@@ -1,0 +1,22 @@
+{
+  "null_dereference": [],
+  "buffer_overflow": [],
+  "double_free": [],
+  "use_after_free": [],
+  "total_issues": 0,
+  "analyzed_functions": [
+    "node_height ========",
+    "LR_Rotation ========",
+    "RL_Rotation ========",
+    "RR_Rotation ========",
+    "LL_Rotation ========",
+    "createNode ========",
+    "Inorder ========",
+    "Balance_factor ========",
+    "Rotate ========",
+    "insert ========",
+    "_ZN11program_0286main_017hc45f780110b96a58E ========",
+    "_ZN11program_0284main17h4e91689e2536d316E ========"
+  ],
+  "instruction_count": 690
+}

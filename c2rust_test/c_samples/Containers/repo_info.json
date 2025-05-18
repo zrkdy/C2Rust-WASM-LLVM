@@ -1,0 +1,10 @@
+{
+  "name": "Containers",
+  "full_name": "bkthomps/Containers",
+  "description": "This library provides various containers. Each container has utility functions to manipulate the data it holds. This is an abstraction as to not have to manually manage and reallocate memory. ",
+  "url": "https://github.com/bkthomps/Containers",
+  "stars": 170,
+  "forks": 17,
+  "created_at": "2017-10-15T02:43:17Z",
+  "updated_at": "2025-04-27T11:42:12Z"
+}

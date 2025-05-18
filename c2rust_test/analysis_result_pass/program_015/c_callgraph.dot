@@ -1,0 +1,36 @@
+digraph "C Code Call Graph: ./c_code/program_015/program_015.ll" {
+	label="C Code Call Graph: ./c_code/program_015/program_015.ll";
+
+	Node0x55e0411eb6c0 [shape=record,label="{CreateHeap}"];
+	Node0x55e0411eb6c0 -> Node0x55e0411eb740;
+	Node0x55e0411eb740 [shape=record,label="{malloc}"];
+	Node0x55e0411ebbd0 [shape=record,label="{IsHeapFull}"];
+	Node0x55e0411ebd00 [shape=record,label="{IsHeapEmpty}"];
+	Node0x55e0411ebd80 [shape=record,label="{InsertMinHeap}"];
+	Node0x55e0411ebd80 -> Node0x55e0411ebbd0;
+	Node0x55e0411ebd80 -> Node0x55e0411ebf50;
+	Node0x55e0411ebf50 [shape=record,label="{printf}"];
+	Node0x55e0411ebfd0 [shape=record,label="{DeleteMin}"];
+	Node0x55e0411ebfd0 -> Node0x55e0411ebd00;
+	Node0x55e0411ebfd0 -> Node0x55e0411ebf50;
+	Node0x55e0411ec080 [shape=record,label="{PercDown}"];
+	Node0x55e0411ec100 [shape=record,label="{BuildMinHeap}"];
+	Node0x55e0411ec100 -> Node0x55e0411ec080;
+	Node0x55e0411ec410 [shape=record,label="{CreateHuffman}"];
+	Node0x55e0411ec410 -> Node0x55e0411eb740;
+	Node0x55e0411ec4c0 [shape=record,label="{Huffman}"];
+	Node0x55e0411ec4c0 -> Node0x55e0411ec100;
+	Node0x55e0411ec4c0 -> Node0x55e0411eb740;
+	Node0x55e0411ec4c0 -> Node0x55e0411ebfd0;
+	Node0x55e0411ec4c0 -> Node0x55e0411ebd80;
+	Node0x55e0411ec570 [shape=record,label="{main}"];
+	Node0x55e0411ec570 -> Node0x55e0411ec410;
+	Node0x55e0411ec570 -> Node0x55e0411eb6c0;
+	Node0x55e0411ec570 -> Node0x55e0411ec5f0;
+	Node0x55e0411ec570 -> Node0x55e0411ec670;
+	Node0x55e0411ec570 -> Node0x55e0411ebf50;
+	Node0x55e0411ec570 -> Node0x55e0411eb740;
+	Node0x55e0411ec570 -> Node0x55e0411ec4c0;
+	Node0x55e0411ec5f0 [shape=record,label="{__isoc99_scanf}"];
+	Node0x55e0411ec670 [shape=record,label="{getchar}"];
+}

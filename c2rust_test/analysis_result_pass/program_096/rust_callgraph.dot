@@ -1,0 +1,48 @@
+digraph "Rust Code Call Graph: ./rust_code/program_096/program_096.ll" {
+	label="Rust Code Call Graph: ./rust_code/program_096/program_096.ll";
+
+	Node0x560c663913b0 [shape=record,label="{_ZN4core3ptr7mut_ptr31_$LT$impl$u20$$BP$mut$u20$T$GT$7is_null17h00c6690fd6bbecc9E}"];
+	Node0x560c66392770 [shape=record,label="{_ZN4core3ptr7mut_ptr31_$LT$impl$u20$$BP$mut$u20$T$GT$7is_null17h5d41d3e60c9fafadE}"];
+	Node0x560c66394210 [shape=record,label="{bst_create}"];
+	Node0x560c66394210 -> Node0x560c663963c0;
+	Node0x560c66394210 -> Node0x560c66392770;
+	Node0x560c66394210 -> Node0x560c66398e60;
+	Node0x560c66394210 -> Node0x560c6639be50;
+	Node0x560c663d7610 [shape=record,label="{bst_create_node}"];
+	Node0x560c663d7610 -> Node0x560c663963c0;
+	Node0x560c663d7610 -> Node0x560c663913b0;
+	Node0x560c663d7610 -> Node0x560c66398e60;
+	Node0x560c663d7610 -> Node0x560c6639be50;
+	Node0x560c663db8d0 [shape=record,label="{bst_search_node}"];
+	Node0x560c663db8d0 -> Node0x560c663913b0;
+	Node0x560c663db8d0 -> Node0x560c6639be50;
+	Node0x560c663db8d0 -> Node0x560c66398e60;
+	Node0x560c6639eb50 [shape=record,label="{bst_find_max_node}"];
+	Node0x560c6639eb50 -> Node0x560c663913b0;
+	Node0x560c6639eb50 -> Node0x560c66398e60;
+	Node0x560c6639eb50 -> Node0x560c6639be50;
+	Node0x560c663a05f0 [shape=record,label="{bst_insert_node}"];
+	Node0x560c663a05f0 -> Node0x560c66398e60;
+	Node0x560c663a05f0 -> Node0x560c663913b0;
+	Node0x560c663a05f0 -> Node0x560c6639be50;
+	Node0x560c663a05f0 -> Node0x560c663d7610;
+	Node0x560c663a05f0 -> Node0x560c663db8d0;
+	Node0x560c663a5ba0 [shape=record,label="{bst_inorder_traversal}"];
+	Node0x560c663a5ba0 -> Node0x560c663913b0;
+	Node0x560c663a5ba0 -> Node0x560c66398e60;
+	Node0x560c663a5ba0 -> Node0x560c663a5ba0;
+	Node0x560c663a5ba0 -> Node0x560c6639be50;
+	Node0x560c663a5ba0 -> Node0x560c663a90c0;
+	Node0x560c663a28c0 [shape=record,label="{bst_delete_node}"];
+	Node0x560c663a28c0 -> Node0x560c66398e60;
+	Node0x560c663a28c0 -> Node0x560c663db8d0;
+	Node0x560c663a28c0 -> Node0x560c6639be50;
+	Node0x560c663a28c0 -> Node0x560c663913b0;
+	Node0x560c663a28c0 -> Node0x560c663a4220;
+	Node0x560c663a28c0 -> Node0x560c6639eb50;
+	Node0x560c663963c0 [shape=record,label="{malloc}"];
+	Node0x560c66398e60 [shape=record,label="{_ZN4core9panicking36panic_misaligned_pointer_dereference17hcc3cbded9382b6e5E}"];
+	Node0x560c6639be50 [shape=record,label="{_ZN4core9panicking30panic_null_pointer_dereference17hf718fcc86a223baaE}"];
+	Node0x560c663a4220 [shape=record,label="{free}"];
+	Node0x560c663a90c0 [shape=record,label="{printf}"];
+}

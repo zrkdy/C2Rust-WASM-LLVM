@@ -1,0 +1,5 @@
+digraph "C Code Call Graph: ./c_code/program_095/program_095.ll" {
+	label="C Code Call Graph: ./c_code/program_095/program_095.ll";
+
+	Node0x55c745546ab0 [shape=record,label="{main}"];
+}

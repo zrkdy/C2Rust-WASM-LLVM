@@ -1,0 +1,362 @@
+{
+  "program_018": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_018/program_018.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_018/program_018.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_018"
+  },
+  "program_029": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_029/program_029.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_029/program_029.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_029"
+  },
+  "program_047": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_047/program_047.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_047/program_047.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_047"
+  },
+  "program_008": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_008/program_008.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_008/program_008.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_008"
+  },
+  "program_012": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_012/program_012.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_012/program_012.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_012"
+  },
+  "program_038": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_038/program_038.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_038/program_038.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_038"
+  },
+  "program_033": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_033/program_033.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_033/program_033.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_033"
+  },
+  "program_025": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_025/program_025.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_025/program_025.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_025"
+  },
+  "program_035": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_035/program_035.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_035/program_035.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_035"
+  },
+  "program_050": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_050/program_050.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_050/program_050.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_050"
+  },
+  "program_011": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_011/program_011.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_011/program_011.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_011"
+  },
+  "program_037": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_037/program_037.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_037/program_037.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_037"
+  },
+  "program_016": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_016/program_016.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_016/program_016.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_016"
+  },
+  "program_017": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_017/program_017.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_017/program_017.ll",
+    "c_issues": 0,
+    "rust_issues": 1,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_017"
+  },
+  "program_019": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_019/program_019.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_019/program_019.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_019"
+  },
+  "program_045": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_045/program_045.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_045/program_045.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_045"
+  },
+  "program_049": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_049/program_049.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_049/program_049.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_049"
+  },
+  "program_020": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_020/program_020.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_020/program_020.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_020"
+  },
+  "program_024": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_024/program_024.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_024/program_024.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_024"
+  },
+  "program_048": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_048/program_048.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_048/program_048.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_048"
+  },
+  "program_010": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_010/program_010.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_010/program_010.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_010"
+  },
+  "program_015": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_015/program_015.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_015/program_015.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_015"
+  },
+  "program_000": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_000/program_000.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_000/program_000.ll",
+    "c_issues": 0,
+    "rust_issues": 4,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_000"
+  },
+  "program_027": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_027/program_027.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_027/program_027.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_027"
+  },
+  "program_003": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_003/program_003.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_003/program_003.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_003"
+  },
+  "program_039": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_039/program_039.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_039/program_039.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_039"
+  },
+  "program_030": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_030/program_030.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_030/program_030.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_030"
+  },
+  "program_032": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_032/program_032.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_032/program_032.ll",
+    "c_issues": 0,
+    "rust_issues": 4,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_032"
+  },
+  "program_002": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_002/program_002.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_002/program_002.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_002"
+  },
+  "program_022": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_022/program_022.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_022/program_022.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_022"
+  },
+  "program_005": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_005/program_005.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_005/program_005.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_005"
+  },
+  "program_028": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_028/program_028.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_028/program_028.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_028"
+  },
+  "program_034": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_034/program_034.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_034/program_034.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_034"
+  },
+  "program_007": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_007/program_007.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_007/program_007.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_007"
+  },
+  "program_023": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_023/program_023.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_023/program_023.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_023"
+  },
+  "program_043": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_043/program_043.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_043/program_043.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_043"
+  },
+  "program_026": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_026/program_026.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_026/program_026.ll",
+    "c_issues": 0,
+    "rust_issues": 1,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_026"
+  },
+  "program_021": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_021/program_021.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_021/program_021.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_021"
+  },
+  "program_036": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_036/program_036.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_036/program_036.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_036"
+  },
+  "program_031": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_031/program_031.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_031/program_031.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_031"
+  },
+  "program_040": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_040/program_040.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_040/program_040.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_040"
+  },
+  "program_001": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_001/program_001.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_001/program_001.ll",
+    "c_issues": 0,
+    "rust_issues": 4,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_001"
+  },
+  "program_051": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_051/program_051.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_051/program_051.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_051"
+  },
+  "program_044": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_044/program_044.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_044/program_044.ll",
+    "c_issues": 0,
+    "rust_issues": 0,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_044"
+  },
+  "program_046": {
+    "c_file": "/home/xiaoan/c2rust_project/c2rust_test/c_code/program_046/program_046.ll",
+    "rust_file": "/home/xiaoan/c2rust_project/c2rust_test/rust_code/program_046/program_046.ll",
+    "c_issues": 0,
+    "rust_issues": 1,
+    "issue_reduction": 0,
+    "report_dir": "/home/xiaoan/c2rust_project/c2rust_test/memory_safety_analysis/program_046"
+  }
+}

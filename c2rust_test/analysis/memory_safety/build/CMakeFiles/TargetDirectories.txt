@@ -1,0 +1,7 @@
+/home/xiaoan/c2rust_project/c2rust_test/analysis_separate/memory_safety/build/CMakeFiles/intrinsics_gen.dir
+/home/xiaoan/c2rust_project/c2rust_test/analysis_separate/memory_safety/build/CMakeFiles/omp_gen.dir
+/home/xiaoan/c2rust_project/c2rust_test/analysis_separate/memory_safety/build/CMakeFiles/acc_gen.dir
+/home/xiaoan/c2rust_project/c2rust_test/analysis_separate/memory_safety/build/CMakeFiles/RISCVTargetParserTableGen.dir
+/home/xiaoan/c2rust_project/c2rust_test/analysis_separate/memory_safety/build/CMakeFiles/MemorySafetyPass.dir
+/home/xiaoan/c2rust_project/c2rust_test/analysis_separate/memory_safety/build/CMakeFiles/edit_cache.dir
+/home/xiaoan/c2rust_project/c2rust_test/analysis_separate/memory_safety/build/CMakeFiles/rebuild_cache.dir

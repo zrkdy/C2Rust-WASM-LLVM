@@ -1,0 +1,29 @@
+digraph "C Code Call Graph: ./c_code/program_034/program_034.ll" {
+	label="C Code Call Graph: ./c_code/program_034/program_034.ll";
+
+	Node0x55565ed3cac0 [shape=record,label="{empty}"];
+	Node0x55565ed3e1e0 [shape=record,label="{push}"];
+	Node0x55565ecd42f0 [shape=record,label="{pop}"];
+	Node0x55565ed46710 [shape=record,label="{top}"];
+	Node0x55565ed4b210 [shape=record,label="{insertsort}"];
+	Node0x55565ed4b3e0 [shape=record,label="{sum}"];
+	Node0x55565ed4b460 [shape=record,label="{inme}"];
+	Node0x55565ed4b4e0 [shape=record,label="{display_outcome}"];
+	Node0x55565ed4b4e0 -> Node0x55565ed4b560;
+	Node0x55565ed4b560 [shape=record,label="{printf}"];
+	Node0x55565ed4bc80 [shape=record,label="{branchbound}"];
+	Node0x55565ed4bc80 -> Node0x55565ed4bd00;
+	Node0x55565ed4bc80 -> Node0x55565ed3e1e0;
+	Node0x55565ed4bc80 -> Node0x55565ed3cac0;
+	Node0x55565ed4bc80 -> Node0x55565ed46710;
+	Node0x55565ed4bc80 -> Node0x55565ed4b4e0;
+	Node0x55565ed4bc80 -> Node0x55565ecd42f0;
+	Node0x55565ed4bc80 -> Node0x55565ed4b560;
+	Node0x55565ed4bc80 -> Node0x55565ed4b460;
+	Node0x55565ed4bc80 -> Node0x55565ed4b210;
+	Node0x55565ed4bd00 [shape=record,label="{malloc}"];
+	Node0x55565ed4c0f0 [shape=record,label="{main}"];
+	Node0x55565ed4c0f0 -> Node0x55565ed4c170;
+	Node0x55565ed4c0f0 -> Node0x55565ed4bc80;
+	Node0x55565ed4c170 [shape=record,label="{llvm.memcpy.p0.p0.i64}"];
+}

@@ -1,0 +1,18 @@
+{
+  "null_dereference": [],
+  "buffer_overflow": [],
+  "double_free": [],
+  "use_after_free": [],
+  "total_issues": 0,
+  "analyzed_functions": [
+    "insertatbeg ========",
+    "insertatend ========",
+    "printlist ========",
+    "inseratn ========",
+    "deleteatn ========",
+    "reverse ========",
+    "printrev ========",
+    "main ========"
+  ],
+  "instruction_count": 314
+}

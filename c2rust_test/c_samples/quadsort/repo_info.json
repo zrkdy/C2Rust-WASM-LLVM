@@ -1,0 +1,10 @@
+{
+  "name": "quadsort",
+  "full_name": "scandum/quadsort",
+  "description": "Quadsort is a branchless stable adaptive mergesort faster than quicksort.",
+  "url": "https://github.com/scandum/quadsort",
+  "stars": 2152,
+  "forks": 108,
+  "created_at": "2020-02-11T13:37:45Z",
+  "updated_at": "2025-04-22T17:17:13Z"
+}

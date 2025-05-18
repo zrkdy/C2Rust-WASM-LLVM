@@ -1,0 +1,18 @@
+{
+  "null_dereference": [],
+  "buffer_overflow": [],
+  "double_free": [],
+  "use_after_free": [],
+  "total_issues": 0,
+  "analyzed_functions": [
+    "createCircularNode ========",
+    "createLinkList ========",
+    "calculateLength ========",
+    "PrintList ========",
+    "insertValue ========",
+    "removeNode ========",
+    "_ZN11program_0386main_017h81568302b984fbd7E ========",
+    "_ZN11program_0384main17h67efd5caa6c08662E ========"
+  ],
+  "instruction_count": 323
+}

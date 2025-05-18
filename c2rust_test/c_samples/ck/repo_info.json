@@ -1,0 +1,10 @@
+{
+  "name": "ck",
+  "full_name": "concurrencykit/ck",
+  "description": "Concurrency primitives, safe memory reclamation mechanisms and non-blocking (including lock-free) data structures designed to aid in the research, design and implementation of high performance concurrent systems developed in C99+.",
+  "url": "https://github.com/concurrencykit/ck",
+  "stars": 2483,
+  "forks": 323,
+  "created_at": "2014-04-17T17:29:39Z",
+  "updated_at": "2025-04-27T20:36:16Z"
+}

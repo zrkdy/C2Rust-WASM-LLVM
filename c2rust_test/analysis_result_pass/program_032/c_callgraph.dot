@@ -1,0 +1,37 @@
+digraph "C Code Call Graph: ./c_code/program_032/program_032.ll" {
+	label="C Code Call Graph: ./c_code/program_032/program_032.ll";
+
+	Node0x560a8ce07db0 [shape=record,label="{heap_empty}"];
+	Node0x560a8ce08230 [shape=record,label="{heap_swap}"];
+	Node0x560a8ce08680 [shape=record,label="{heap_hold}"];
+	Node0x560a8ce08680 -> Node0x560a8ce08230;
+	Node0x560a8ce08680 -> Node0x560a8ce08680;
+	Node0x560a8ce08ad0 [shape=record,label="{init_heap}"];
+	Node0x560a8ce08ad0 -> Node0x560a8ce08ef0;
+	Node0x560a8ce08ef0 [shape=record,label="{malloc}"];
+	Node0x560a8ce09340 [shape=record,label="{insert_heap}"];
+	Node0x560a8ce09340 -> Node0x560a8ce08230;
+	Node0x560a8ce099a0 [shape=record,label="{delete_min}"];
+	Node0x560a8ce099a0 -> Node0x560a8ce07db0;
+	Node0x560a8ce099a0 -> Node0x560a8ce08680;
+	Node0x560a8ce0a000 [shape=record,label="{insertsort}"];
+	Node0x560a8ce0fb60 [shape=record,label="{insertedge}"];
+	Node0x560a8ce0fb60 -> Node0x560a8ce08ef0;
+	Node0x560a8ce02100 [shape=record,label="{find_min_h}"];
+	Node0x560a8ce18790 [shape=record,label="{displayoutcome}"];
+	Node0x560a8ce18790 -> Node0x560a8ce18810;
+	Node0x560a8ce18810 [shape=record,label="{printf}"];
+	Node0x560a8ce18890 [shape=record,label="{astar}"];
+	Node0x560a8ce18890 -> Node0x560a8ce08ad0;
+	Node0x560a8ce18890 -> Node0x560a8ce08ef0;
+	Node0x560a8ce18890 -> Node0x560a8ce09340;
+	Node0x560a8ce18890 -> Node0x560a8ce02100;
+	Node0x560a8ce18890 -> Node0x560a8ce07db0;
+	Node0x560a8ce18890 -> Node0x560a8ce099a0;
+	Node0x560a8ce18890 -> Node0x560a8ce18790;
+	Node0x560a8ce18c50 [shape=record,label="{main}"];
+	Node0x560a8ce18c50 -> Node0x560a8ce18cd0;
+	Node0x560a8ce18c50 -> Node0x560a8ce0fb60;
+	Node0x560a8ce18c50 -> Node0x560a8ce18890;
+	Node0x560a8ce18cd0 [shape=record,label="{llvm.memset.p0.i64}"];
+}

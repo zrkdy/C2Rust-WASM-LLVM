@@ -1,0 +1,29 @@
+digraph "C Code Call Graph: ./c_code/program_075/program_075.ll" {
+	label="C Code Call Graph: ./c_code/program_075/program_075.ll";
+
+	Node0x556caadef170 [shape=record,label="{main}"];
+	Node0x556caadef170 -> Node0x556caadf18d0;
+	Node0x556caadef170 -> Node0x556caadf6190;
+	Node0x556caadef170 -> Node0x556caadfbbb0;
+	Node0x556caadef170 -> Node0x556caadf62c0;
+	Node0x556caadef170 -> Node0x556caadf6510;
+	Node0x556caadef170 -> Node0x556caadf6490;
+	Node0x556caadf18d0 [shape=record,label="{printf}"];
+	Node0x556caadf6190 [shape=record,label="{insert_at_tail}"];
+	Node0x556caadf6190 -> Node0x556caadfbc30;
+	Node0x556caadf6490 [shape=record,label="{insert_at_middle}"];
+	Node0x556caadf6490 -> Node0x556caadfbc30;
+	Node0x556caadf6490 -> Node0x556caadfbce0;
+	Node0x556caadf6510 [shape=record,label="{insert_at_first}"];
+	Node0x556caadf6510 -> Node0x556caadfbc30;
+	Node0x556caadfbc30 [shape=record,label="{getNewNode}"];
+	Node0x556caadfbc30 -> Node0x556caadfbce0;
+	Node0x556caadfbce0 [shape=record,label="{malloc}"];
+	Node0x556caadf62c0 [shape=record,label="{printLinkedListForward}"];
+	Node0x556caadf62c0 -> Node0x556caadf18d0;
+	Node0x556caadf62c0 -> Node0x556caadfbdf0;
+	Node0x556caadfbdf0 [shape=record,label="{puts}"];
+	Node0x556caadfbbb0 [shape=record,label="{printLinkedListBackward}"];
+	Node0x556caadfbbb0 -> Node0x556caadf18d0;
+	Node0x556caadfbbb0 -> Node0x556caadfbdf0;
+}

@@ -1,0 +1,10 @@
+{
+  "name": "monty",
+  "full_name": "Innocentsax/monty",
+  "description": "A basic monty bytecode interpreter that executes the instructions using stacks or queues implemented with doubly linked lists.",
+  "url": "https://github.com/Innocentsax/monty",
+  "stars": 23,
+  "forks": 0,
+  "created_at": "2023-03-21T12:57:22Z",
+  "updated_at": "2024-02-29T19:18:26Z"
+}

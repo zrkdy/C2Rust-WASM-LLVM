@@ -1,0 +1,41 @@
+digraph "Rust Code Call Graph: ./rust_code/program_013/program_013.ll" {
+	label="Rust Code Call Graph: ./rust_code/program_013/program_013.ll";
+
+	Node0x5589d4de98a0 [shape=record,label="{_ZN4core10intrinsics9cold_path17h010de438eb5fb037E}"];
+	Node0x5589d4de99d0 [shape=record,label="{_ZN4core3ptr7mut_ptr31_$LT$impl$u20$$BP$mut$u20$T$GT$6offset18precondition_check17h79165fd843f313b7E}"];
+	Node0x5589d4de99d0 -> Node0x5589d4deb260;
+	Node0x5589d4de99d0 -> Node0x5589d4deb1a0;
+	Node0x5589d4de99d0 -> Node0x5589d4dd99a0;
+	Node0x5589d4dd8c20 [shape=record,label="{_ZN4core3ptr7mut_ptr31_$LT$impl$u20$$BP$mut$u20$T$GT$7is_null17h6996dc3bb9ba138fE}"];
+	Node0x5589d4de1000 [shape=record,label="{swap}"];
+	Node0x5589d4de1000 -> Node0x5589d4dda870;
+	Node0x5589d4de1000 -> Node0x5589d4ddb1c0;
+	Node0x5589d4ddb570 [shape=record,label="{merge}"];
+	Node0x5589d4ddb570 -> Node0x5589d4de1d00;
+	Node0x5589d4ddb570 -> Node0x5589d4dd8c20;
+	Node0x5589d4ddb570 -> Node0x5589d4de2780;
+	Node0x5589d4ddb570 -> Node0x5589d4de42a0;
+	Node0x5589d4ddb570 -> Node0x5589d4de34b0;
+	Node0x5589d4ddb570 -> Node0x5589d4ddb1c0;
+	Node0x5589d4ddb570 -> Node0x5589d4de99d0;
+	Node0x5589d4ddb570 -> Node0x5589d4dda870;
+	Node0x5589d4ddb570 -> Node0x5589d4de4970;
+	Node0x5589d4de9540 [shape=record,label="{merge_sort}"];
+	Node0x5589d4de9540 -> Node0x5589d4de99d0;
+	Node0x5589d4de9540 -> Node0x5589d4dda870;
+	Node0x5589d4de9540 -> Node0x5589d4de34b0;
+	Node0x5589d4de9540 -> Node0x5589d4ddb1c0;
+	Node0x5589d4de9540 -> Node0x5589d4ddb570;
+	Node0x5589d4de9540 -> Node0x5589d4de9540;
+	Node0x5589d4de9540 -> Node0x5589d4de1000;
+	Node0x5589d4deb260 [shape=record,label="{llvm.smul.with.overflow.i64}"];
+	Node0x5589d4deb1a0 [shape=record,label="{llvm.uadd.with.overflow.i64}"];
+	Node0x5589d4dd99a0 [shape=record,label="{_ZN4core9panicking14panic_nounwind17h211d9ce8d63f12e7E}"];
+	Node0x5589d4dda870 [shape=record,label="{_ZN4core9panicking36panic_misaligned_pointer_dereference17hcc3cbded9382b6e5E}"];
+	Node0x5589d4ddb1c0 [shape=record,label="{_ZN4core9panicking30panic_null_pointer_dereference17hf718fcc86a223baaE}"];
+	Node0x5589d4de1d00 [shape=record,label="{malloc}"];
+	Node0x5589d4de34b0 [shape=record,label="{_ZN4core9panicking11panic_const24panic_const_div_overflow17h1ac73c9e33e18298E}"];
+	Node0x5589d4de4970 [shape=record,label="{free}"];
+	Node0x5589d4de2780 [shape=record,label="{printf}"];
+	Node0x5589d4de42a0 [shape=record,label="{exit}"];
+}

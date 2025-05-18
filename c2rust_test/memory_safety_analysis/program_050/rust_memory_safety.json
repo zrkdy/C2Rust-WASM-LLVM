@@ -1,0 +1,20 @@
+{
+  "null_dereference": [],
+  "buffer_overflow": [],
+  "double_free": [],
+  "use_after_free": [],
+  "total_issues": 0,
+  "analyzed_functions": [
+    "_ZN11program_0506main_017h6884c32da928f37eE ========",
+    "isItBst_fast ========",
+    "isBstHelper ========",
+    "isItBst ========",
+    "findMin ========",
+    "findMax ========",
+    "isBstInOrderTraversal ========",
+    "insertNode ========",
+    "inOrderPrint ========",
+    "_ZN11program_0504main17h163dd0af4b39c63eE ========"
+  ],
+  "instruction_count": 489
+}

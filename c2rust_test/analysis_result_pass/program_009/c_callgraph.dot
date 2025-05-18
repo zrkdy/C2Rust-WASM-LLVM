@@ -1,0 +1,36 @@
+digraph "C Code Call Graph: ./c_code/program_009/program_009.ll" {
+	label="C Code Call Graph: ./c_code/program_009/program_009.ll";
+
+	Node0x560827c81bd0 [shape=record,label="{insert}"];
+	Node0x560827c81bd0 -> Node0x560827c912d0;
+	Node0x560827c912d0 [shape=record,label="{malloc}"];
+	Node0x560827c8d6d0 [shape=record,label="{delete}"];
+	Node0x560827c8d6d0 -> Node0x560827c8da60;
+	Node0x560827c8da60 [shape=record,label="{free}"];
+	Node0x560827c8db10 [shape=record,label="{show_list}"];
+	Node0x560827c8db10 -> Node0x560827c96370;
+	Node0x560827c96370 [shape=record,label="{printf}"];
+	Node0x560827c96420 [shape=record,label="{l_length}"];
+	Node0x560827c964a0 [shape=record,label="{update}"];
+	Node0x560827c96520 [shape=record,label="{compare}"];
+	Node0x560827c96830 [shape=record,label="{calculate_ct}"];
+	Node0x560827c96830 -> Node0x560827c96420;
+	Node0x560827c96830 -> Node0x560827c81bd0;
+	Node0x560827c96830 -> Node0x560827c96520;
+	Node0x560827c96830 -> Node0x560827c964a0;
+	Node0x560827c96830 -> Node0x560827c8d6d0;
+	Node0x560827c968e0 [shape=record,label="{calculate_tat}"];
+	Node0x560827c968e0 -> Node0x560827c96420;
+	Node0x560827c968e0 -> Node0x560827c96830;
+	Node0x560827c96960 [shape=record,label="{calculate_wt}"];
+	Node0x560827c96960 -> Node0x560827c96420;
+	Node0x560827c96960 -> Node0x560827c96830;
+	Node0x560827c969e0 [shape=record,label="{main}"];
+	Node0x560827c969e0 -> Node0x560827c96a60;
+	Node0x560827c96a60 [shape=record,label="{test}"];
+	Node0x560827c96a60 -> Node0x560827c81bd0;
+	Node0x560827c96a60 -> Node0x560827c96370;
+	Node0x560827c96a60 -> Node0x560827c96960;
+	Node0x560827c96a60 -> Node0x560827c968e0;
+	Node0x560827c96a60 -> Node0x560827c96830;
+}

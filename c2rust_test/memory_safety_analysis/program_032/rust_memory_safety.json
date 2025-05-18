@@ -1,0 +1,37 @@
+{
+  "null_dereference": [],
+  "buffer_overflow": [],
+  "double_free": [],
+  "use_after_free": [
+    {
+      "function": "Delete ========",
+      "instruction": "store ptr %_15, ptr %node, align 8"
+    },
+    {
+      "function": "Delete ========",
+      "instruction": "%6 = getelementptr inbounds nuw i8, ptr %node, i64 8"
+    },
+    {
+      "function": "Delete ========",
+      "instruction": "%7 = getelementptr inbounds nuw i8, ptr %node, i64 8"
+    },
+    {
+      "function": "Delete ========",
+      "instruction": "store ptr %_33, ptr %node, align 8"
+    }
+  ],
+  "total_issues": 4,
+  "analyzed_functions": [
+    "createNode ========",
+    "insert ========",
+    "inorder ========",
+    "search ========",
+    "height ========",
+    "Predecessor ========",
+    "successor ========",
+    "Delete ========",
+    "_ZN11program_0326main_017ha8e19e1c206db4c4E ========",
+    "_ZN11program_0324main17h7894b682033f521bE ========"
+  ],
+  "instruction_count": 194
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ConcLinkedList",
+  "full_name": "gavra0/ConcLinkedList",
+  "description": "Implementation of concurrent linked list. Lock-based and lock-free versions.",
+  "url": "https://github.com/gavra0/ConcLinkedList",
+  "stars": 26,
+  "forks": 13,
+  "created_at": "2014-05-04T14:24:04Z",
+  "updated_at": "2024-11-07T19:33:36Z"
+}

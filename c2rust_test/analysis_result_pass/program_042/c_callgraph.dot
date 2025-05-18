@@ -1,0 +1,32 @@
+digraph "C Code Call Graph: ./c_code/program_042/program_042.ll" {
+	label="C Code Call Graph: ./c_code/program_042/program_042.ll";
+
+	Node0x5600b9cb9f40 [shape=record,label="{isempty}"];
+	Node0x5600b9cb9fc0 [shape=record,label="{push}"];
+	Node0x5600b9cb9fc0 -> Node0x5600b9cba040;
+	Node0x5600b9cba040 [shape=record,label="{malloc}"];
+	Node0x5600b9cba1a0 [shape=record,label="{pop}"];
+	Node0x5600b9cba1a0 -> Node0x5600b9cba220;
+	Node0x5600b9cba220 [shape=record,label="{free}"];
+	Node0x5600b9cbf6e0 [shape=record,label="{top}"];
+	Node0x5600b9cbf760 [shape=record,label="{createGraph}"];
+	Node0x5600b9cbf760 -> Node0x5600b9cba040;
+	Node0x5600b9cbf810 [shape=record,label="{addEdge}"];
+	Node0x5600b9cbf810 -> Node0x5600b9cba040;
+	Node0x5600b9cbf890 [shape=record,label="{tSortutil}"];
+	Node0x5600b9cbf890 -> Node0x5600b9cbf890;
+	Node0x5600b9cbf890 -> Node0x5600b9cb9fc0;
+	Node0x5600b9cbfbd0 [shape=record,label="{TopologicalSort}"];
+	Node0x5600b9cbfbd0 -> Node0x5600b9cba040;
+	Node0x5600b9cbfbd0 -> Node0x5600b9cbf890;
+	Node0x5600b9cbfbd0 -> Node0x5600b9cb9f40;
+	Node0x5600b9cbfbd0 -> Node0x5600b9cbf6e0;
+	Node0x5600b9cbfbd0 -> Node0x5600b9cbfc50;
+	Node0x5600b9cbfbd0 -> Node0x5600b9cba1a0;
+	Node0x5600b9cbfc50 [shape=record,label="{printf}"];
+	Node0x5600b9cbfcd0 [shape=record,label="{main}"];
+	Node0x5600b9cbfcd0 -> Node0x5600b9cbf760;
+	Node0x5600b9cbfcd0 -> Node0x5600b9cbf810;
+	Node0x5600b9cbfcd0 -> Node0x5600b9cbfbd0;
+	Node0x5600b9cbfcd0 -> Node0x5600b9cbfc50;
+}

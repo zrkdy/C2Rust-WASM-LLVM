@@ -1,0 +1,26 @@
+{
+  "null_dereference": [],
+  "buffer_overflow": [],
+  "double_free": [],
+  "use_after_free": [],
+  "total_issues": 0,
+  "analyzed_functions": [
+    "newNode ========",
+    "createMinHeap ========",
+    "swapMinheapNodes ========",
+    "minHeapify ========",
+    "isSizeOne ========",
+    "extractMin ========",
+    "insertMinHeap ========",
+    "printarray ========",
+    "isLeaf ========",
+    "buildMinHeap ========",
+    "createAndBuildHeap ========",
+    "buildHuffmanTree ========",
+    "pritCodes ========",
+    "HuffmanCodes ========",
+    "_ZN11program_0246main_017h640bf8afdbdd5c70E ========",
+    "_ZN11program_0244main17h39c3dc5692b0cc4fE ========"
+  ],
+  "instruction_count": 592
+}

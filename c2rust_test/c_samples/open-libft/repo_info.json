@@ -1,0 +1,10 @@
+{
+  "name": "open-libft",
+  "full_name": "jraleman/open-libft",
+  "description": "An open source C library that incorporates useful functions, such as binary trees, linked lists, stacks, arrays, bit manipulation.",
+  "url": "https://github.com/jraleman/open-libft",
+  "stars": 62,
+  "forks": 10,
+  "created_at": "2017-07-21T01:23:28Z",
+  "updated_at": "2025-01-19T11:23:16Z"
+}

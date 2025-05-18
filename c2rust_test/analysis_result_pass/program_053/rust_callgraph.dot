@@ -1,0 +1,45 @@
+digraph "Rust Code Call Graph: ./rust_code/program_053/program_053.ll" {
+	label="Rust Code Call Graph: ./rust_code/program_053/program_053.ll";
+
+	Node0x564a5bc41c90 [shape=record,label="{_ZN4core10intrinsics9cold_path17h4b41d629a78e274eE}"];
+	Node0x564a5bc62870 [shape=record,label="{createLinkList}"];
+	Node0x564a5bc62870 -> Node0x564a5bc42ec0;
+	Node0x564a5bc62870 -> Node0x564a5bc51540;
+	Node0x564a5bc62870 -> Node0x564a5bc492a0;
+	Node0x564a5bc62870 -> Node0x564a5bc53400;
+	Node0x564a5bc42ec0 [shape=record,label="{_ZN4core3ptr7mut_ptr31_$LT$impl$u20$$BP$mut$u20$T$GT$6offset18precondition_check17h831627260f5cbd58E}"];
+	Node0x564a5bc42ec0 -> Node0x564a5bc44400;
+	Node0x564a5bc42ec0 -> Node0x564a5bc463e0;
+	Node0x564a5bc42ec0 -> Node0x564a5bc47860;
+	Node0x564a5bc5e5e0 [shape=record,label="{_ZN4core3ptr7mut_ptr31_$LT$impl$u20$$BP$mut$u20$T$GT$7is_null17ha59c2f0a24f8c97fE}"];
+	Node0x564a5bc492a0 [shape=record,label="{createCircularNode}"];
+	Node0x564a5bc492a0 -> Node0x564a5bc50200;
+	Node0x564a5bc492a0 -> Node0x564a5bc51540;
+	Node0x564a5bc492a0 -> Node0x564a5bc53400;
+	Node0x564a5bc67ce0 [shape=record,label="{calculateLength}"];
+	Node0x564a5bc67ce0 -> Node0x564a5bc51540;
+	Node0x564a5bc67ce0 -> Node0x564a5bc53400;
+	Node0x564a5bc55030 [shape=record,label="{PrintList}"];
+	Node0x564a5bc55030 -> Node0x564a5bc53400;
+	Node0x564a5bc55030 -> Node0x564a5bc51540;
+	Node0x564a5bc55030 -> Node0x564a5bc56a70;
+	Node0x564a5bc578d0 [shape=record,label="{insertValue}"];
+	Node0x564a5bc578d0 -> Node0x564a5bc492a0;
+	Node0x564a5bc578d0 -> Node0x564a5bc67ce0;
+	Node0x564a5bc578d0 -> Node0x564a5bc53400;
+	Node0x564a5bc578d0 -> Node0x564a5bc5e5e0;
+	Node0x564a5bc578d0 -> Node0x564a5bc51540;
+	Node0x564a5bc588b0 [shape=record,label="{removeNode}"];
+	Node0x564a5bc588b0 -> Node0x564a5bc67ce0;
+	Node0x564a5bc588b0 -> Node0x564a5bc53400;
+	Node0x564a5bc588b0 -> Node0x564a5bc51540;
+	Node0x564a5bc588b0 -> Node0x564a5bc5afb0;
+	Node0x564a5bc44400 [shape=record,label="{llvm.smul.with.overflow.i64}"];
+	Node0x564a5bc463e0 [shape=record,label="{llvm.uadd.with.overflow.i64}"];
+	Node0x564a5bc47860 [shape=record,label="{_ZN4core9panicking14panic_nounwind17h211d9ce8d63f12e7E}"];
+	Node0x564a5bc50200 [shape=record,label="{malloc}"];
+	Node0x564a5bc51540 [shape=record,label="{_ZN4core9panicking36panic_misaligned_pointer_dereference17hcc3cbded9382b6e5E}"];
+	Node0x564a5bc53400 [shape=record,label="{_ZN4core9panicking30panic_null_pointer_dereference17hf718fcc86a223baaE}"];
+	Node0x564a5bc56a70 [shape=record,label="{printf}"];
+	Node0x564a5bc5afb0 [shape=record,label="{free}"];
+}

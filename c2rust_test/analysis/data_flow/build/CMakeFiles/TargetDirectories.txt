@@ -1,0 +1,4 @@
+/home/xiaoan/c2rust_project/c2rust_test/analysis_separate/data_flow/build/CMakeFiles/intrinsics_gen.dir
+/home/xiaoan/c2rust_project/c2rust_test/analysis_separate/data_flow/build/CMakeFiles/DataFlowPass.dir
+/home/xiaoan/c2rust_project/c2rust_test/analysis_separate/data_flow/build/CMakeFiles/edit_cache.dir
+/home/xiaoan/c2rust_project/c2rust_test/analysis_separate/data_flow/build/CMakeFiles/rebuild_cache.dir

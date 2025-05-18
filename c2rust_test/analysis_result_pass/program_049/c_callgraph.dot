@@ -1,0 +1,38 @@
+digraph "C Code Call Graph: ./c_code/program_049/program_049.ll" {
+	label="C Code Call Graph: ./c_code/program_049/program_049.ll";
+
+	Node0x55810bd7fa60 [shape=record,label="{node_height}"];
+	Node0x55810bd80600 [shape=record,label="{LR_Rotation}"];
+	Node0x55810bd80600 -> Node0x55810bd7fa60;
+	Node0x55810bd85ae0 [shape=record,label="{RL_Rotation}"];
+	Node0x55810bd85ae0 -> Node0x55810bd7fa60;
+	Node0x55810bd099e0 [shape=record,label="{RR_Rotation}"];
+	Node0x55810bd099e0 -> Node0x55810bd7fa60;
+	Node0x55810bd81370 [shape=record,label="{LL_Rotation}"];
+	Node0x55810bd81370 -> Node0x55810bd7fa60;
+	Node0x55810bd8ea60 [shape=record,label="{createNode}"];
+	Node0x55810bd8ea60 -> Node0x55810bd8eae0;
+	Node0x55810bd8eae0 [shape=record,label="{malloc}"];
+	Node0x55810bd8eb60 [shape=record,label="{Inorder}"];
+	Node0x55810bd8eb60 -> Node0x55810bd8eb60;
+	Node0x55810bd8eb60 -> Node0x55810bd8ebe0;
+	Node0x55810bd8ebe0 [shape=record,label="{printf}"];
+	Node0x55810bd8eef0 [shape=record,label="{Balance_factor}"];
+	Node0x55810bd8ef70 [shape=record,label="{Rotate}"];
+	Node0x55810bd8ef70 -> Node0x55810bd8eef0;
+	Node0x55810bd8ef70 -> Node0x55810bd81370;
+	Node0x55810bd8ef70 -> Node0x55810bd80600;
+	Node0x55810bd8ef70 -> Node0x55810bd099e0;
+	Node0x55810bd8ef70 -> Node0x55810bd85ae0;
+	Node0x55810bd8f0d0 [shape=record,label="{insert}"];
+	Node0x55810bd8f0d0 -> Node0x55810bd8ea60;
+	Node0x55810bd8f0d0 -> Node0x55810bd8f0d0;
+	Node0x55810bd8f0d0 -> Node0x55810bd8ef70;
+	Node0x55810bd8f0d0 -> Node0x55810bd7fa60;
+	Node0x55810bd8f0d0 -> Node0x55810bd8eef0;
+	Node0x55810bd8f2a0 [shape=record,label="{main}"];
+	Node0x55810bd8f2a0 -> Node0x55810bd8f0d0;
+	Node0x55810bd8f2a0 -> Node0x55810bd8ebe0;
+	Node0x55810bd8f2a0 -> Node0x55810bd8eef0;
+	Node0x55810bd8f2a0 -> Node0x55810bd8eb60;
+}

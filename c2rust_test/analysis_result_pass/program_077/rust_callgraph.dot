@@ -1,0 +1,48 @@
+digraph "Rust Code Call Graph: ./rust_code/program_077/program_077.ll" {
+	label="Rust Code Call Graph: ./rust_code/program_077/program_077.ll";
+
+	Node0x55dc616eb3e0 [shape=record,label="{_ZN4core3ptr7mut_ptr31_$LT$impl$u20$$BP$mut$u20$T$GT$7is_null17hfb222ca4d4ddb4c0E}"];
+	Node0x55dc616ed630 [shape=record,label="{create_linked_list}"];
+	Node0x55dc616ed630 -> Node0x55dc616f37c0;
+	Node0x55dc616ed630 -> Node0x55dc616f6b50;
+	Node0x55dc616ed630 -> Node0x55dc616d2b70;
+	Node0x55dc616d2b70 [shape=record,label="{insert_at_last}"];
+	Node0x55dc616d2b70 -> Node0x55dc616f6630;
+	Node0x55dc616d2b70 -> Node0x55dc616fae70;
+	Node0x55dc616d2b70 -> Node0x55dc616e1fd0;
+	Node0x55dc616d2b70 -> Node0x55dc616eb3e0;
+	Node0x55dc616d8f70 [shape=record,label="{insert_at_first}"];
+	Node0x55dc616d8f70 -> Node0x55dc616f6630;
+	Node0x55dc616d8f70 -> Node0x55dc616fae70;
+	Node0x55dc616d8f70 -> Node0x55dc616e1fd0;
+	Node0x55dc616d1410 [shape=record,label="{insert_after}"];
+	Node0x55dc616d1410 -> Node0x55dc616e1fd0;
+	Node0x55dc616d1410 -> Node0x55dc616eb3e0;
+	Node0x55dc616d1410 -> Node0x55dc616fae70;
+	Node0x55dc616d1410 -> Node0x55dc616f37c0;
+	Node0x55dc616d1410 -> Node0x55dc616f6630;
+	Node0x55dc616d20a0 [shape=record,label="{delete_item}"];
+	Node0x55dc616d20a0 -> Node0x55dc616e1fd0;
+	Node0x55dc616d20a0 -> Node0x55dc616eb3e0;
+	Node0x55dc616d20a0 -> Node0x55dc616fae70;
+	Node0x55dc616d20a0 -> Node0x55dc616f37c0;
+	Node0x55dc616d20a0 -> Node0x55dc616d2c90;
+	Node0x55dc616d3a40 [shape=record,label="{search_item}"];
+	Node0x55dc616d3a40 -> Node0x55dc616e1fd0;
+	Node0x55dc616d3a40 -> Node0x55dc616eb3e0;
+	Node0x55dc616d3a40 -> Node0x55dc616fae70;
+	Node0x55dc616d3a40 -> Node0x55dc616f37c0;
+	Node0x55dc616d4230 [shape=record,label="{print_linked_list}"];
+	Node0x55dc616d4230 -> Node0x55dc616f37c0;
+	Node0x55dc616d4230 -> Node0x55dc616e1fd0;
+	Node0x55dc616d4230 -> Node0x55dc616eb3e0;
+	Node0x55dc616d4230 -> Node0x55dc616da320;
+	Node0x55dc616d4230 -> Node0x55dc616fae70;
+	Node0x55dc616f37c0 [shape=record,label="{printf}"];
+	Node0x55dc616f6b50 [shape=record,label="{scanf}"];
+	Node0x55dc616f6630 [shape=record,label="{malloc}"];
+	Node0x55dc616fae70 [shape=record,label="{_ZN4core9panicking36panic_misaligned_pointer_dereference17hcc3cbded9382b6e5E}"];
+	Node0x55dc616e1fd0 [shape=record,label="{_ZN4core9panicking30panic_null_pointer_dereference17hf718fcc86a223baaE}"];
+	Node0x55dc616d2c90 [shape=record,label="{free}"];
+	Node0x55dc616da320 [shape=record,label="{puts}"];
+}

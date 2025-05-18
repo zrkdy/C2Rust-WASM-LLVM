@@ -1,0 +1,37 @@
+digraph "C Code Call Graph: ./c_code/program_036/program_036.ll" {
+	label="C Code Call Graph: ./c_code/program_036/program_036.ll";
+
+	Node0x560445bfc090 [shape=record,label="{init_pointer_array}"];
+	Node0x560445bfddf0 [shape=record,label="{create_tree}"];
+	Node0x560445bfddf0 -> Node0x560445c09e50;
+	Node0x560445bfddf0 -> Node0x560445bfc090;
+	Node0x560445c09e50 [shape=record,label="{malloc}"];
+	Node0x560445c18d90 [shape=record,label="{insert_node}"];
+	Node0x560445c18d90 -> Node0x560445c18e10;
+	Node0x560445c18d90 -> Node0x560445c09e50;
+	Node0x560445c18d90 -> Node0x560445bfc090;
+	Node0x560445c18e10 [shape=record,label="{strlen}"];
+	Node0x560445bfe9a0 [shape=record,label="{insert_node_r}"];
+	Node0x560445bfe9a0 -> Node0x560445c09e50;
+	Node0x560445bfe9a0 -> Node0x560445bfc090;
+	Node0x560445bfe9a0 -> Node0x560445bfe9a0;
+	Node0x560445c00d80 [shape=record,label="{search_tree}"];
+	Node0x560445c00d80 -> Node0x560445c18e10;
+	Node0x560445c0e960 [shape=record,label="{search_tree_r}"];
+	Node0x560445c0e960 -> Node0x560445c0e960;
+	Node0x560445c1df10 [shape=record,label="{destory_tree}"];
+	Node0x560445c1df10 -> Node0x560445c1df10;
+	Node0x560445c1df10 -> Node0x560445c1e220;
+	Node0x560445c1e220 [shape=record,label="{free}"];
+	Node0x560445c1e2a0 [shape=record,label="{main}"];
+	Node0x560445c1e2a0 -> Node0x560445c1e320;
+	Node0x560445c1e2a0 -> Node0x560445c1df10;
+	Node0x560445c1e2a0 -> Node0x560445bfddf0;
+	Node0x560445c1e2a0 -> Node0x560445c18d90;
+	Node0x560445c1e2a0 -> Node0x560445c00d80;
+	Node0x560445c1e2a0 -> Node0x560445c18e10;
+	Node0x560445c1e2a0 -> Node0x560445c0e960;
+	Node0x560445c1e2a0 -> Node0x560445c1e450;
+	Node0x560445c1e320 [shape=record,label="{llvm.memcpy.p0.p0.i64}"];
+	Node0x560445c1e450 [shape=record,label="{printf}"];
+}

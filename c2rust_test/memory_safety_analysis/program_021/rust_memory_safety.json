@@ -1,0 +1,17 @@
+{
+  "null_dereference": [],
+  "buffer_overflow": [],
+  "double_free": [],
+  "use_after_free": [],
+  "total_issues": 0,
+  "analyzed_functions": [
+    "find ========",
+    "Union ========",
+    "scompare ========",
+    "creategraph ========",
+    "MST_kruskal ========",
+    "_ZN11program_0216main_017ha284bccc7c2533edE ========",
+    "_ZN11program_0214main17h98ddb347aa6d4115E ========"
+  ],
+  "instruction_count": 225
+}

@@ -1,0 +1,45 @@
+digraph "C Code Call Graph: ./c_code/program_047/program_047.ll" {
+	label="C Code Call Graph: ./c_code/program_047/program_047.ll";
+
+	Node0x55a5e1328320 [shape=record,label="{NewNode}"];
+	Node0x55a5e1328320 -> Node0x55a5e13292a0;
+	Node0x55a5e13292a0 [shape=record,label="{malloc}"];
+	Node0x55a5e1329d60 [shape=record,label="{max}"];
+	Node0x55a5e132a6e0 [shape=record,label="{height}"];
+	Node0x55a5e132b030 [shape=record,label="{Balance}"];
+	Node0x55a5e132b030 -> Node0x55a5e132a6e0;
+	Node0x55a5e132b7d0 [shape=record,label="{LeftRotate}"];
+	Node0x55a5e132b7d0 -> Node0x55a5e132a6e0;
+	Node0x55a5e132b7d0 -> Node0x55a5e1329d60;
+	Node0x55a5e133d540 [shape=record,label="{RightRotate}"];
+	Node0x55a5e133d540 -> Node0x55a5e132a6e0;
+	Node0x55a5e133d540 -> Node0x55a5e1329d60;
+	Node0x55a5e133d710 [shape=record,label="{preorder}"];
+	Node0x55a5e133d710 -> Node0x55a5e132c260;
+	Node0x55a5e133d710 -> Node0x55a5e133d710;
+	Node0x55a5e132c260 [shape=record,label="{printf}"];
+	Node0x55a5e132cc60 [shape=record,label="{FindMin}"];
+	Node0x55a5e132de00 [shape=record,label="{Delete}"];
+	Node0x55a5e132de00 -> Node0x55a5e132de00;
+	Node0x55a5e132de00 -> Node0x55a5e132b7d0;
+	Node0x55a5e132de00 -> Node0x55a5e132e510;
+	Node0x55a5e132de00 -> Node0x55a5e133d540;
+	Node0x55a5e132de00 -> Node0x55a5e132b030;
+	Node0x55a5e132de00 -> Node0x55a5e132cc60;
+	Node0x55a5e132de00 -> Node0x55a5e1329d60;
+	Node0x55a5e132de00 -> Node0x55a5e132a6e0;
+	Node0x55a5e132e510 [shape=record,label="{free}"];
+	Node0x55a5e132e9d0 [shape=record,label="{Insert}"];
+	Node0x55a5e132e9d0 -> Node0x55a5e1328320;
+	Node0x55a5e132e9d0 -> Node0x55a5e132e9d0;
+	Node0x55a5e132e9d0 -> Node0x55a5e132b7d0;
+	Node0x55a5e132e9d0 -> Node0x55a5e132a6e0;
+	Node0x55a5e132e9d0 -> Node0x55a5e133d540;
+	Node0x55a5e132e9d0 -> Node0x55a5e1329d60;
+	Node0x55a5e132e9d0 -> Node0x55a5e132b030;
+	Node0x55a5e1330180 [shape=record,label="{main}"];
+	Node0x55a5e1330180 -> Node0x55a5e132e9d0;
+	Node0x55a5e1330180 -> Node0x55a5e133d710;
+	Node0x55a5e1330180 -> Node0x55a5e132c260;
+	Node0x55a5e1330180 -> Node0x55a5e132de00;
+}

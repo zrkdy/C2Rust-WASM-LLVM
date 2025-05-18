@@ -1,0 +1,1740 @@
+{
+  "program_001": {
+    "original_path": "./c_samples/C/audio/alaw.c",
+    "original_name": "alaw.c",
+    "original_base_name": "alaw",
+    "standard_name": "program_001.c",
+    "includes": [
+      "assert.h",
+      "inttypes.h",
+      "stdio.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "int",
+      "loop",
+      "pointer",
+      "static",
+      "bitwise",
+      "macro"
+    ]
+  },
+  "program_002": {
+    "original_path": "./c_samples/C/cipher/affine.c",
+    "original_name": "affine.c",
+    "original_base_name": "affine",
+    "standard_name": "program_002.c",
+    "includes": [
+      "assert.h",
+      "stdio.h",
+      "stdlib.h",
+      "string.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "static",
+      "typedef",
+      "bitwise",
+      "string",
+      "macro"
+    ]
+  },
+  "program_003": {
+    "original_path": "./c_samples/C/conversions/decimal_to_any_base.c",
+    "original_name": "decimal_to_any_base.c",
+    "original_base_name": "decimal_to_any_base",
+    "standard_name": "program_003.c",
+    "includes": [
+      "stdio.h",
+      "string.h",
+      "stdint.h",
+      "stdbool.h",
+      "assert.h",
+      "stdlib.h"
+    ],
+    "c_features": [
+      "comment",
+      "conditional",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "static",
+      "bitwise",
+      "string"
+    ]
+  },
+  "program_004": {
+    "original_path": "./c_samples/C/dynamic_programming/lcs.c",
+    "original_name": "lcs.c",
+    "original_base_name": "lcs",
+    "standard_name": "program_004.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h",
+      "string.h",
+      "assert.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "int",
+      "loop",
+      "pointer",
+      "static",
+      "enum",
+      "bitwise",
+      "string"
+    ]
+  },
+  "program_005": {
+    "original_path": "./c_samples/C/games/hangman.c",
+    "original_name": "hangman.c",
+    "original_base_name": "hangman",
+    "standard_name": "program_005.c",
+    "includes": [
+      "ctype.h",
+      "stdio.h",
+      "stdlib.h",
+      "string.h",
+      "time.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "pointer",
+      "bitwise",
+      "file_io",
+      "string"
+    ]
+  },
+  "program_006": {
+    "original_path": "./c_samples/C/games/naval_battle.c",
+    "original_name": "naval_battle.c",
+    "original_base_name": "naval_battle",
+    "standard_name": "program_006.c",
+    "includes": [
+      "stdio.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "int",
+      "loop",
+      "pointer",
+      "bitwise"
+    ]
+  },
+  "program_007": {
+    "original_path": "./c_samples/C/greedy_approach/prim.c",
+    "original_name": "prim.c",
+    "original_base_name": "prim",
+    "standard_name": "program_007.c",
+    "includes": [
+      "stdio.h",
+      "string.h",
+      "assert.h",
+      "inttypes.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "int",
+      "loop",
+      "pointer",
+      "static",
+      "function_pointer",
+      "bitwise",
+      "string",
+      "macro"
+    ]
+  },
+  "program_008": {
+    "original_path": "./c_samples/C/math/prime_factoriziation.c",
+    "original_name": "prime_factoriziation.c",
+    "original_base_name": "prime_factoriziation",
+    "standard_name": "program_008.c",
+    "includes": [
+      "assert.h",
+      "stdio.h",
+      "stdlib.h",
+      "string.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "typedef",
+      "bitwise",
+      "macro"
+    ]
+  },
+  "program_009": {
+    "original_path": "./c_samples/C/process_scheduling_algorithms/non_preemptive_priority_scheduling.c",
+    "original_name": "non_preemptive_priority_scheduling.c",
+    "original_base_name": "non_preemptive_priority_scheduling",
+    "standard_name": "program_009.c",
+    "includes": [
+      "assert.h",
+      "stdbool.h",
+      "stdio.h",
+      "stdlib.h"
+    ],
+    "c_features": [
+      "comment",
+      "conditional",
+      "struct",
+      "float",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "static",
+      "typedef",
+      "bitwise"
+    ]
+  },
+  "program_010": {
+    "original_path": "./c_samples/C/project_euler/problem_13/sol1.c",
+    "original_name": "sol1.c",
+    "original_base_name": "sol1",
+    "standard_name": "program_010.c",
+    "includes": [
+      "stdint.h",
+      "stdio.h",
+      "stdlib.h",
+      "string.h"
+    ],
+    "c_features": [
+      "comment",
+      "conditional",
+      "int",
+      "loop",
+      "pointer",
+      "bitwise",
+      "file_io",
+      "string"
+    ]
+  },
+  "program_011": {
+    "original_path": "./c_samples/C/project_euler/problem_20/sol1.c",
+    "original_name": "sol1.c",
+    "original_base_name": "sol1",
+    "standard_name": "program_011.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h",
+      "time.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "typedef",
+      "bitwise"
+    ]
+  },
+  "program_012": {
+    "original_path": "./c_samples/C/sorting/bucket_sort.c",
+    "original_name": "bucket_sort.c",
+    "original_base_name": "bucket_sort",
+    "standard_name": "program_012.c",
+    "includes": [
+      "assert.h",
+      "stdio.h",
+      "stdlib.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "bitwise",
+      "macro"
+    ]
+  },
+  "program_013": {
+    "original_path": "./c_samples/C/sorting/merge_sort.c",
+    "original_name": "merge_sort.c",
+    "original_base_name": "merge_sort",
+    "standard_name": "program_013.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h"
+    ],
+    "c_features": [
+      "comment",
+      "conditional",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "bitwise"
+    ]
+  },
+  "program_014": {
+    "original_path": "./c_samples/C/sorting/multikey_quick_sort.c",
+    "original_name": "multikey_quick_sort.c",
+    "original_base_name": "multikey_quick_sort",
+    "standard_name": "program_014.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h",
+      "string.h",
+      "time.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "typedef",
+      "bitwise",
+      "string",
+      "macro"
+    ]
+  },
+  "program_015": {
+    "original_path": "./c_samples/Data-Structure-Notes/Notes/HuffmanTree.c",
+    "original_name": "HuffmanTree.c",
+    "original_base_name": "HuffmanTree",
+    "standard_name": "program_015.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h",
+      "stdbool.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "typedef",
+      "bitwise",
+      "macro"
+    ]
+  },
+  "program_016": {
+    "original_path": "./c_samples/Data-Structure-Notes/Notes/Sort.c",
+    "original_name": "Sort.c",
+    "original_base_name": "Sort",
+    "standard_name": "program_016.c",
+    "includes": [
+      "stdlib.h",
+      "stdio.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "typedef",
+      "bitwise",
+      "macro"
+    ]
+  },
+  "program_017": {
+    "original_path": "./c_samples/Data-Structure-Notes/PTA_Exercise/04-树4 是否同一棵二叉搜索树.c",
+    "original_name": "04-树4 是否同一棵二叉搜索树.c",
+    "original_base_name": "04-树4 是否同一棵二叉搜索树",
+    "standard_name": "program_017.c",
+    "includes": [],
+    "c_features": [
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "typedef",
+      "bitwise"
+    ]
+  },
+  "program_018": {
+    "original_path": "./c_samples/Data-Structure-Notes/PTA_Exercise/05-树9 Huffman Codes.c",
+    "original_name": "05-树9 Huffman Codes.c",
+    "original_base_name": "05-树9 Huffman Codes",
+    "standard_name": "program_018.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h",
+      "stdbool.h",
+      "string.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "typedef",
+      "bitwise",
+      "string",
+      "macro"
+    ]
+  },
+  "program_019": {
+    "original_path": "./c_samples/Data-Structure-Notes/PTA_Exercise/06-图2 Saving James Bond - Hard Version.c",
+    "original_name": "06-图2 Saving James Bond - Hard Version.c",
+    "original_base_name": "06-图2 Saving James Bond - Hard Version",
+    "standard_name": "program_019.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h",
+      "stdbool.h",
+      "math.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "typedef",
+      "bitwise",
+      "macro"
+    ]
+  },
+  "program_020": {
+    "original_path": "./c_samples/Data-Structure-Notes/PTA_Exercise/07-图6 旅游规划.c",
+    "original_name": "07-图6 旅游规划.c",
+    "original_base_name": "07-图6 旅游规划",
+    "standard_name": "program_020.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h",
+      "stdbool.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "typedef",
+      "bitwise",
+      "macro"
+    ]
+  },
+  "program_021": {
+    "original_path": "./c_samples/Data-Structure-Notes/PTA_Exercise/09-排序2 Insert or Merge.c",
+    "original_name": "09-排序2 Insert or Merge.c",
+    "original_base_name": "09-排序2 Insert or Merge",
+    "standard_name": "program_021.c",
+    "includes": [
+      "stdlib.h",
+      "stdio.h",
+      "math.h",
+      "stdbool.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "bitwise",
+      "macro"
+    ]
+  },
+  "program_022": {
+    "original_path": "./c_samples/Data-Structure-Notes/PTA_Exercise/10-排序5 PAT Judge.c",
+    "original_name": "10-排序5 PAT Judge.c",
+    "original_base_name": "10-排序5 PAT Judge",
+    "standard_name": "program_022.c",
+    "includes": [
+      "stdlib.h",
+      "stdio.h",
+      "stdbool.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "pointer",
+      "bitwise",
+      "macro"
+    ]
+  },
+  "program_023": {
+    "original_path": "./c_samples/Data-Structure-Notes/PTA_Exercise/11-散列1 电话聊天狂人.c",
+    "original_name": "11-散列1 电话聊天狂人.c",
+    "original_base_name": "11-散列1 电话聊天狂人",
+    "standard_name": "program_023.c",
+    "includes": [
+      "stdlib.h",
+      "stdio.h",
+      "string.h",
+      "stdbool.h",
+      "math.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "typedef",
+      "bitwise",
+      "string",
+      "macro"
+    ]
+  },
+  "program_024": {
+    "original_path": "./c_samples/Data-Structure-Notes/PTA_Exercise/11-散列2 Hashing.c",
+    "original_name": "11-散列2 Hashing.c",
+    "original_base_name": "11-散列2 Hashing",
+    "standard_name": "program_024.c",
+    "includes": [
+      "stdlib.h",
+      "stdio.h",
+      "stdbool.h",
+      "math.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "typedef",
+      "enum",
+      "bitwise",
+      "macro"
+    ]
+  },
+  "program_025": {
+    "original_path": "./c_samples/Data-Structure-Notes/PTA_Exercise/11-散列3 QQ帐户的申请与登陆 - 散列法.c",
+    "original_name": "11-散列3 QQ帐户的申请与登陆 - 散列法.c",
+    "original_base_name": "11-散列3 QQ帐户的申请与登陆 - 散列法",
+    "standard_name": "program_025.c",
+    "includes": [
+      "math.h",
+      "stdio.h",
+      "stdlib.h",
+      "stdbool.h",
+      "string.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "typedef",
+      "bitwise",
+      "string",
+      "macro"
+    ]
+  },
+  "program_026": {
+    "original_path": "./c_samples/Data-Structure-Notes/PTA_Exercise/11-散列4 Hashing - Hard Version 方法二.c",
+    "original_name": "11-散列4 Hashing - Hard Version 方法二.c",
+    "original_base_name": "11-散列4 Hashing - Hard Version 方法二",
+    "standard_name": "program_026.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h",
+      "stdbool.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "typedef",
+      "bitwise",
+      "macro"
+    ]
+  },
+  "program_027": {
+    "original_path": "./c_samples/Data-Structures-and-Algorithms-in-C/Backtrack/ch7code/7.1.c",
+    "original_name": "7.1.c",
+    "original_base_name": "7.1",
+    "standard_name": "program_027.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "function_pointer",
+      "bitwise",
+      "macro"
+    ]
+  },
+  "program_028": {
+    "original_path": "./c_samples/Data-Structures-and-Algorithms-in-C/Backtrack/ch7code/7.2/7.6.c",
+    "original_name": "7.6.c",
+    "original_base_name": "7.6",
+    "standard_name": "program_028.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "function_pointer",
+      "bitwise",
+      "macro"
+    ]
+  },
+  "program_029": {
+    "original_path": "./c_samples/Data-Structures-and-Algorithms-in-C/Backtrack/ch7code/7.2/best.c",
+    "original_name": "best.c",
+    "original_base_name": "best",
+    "standard_name": "program_029.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "function_pointer",
+      "bitwise",
+      "macro"
+    ]
+  },
+  "program_030": {
+    "original_path": "./c_samples/Data-Structures-and-Algorithms-in-C/Backtrack/ch7code/7.2/bfs.c",
+    "original_name": "bfs.c",
+    "original_base_name": "bfs",
+    "standard_name": "program_030.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "function_pointer",
+      "bitwise",
+      "macro"
+    ]
+  },
+  "program_031": {
+    "original_path": "./c_samples/Data-Structures-and-Algorithms-in-C/Backtrack/ch7code/7.2/hillclimb.c",
+    "original_name": "hillclimb.c",
+    "original_base_name": "hillclimb",
+    "standard_name": "program_031.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "function_pointer",
+      "bitwise",
+      "macro"
+    ]
+  },
+  "program_032": {
+    "original_path": "./c_samples/Data-Structures-and-Algorithms-in-C/Backtrack/ch7code/7.3_astar.c",
+    "original_name": "7.3_astar.c",
+    "original_base_name": "7.3_astar",
+    "standard_name": "program_032.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h",
+      "limits.h"
+    ],
+    "c_features": [
+      "array",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "bitwise",
+      "macro"
+    ]
+  },
+  "program_033": {
+    "original_path": "./c_samples/Data-Structures-and-Algorithms-in-C/Backtrack/ch7code/7.3_branchbound.c",
+    "original_name": "7.3_branchbound.c",
+    "original_base_name": "7.3_branchbound",
+    "standard_name": "program_033.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h",
+      "limits.h"
+    ],
+    "c_features": [
+      "array",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "bitwise",
+      "macro"
+    ]
+  },
+  "program_034": {
+    "original_path": "./c_samples/Data-Structures-and-Algorithms-in-C/Backtrack/ch7code/7.4有点缺憾.c",
+    "original_name": "7.4有点缺憾.c",
+    "original_base_name": "7.4有点缺憾",
+    "standard_name": "program_034.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h",
+      "limits.h"
+    ],
+    "c_features": [
+      "array",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "function_pointer",
+      "bitwise",
+      "macro"
+    ]
+  },
+  "program_035": {
+    "original_path": "./c_samples/Data-Structures-and-Algorithms-in-C/Tree/ExpressTree/expresstree.c",
+    "original_name": "expresstree.c",
+    "original_base_name": "expresstree",
+    "standard_name": "program_035.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h",
+      "string.h"
+    ],
+    "c_features": [
+      "array",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "typedef",
+      "bitwise",
+      "string"
+    ]
+  },
+  "program_036": {
+    "original_path": "./c_samples/Data-Structures-and-Algorithms-in-C/Tree/TrieTree/trieTree.c",
+    "original_name": "trieTree.c",
+    "original_base_name": "trieTree",
+    "standard_name": "program_036.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h",
+      "string.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "typedef",
+      "string",
+      "macro"
+    ]
+  },
+  "program_037": {
+    "original_path": "./c_samples/Data-Structures-and-Algorithms-in-C/Tree/求树高深/main.c",
+    "original_name": "main.c",
+    "original_base_name": "main",
+    "standard_name": "program_037.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "bitwise",
+      "macro"
+    ]
+  },
+  "program_038": {
+    "original_path": "./c_samples/Data-Structures-and-Algorithms/1.Singly-Linked-list/LinkedList.c",
+    "original_name": "LinkedList.c",
+    "original_base_name": "LinkedList",
+    "standard_name": "program_038.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h"
+    ],
+    "c_features": [
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "bitwise"
+    ]
+  },
+  "program_039": {
+    "original_path": "./c_samples/Data-Structures-and-Algorithms/10.Graphs/DijkstrasSSSP.c",
+    "original_name": "DijkstrasSSSP.c",
+    "original_base_name": "DijkstrasSSSP",
+    "standard_name": "program_039.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h",
+      "limits.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "bitwise"
+    ]
+  },
+  "program_040": {
+    "original_path": "./c_samples/Data-Structures-and-Algorithms/10.Graphs/KosarajusSCC.c",
+    "original_name": "KosarajusSCC.c",
+    "original_base_name": "KosarajusSCC",
+    "standard_name": "program_040.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer"
+    ]
+  },
+  "program_041": {
+    "original_path": "./c_samples/Data-Structures-and-Algorithms/10.Graphs/MST_Kruskals.c",
+    "original_name": "MST_Kruskals.c",
+    "original_base_name": "MST_Kruskals",
+    "standard_name": "program_041.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "bitwise"
+    ]
+  },
+  "program_042": {
+    "original_path": "./c_samples/Data-Structures-and-Algorithms/10.Graphs/TopologicalSorting.c",
+    "original_name": "TopologicalSorting.c",
+    "original_base_name": "TopologicalSorting",
+    "standard_name": "program_042.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer"
+    ]
+  },
+  "program_043": {
+    "original_path": "./c_samples/Data-Structures-and-Algorithms/12.Greedy-Algorithms/DijkstrasSSSP.c",
+    "original_name": "DijkstrasSSSP.c",
+    "original_base_name": "DijkstrasSSSP",
+    "standard_name": "program_043.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h",
+      "limits.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "bitwise"
+    ]
+  },
+  "program_044": {
+    "original_path": "./c_samples/Data-Structures-and-Algorithms/12.Greedy-Algorithms/HuffmanCoding.c",
+    "original_name": "HuffmanCoding.c",
+    "original_base_name": "HuffmanCoding",
+    "standard_name": "program_044.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "bitwise"
+    ]
+  },
+  "program_045": {
+    "original_path": "./c_samples/Data-Structures-and-Algorithms/12.Greedy-Algorithms/MST_Kruskals.c",
+    "original_name": "MST_Kruskals.c",
+    "original_base_name": "MST_Kruskals",
+    "standard_name": "program_045.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "bitwise"
+    ]
+  },
+  "program_046": {
+    "original_path": "./c_samples/Data-Structures-and-Algorithms/7.Binary-Search-Tree/BinarySearchTree.c",
+    "original_name": "BinarySearchTree.c",
+    "original_base_name": "BinarySearchTree",
+    "standard_name": "program_046.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h"
+    ],
+    "c_features": [
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "bitwise"
+    ]
+  },
+  "program_047": {
+    "original_path": "./c_samples/Data-Structures-and-Algorithms/8.AVL-tree/AVLTree.c",
+    "original_name": "AVLTree.c",
+    "original_base_name": "AVLTree",
+    "standard_name": "program_047.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h"
+    ],
+    "c_features": [
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "bitwise"
+    ]
+  },
+  "program_048": {
+    "original_path": "./c_samples/Data-Structures-and-Algorithms/9.Red-Black-tree/RedBlackTrees.c",
+    "original_name": "RedBlackTrees.c",
+    "original_base_name": "RedBlackTrees",
+    "standard_name": "program_048.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h"
+    ],
+    "c_features": [
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "function_pointer",
+      "enum",
+      "bitwise"
+    ]
+  },
+  "program_049": {
+    "original_path": "./c_samples/DataStructure/AVL/rotation.c",
+    "original_name": "rotation.c",
+    "original_base_name": "rotation",
+    "standard_name": "program_049.c",
+    "includes": [],
+    "c_features": [
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "malloc",
+      "pointer",
+      "bitwise"
+    ]
+  },
+  "program_050": {
+    "original_path": "./c_samples/DataStructure/BST/C/recursive.c",
+    "original_name": "recursive.c",
+    "original_base_name": "recursive",
+    "standard_name": "program_050.c",
+    "includes": [],
+    "c_features": [
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "bitwise"
+    ]
+  },
+  "program_051": {
+    "original_path": "./c_samples/DataStructure/LinkedList/DoublyLinkedList/doublyLinkList.c",
+    "original_name": "doublyLinkList.c",
+    "original_base_name": "doublyLinkList",
+    "standard_name": "program_051.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "bitwise"
+    ]
+  },
+  "program_052": {
+    "original_path": "./c_samples/DataStructure/LinkedList/circularLinkedList/circularDoublyLinkList.c",
+    "original_name": "circularDoublyLinkList.c",
+    "original_base_name": "circularDoublyLinkList",
+    "standard_name": "program_052.c",
+    "includes": [],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "bitwise"
+    ]
+  },
+  "program_053": {
+    "original_path": "./c_samples/DataStructure/LinkedList/circularLinkedList/circularLinkListIterative.c",
+    "original_name": "circularLinkListIterative.c",
+    "original_base_name": "circularLinkListIterative",
+    "standard_name": "program_053.c",
+    "includes": [],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "bitwise"
+    ]
+  },
+  "program_054": {
+    "original_path": "./c_samples/DataStructure/Stack/application.c",
+    "original_name": "application.c",
+    "original_base_name": "application",
+    "standard_name": "program_054.c",
+    "includes": [],
+    "c_features": [
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "bitwise",
+      "string"
+    ]
+  },
+  "program_055": {
+    "original_path": "./c_samples/POPT/lookup3.c",
+    "original_name": "lookup3.c",
+    "original_base_name": "lookup3",
+    "standard_name": "program_055.c",
+    "includes": [
+      "stdint.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "int",
+      "loop",
+      "pointer",
+      "static",
+      "union",
+      "function_pointer",
+      "bitwise",
+      "macro"
+    ]
+  },
+  "program_056": {
+    "original_path": "./c_samples/data-structures-and-algorithms-made-easy/src/Chapter_03_Linked_Lists/intersectingNodeBruteForce.c",
+    "original_name": "intersectingNodeBruteForce.c",
+    "original_base_name": "intersectingNodeBruteForce",
+    "standard_name": "program_056.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h"
+    ],
+    "c_features": [
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "bitwise"
+    ]
+  },
+  "program_057": {
+    "original_path": "./c_samples/data-structures-and-algorithms-made-easy/src/Chapter_04_Queues/DynamicQueue.c",
+    "original_name": "DynamicQueue.c",
+    "original_base_name": "DynamicQueue",
+    "standard_name": "program_057.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h",
+      "limits.h"
+    ],
+    "c_features": [
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer"
+    ]
+  },
+  "program_058": {
+    "original_path": "./c_samples/data-structures-and-algorithms-made-easy/src/Chapter_04_Queues/QueueWithTwoStacks.c",
+    "original_name": "QueueWithTwoStacks.c",
+    "original_base_name": "QueueWithTwoStacks",
+    "standard_name": "program_058.c",
+    "includes": [
+      "stdlib.h",
+      "limits.h"
+    ],
+    "c_features": [
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer"
+    ]
+  },
+  "program_059": {
+    "original_path": "./c_samples/data-structures-and-algorithms-made-easy/src/Chapter_04_Queues/QueuesWithLinkedLists.c",
+    "original_name": "QueuesWithLinkedLists.c",
+    "original_base_name": "QueuesWithLinkedLists",
+    "standard_name": "program_059.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h"
+    ],
+    "c_features": [
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "bitwise"
+    ]
+  },
+  "program_060": {
+    "original_path": "./c_samples/data-structures-and-algorithms-made-easy/src/Chapter_04_Queues/ReverseQueue.c",
+    "original_name": "ReverseQueue.c",
+    "original_base_name": "ReverseQueue",
+    "standard_name": "program_060.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h",
+      "limits.h"
+    ],
+    "c_features": [
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer"
+    ]
+  },
+  "program_061": {
+    "original_path": "./c_samples/data-structures-and-algorithms-made-easy/src/Chapter_04_Stacks/QueueWithTwoStacks.c",
+    "original_name": "QueueWithTwoStacks.c",
+    "original_base_name": "QueueWithTwoStacks",
+    "standard_name": "program_061.c",
+    "includes": [
+      "stdlib.h",
+      "limits.h"
+    ],
+    "c_features": [
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer"
+    ]
+  },
+  "program_062": {
+    "original_path": "./c_samples/data-structures-and-algorithms-made-easy/src/Chapter_04_Stacks/ReverseQueue.c",
+    "original_name": "ReverseQueue.c",
+    "original_base_name": "ReverseQueue",
+    "standard_name": "program_062.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h",
+      "limits.h"
+    ],
+    "c_features": [
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer"
+    ]
+  },
+  "program_063": {
+    "original_path": "./c_samples/data-structures-and-algorithms-made-easy/src/Chapter_04_Stacks/getMinimum.c",
+    "original_name": "getMinimum.c",
+    "original_base_name": "getMinimum",
+    "standard_name": "program_063.c",
+    "includes": [
+      "stdlib.h",
+      "limits.h"
+    ],
+    "c_features": [
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "bitwise"
+    ]
+  },
+  "program_064": {
+    "original_path": "./c_samples/data-structures-and-algorithms-made-easy/src/Chapter_04_Stacks/getMinimums.c",
+    "original_name": "getMinimums.c",
+    "original_base_name": "getMinimums",
+    "standard_name": "program_064.c",
+    "includes": [
+      "stdlib.h",
+      "limits.h"
+    ],
+    "c_features": [
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "bitwise"
+    ]
+  },
+  "program_065": {
+    "original_path": "./c_samples/data-structures-and-algorithms-made-easy/src/Chapter_04_Stacks/infixToPostfix.c",
+    "original_name": "infixToPostfix.c",
+    "original_base_name": "infixToPostfix",
+    "standard_name": "program_065.c",
+    "includes": [
+      "stdlib.h",
+      "limits.h"
+    ],
+    "c_features": [
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "bitwise"
+    ]
+  },
+  "program_066": {
+    "original_path": "./c_samples/data-structures-and-algorithms-made-easy/src/Chapter_06_Trees/FindMaxUsingLevelOrder.c",
+    "original_name": "FindMaxUsingLevelOrder.c",
+    "original_base_name": "FindMaxUsingLevelOrder",
+    "standard_name": "program_066.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h",
+      "limits.h"
+    ],
+    "c_features": [
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "bitwise"
+    ]
+  },
+  "program_067": {
+    "original_path": "./c_samples/data-structures-and-algorithms-made-easy/src/Chapter_06_Trees/LevelOrder.c",
+    "original_name": "LevelOrder.c",
+    "original_base_name": "LevelOrder",
+    "standard_name": "program_067.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h"
+    ],
+    "c_features": [
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "bitwise"
+    ]
+  },
+  "program_068": {
+    "original_path": "./c_samples/data-structures-and-algorithms-made-easy/src/Chapter_14_Hashing/LinearChainingImplementation.c",
+    "original_name": "LinearChainingImplementation.c",
+    "original_base_name": "LinearChainingImplementation",
+    "standard_name": "program_068.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h",
+      "stdbool.h",
+      "string.h",
+      "assert.h"
+    ],
+    "c_features": [
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "typedef"
+    ]
+  },
+  "program_069": {
+    "original_path": "./c_samples/data-structures/Source Code/Binary Search Tree - Delete any node.c",
+    "original_name": "Binary Search Tree - Delete any node.c",
+    "original_base_name": "Binary Search Tree - Delete any node",
+    "standard_name": "program_069.c",
+    "includes": [],
+    "c_features": [
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "typedef",
+      "bitwise"
+    ]
+  },
+  "program_070": {
+    "original_path": "./c_samples/data-structures/Source Code/Binary Search Tree [Find Maximum and Minimum value].c",
+    "original_name": "Binary Search Tree [Find Maximum and Minimum value].c",
+    "original_base_name": "Binary Search Tree [Find Maximum and Minimum value]",
+    "standard_name": "program_070.c",
+    "includes": [],
+    "c_features": [
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "typedef"
+    ]
+  },
+  "program_071": {
+    "original_path": "./c_samples/data-structures/Source Code/Binary Search Tree [Insert-Search-Traverse] .c",
+    "original_name": "Binary Search Tree [Insert-Search-Traverse] .c",
+    "original_base_name": "Binary Search Tree [Insert-Search-Traverse] ",
+    "standard_name": "program_071.c",
+    "includes": [],
+    "c_features": [
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "typedef"
+    ]
+  },
+  "program_072": {
+    "original_path": "./c_samples/data-structures/Source Code/Circular Doubly Linked List (Insert, Delete, Print).c",
+    "original_name": "Circular Doubly Linked List (Insert, Delete, Print).c",
+    "original_base_name": "Circular Doubly Linked List (Insert, Delete, Print)",
+    "standard_name": "program_072.c",
+    "includes": [],
+    "c_features": [
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "typedef",
+      "bitwise"
+    ]
+  },
+  "program_073": {
+    "original_path": "./c_samples/data-structures/Source Code/Circular Singly Linked List.c",
+    "original_name": "Circular Singly Linked List.c",
+    "original_base_name": "Circular Singly Linked List",
+    "standard_name": "program_073.c",
+    "includes": [],
+    "c_features": [
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "typedef",
+      "bitwise"
+    ]
+  },
+  "program_074": {
+    "original_path": "./c_samples/data-structures/Source Code/Doubly Linked List (Insert, Delete, Print).c",
+    "original_name": "Doubly Linked List (Insert, Delete, Print).c",
+    "original_base_name": "Doubly Linked List (Insert, Delete, Print)",
+    "standard_name": "program_074.c",
+    "includes": [],
+    "c_features": [
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "typedef",
+      "bitwise"
+    ]
+  },
+  "program_075": {
+    "original_path": "./c_samples/data-structures/Source Code/Doubly Linked List (Insert, print: forward and revesre order).c",
+    "original_name": "Doubly Linked List (Insert, print: forward and revesre order).c",
+    "original_base_name": "Doubly Linked List (Insert, print: forward and revesre order)",
+    "standard_name": "program_075.c",
+    "includes": [],
+    "c_features": [
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "typedef",
+      "bitwise"
+    ]
+  },
+  "program_076": {
+    "original_path": "./c_samples/data-structures/Source Code/Is it a BST or not.c",
+    "original_name": "Is it a BST or not.c",
+    "original_base_name": "Is it a BST or not",
+    "standard_name": "program_076.c",
+    "includes": [],
+    "c_features": [
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "typedef",
+      "bitwise"
+    ]
+  },
+  "program_077": {
+    "original_path": "./c_samples/data-structures/Source Code/Linked List [create, insert, delete, search].c",
+    "original_name": "Linked List [create, insert, delete, search].c",
+    "original_base_name": "Linked List [create, insert, delete, search]",
+    "standard_name": "program_077.c",
+    "includes": [],
+    "c_features": [
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "typedef",
+      "bitwise"
+    ]
+  },
+  "program_078": {
+    "original_path": "./c_samples/engine/test_tlstree.c",
+    "original_name": "test_tlstree.c",
+    "original_base_name": "test_tlstree",
+    "standard_name": "program_078.c",
+    "includes": [],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "int",
+      "loop",
+      "pointer",
+      "static",
+      "bitwise",
+      "memory"
+    ]
+  },
+  "program_079": {
+    "original_path": "./c_samples/learn-data-structures/2.7 二叉搜索树/bst.c",
+    "original_name": "bst.c",
+    "original_base_name": "bst",
+    "standard_name": "program_079.c",
+    "includes": [
+      "stdio.h",
+      "stdlib.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "typedef",
+      "bitwise",
+      "macro"
+    ]
+  },
+  "program_080": {
+    "original_path": "./c_samples/monty/make_token_string.c",
+    "original_name": "make_token_string.c",
+    "original_base_name": "make_token_string",
+    "standard_name": "program_080.c",
+    "includes": [
+      "stdlib.h"
+    ],
+    "c_features": [
+      "comment",
+      "conditional",
+      "int",
+      "loop",
+      "malloc",
+      "pointer",
+      "bitwise"
+    ]
+  },
+  "program_081": {
+    "original_path": "./c_samples/portable-lib/src/emb-printf.c",
+    "original_name": "emb-printf.c",
+    "original_base_name": "emb-printf",
+    "standard_name": "program_081.c",
+    "includes": [
+      "assert.h",
+      "stdarg.h",
+      "string.h",
+      "ctype.h",
+      "stdint.h",
+      "stdio.h"
+    ],
+    "c_features": [
+      "array",
+      "comment",
+      "conditional",
+      "struct",
+      "int",
+      "loop",
+      "pointer",
+      "static",
+      "function_pointer",
+      "typedef",
+      "bitwise",
+      "string",
+      "macro"
+    ]
+  }
+}

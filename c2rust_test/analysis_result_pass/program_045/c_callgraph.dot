@@ -1,0 +1,29 @@
+digraph "C Code Call Graph: ./c_code/program_045/program_045.ll" {
+	label="C Code Call Graph: ./c_code/program_045/program_045.ll";
+
+	Node0x5643fc66a970 [shape=record,label="{find}"];
+	Node0x5643fc66a970 -> Node0x5643fc66a970;
+	Node0x5643fc66ae30 [shape=record,label="{Union}"];
+	Node0x5643fc66ae30 -> Node0x5643fc66a970;
+	Node0x5643fc66aeb0 [shape=record,label="{scompare}"];
+	Node0x5643fc66afe0 [shape=record,label="{creategraph}"];
+	Node0x5643fc66afe0 -> Node0x5643fc66b060;
+	Node0x5643fc66b060 [shape=record,label="{malloc}"];
+	Node0x5643fc66b230 [shape=record,label="{MST_kruskal}"];
+	Node0x5643fc66b230 -> Node0x5643fc66b2b0;
+	Node0x5643fc66b230 -> Node0x5643fc66b360;
+	Node0x5643fc66b230 -> Node0x5643fc66b060;
+	Node0x5643fc66b230 -> Node0x5643fc66b3e0;
+	Node0x5643fc66b230 -> Node0x5643fc66a970;
+	Node0x5643fc66b230 -> Node0x5643fc66b8c0;
+	Node0x5643fc66b230 -> Node0x5643fc66b5b0;
+	Node0x5643fc66b230 -> Node0x5643fc66ae30;
+	Node0x5643fc66b2b0 [shape=record,label="{llvm.stacksave.p0}"];
+	Node0x5643fc66b360 [shape=record,label="{qsort}"];
+	Node0x5643fc66b3e0 [shape=record,label="{llvm.memcpy.p0.p0.i64}"];
+	Node0x5643fc66b5b0 [shape=record,label="{printf}"];
+	Node0x5643fc66b8c0 [shape=record,label="{llvm.stackrestore.p0}"];
+	Node0x5643fc66bc00 [shape=record,label="{main}"];
+	Node0x5643fc66bc00 -> Node0x5643fc66afe0;
+	Node0x5643fc66bc00 -> Node0x5643fc66b230;
+}
